@@ -26,7 +26,7 @@ export default function StoryActionsClient({ story }: { story: Story }) {
       }).catch(() => {});
     } else {
       // Fallback
-      alert('Link copied to clipboard!');
+      alert('Link copied!');
       navigator.clipboard.writeText(window.location.href);
     }
   };
@@ -51,7 +51,7 @@ export default function StoryActionsClient({ story }: { story: Story }) {
             className="bg-primary text-white px-8 py-4 rounded-2xl font-bold flex items-center gap-2 shadow-[0_10px_20px_-10px_#FF3D81]"
           >
             <Play size={20} fill="currentColor" />
-            {progress ? 'Continue Reading' : 'Start Reading'}
+            {progress ? 'Continue' : 'Read Now'}
           </motion.button>
         </Link>
         <motion.button 

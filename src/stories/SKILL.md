@@ -1,91 +1,67 @@
-# Wify.my Story Management Guide (SKILL)
+# Wify.my Story Guide
 
-This document provides instructions for developers and AI agents on how to add, manage, and delete stories in the Wify.my platform.
+This guide helps you add and manage stories in Wify.my.
 
-## Architecture Overview
+## How it Works
 
-The platform uses a **Simplified JSON Architecture**. Every single story is completely contained within its own `.json` file inside the `src/stories/` directory.
+Every story is a single `.json` file in `src/stories/`.
+We use **Simple English** for all settings to make it easy for everyone.
 
-- **One file per story**: `src/stories/[slug].json`
-- **Centralized Export**: `src/stories/index.ts` imports and exports all available stories.
+## Story Data Structure (JSON)
 
-This keeps the codebase incredibly easy to manage, edit, and parse for AI agents, while leveraging React Server Components for maximum performance.
+Here is the format for a story file:
 
----
+```json
+{
+  "id": "unique-id",
+  "title": "Story Title (English)",
+  "slug": "story-slug",
+  "posterImage": "/images/stories/poster.png",
+  "description": "Short story summary in English.",
+  "genres": ["Drama"],
+  "availableLanguages": ["en", "hi"],
+  "translations": {
+    "hi": {
+      "title": "कहानी का शीर्षक",
+      "description": "कहानी का सारांश"
+    }
+  },
+  "seasons": [
+    {
+      "seasonNumber": 1,
+      "episodes": [
+        {
+          "id": "e1",
+          "title": "Episode 1 (English)",
+          "parts": [
+            { 
+              "id": "p1", 
+              "text": "English text part.",
+              "translations": {
+                "hi": "हिंदी कहानी का हिस्सा।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
 
-## 🛠️ How to Add a New Story
+## Multilingual Support
 
-1. **Create the JSON File**:
-   Create a new file in `src/stories/` using the story's slug (e.g., `the-new-king.json`).
+1. **English is Default**: Put English text in the main `text`, `title`, and `description` fields.
+2. **Add Languages**: Add language codes (like `hi` for Hindi) to `availableLanguages`.
+3. **Add Translations**: Use the `translations` object to add other languages. If a translation is missing, the app will show English.
 
-2. **Use the Standard Schema**:
-   Copy and paste this exact schema into the new file. Fill in the data appropriately. Keep story text parts short (1-4 sentences) for the vertical swipe UX.
+## How to Add a Story
 
-   ```json
-   {
-     "id": "unique-story-id",
-     "title": "Story Title",
-     "slug": "story-slug-kebab-case",
-     "posterImage": "https://images.unsplash.com/...",
-     "description": "A dramatic 1-2 sentence description...",
-     "genres": ["Romance", "Drama"],
-     "rating": 4.5,
-     "views": "0",
-     "status": "Ongoing",
-     "seasons": [
-       {
-         "seasonNumber": 1,
-         "title": "Season 1 Title",
-         "description": "Season description...",
-         "episodes": [
-           {
-             "id": "e1-s1",
-             "episodeNumber": 1,
-             "title": "Episode 1 Title",
-             "duration": "4 min",
-             "isLocked": false,
-             "parts": [
-               { "id": "p1", "text": "This is the first dramatic text card." },
-               { "id": "p2", "text": "This is the second text card that appears after swiping." }
-             ]
-           }
-         ]
-       }
-     ]
-   }
-   ```
+1. Create a `[slug].json` file in `src/stories/`.
+2. Add your story content using the format above.
+3. Register it in `src/stories/index.ts` by adding an import and adding it to the `ALL_STORIES` list.
 
-3. **Register the Story**:
-   Open `src/stories/index.ts`.
-   Add an import at the top:
-   ```typescript
-   import theNewKing from './the-new-king.json';
-   ```
-   Add the variable to the `ALL_STORIES` array:
-   ```typescript
-   const ALL_STORIES: Story[] = [
-     // ... existing stories
-     theNewKing as Story
-   ];
-   ```
-
----
-
-## 🔄 How to Manage/Edit Stories
-
-**To add a new episode to an existing story**:
-Simply open the story's `.json` file, locate the correct `season` array, and append a new episode object to the `episodes` array following the schema.
-
-**To edit text within an episode**:
-Open the `.json` file, find the specific `text` field inside the `parts` array, and modify it.
-
----
-
-## 🗑️ How to Delete a Story
-
-1. Delete the story's `.json` file from `src/stories/`.
-2. Remove the import and array entry from `src/stories/index.ts`.
-
-## 🤖 Notes for AI Agents
-- Always validate the JSON structure before saving (ensure there are no trailing commas).
-- Always use Next.js Server Components when fetching data from `index.ts`. Only use `"use client"` for highly interactive components (like the reader swipe logic or `localStorage` features).
+## Tips for AI Agents
+- Use simple words.
+- Keep text parts short (2-4 sentences).
+- Make sure JSON is valid (check commas!).

@@ -25,6 +25,7 @@ export default async function ReaderPage({ params }: { params: Promise<{ slug: s
       seasonNumber={season?.seasonNumber || 1} 
       nextEpisodeId={nextEpisodeId}
       slug={slug}
+      availableLanguages={story.availableLanguages}
     />
   );
 }

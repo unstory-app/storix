@@ -22,9 +22,9 @@ export default function Home() {
         {/* Trending Now */}
         <section className="flex flex-col gap-6">
           <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-white tracking-tight">Trending Now</h2>
+            <h2 className="text-2xl font-bold text-white tracking-tight">Trending</h2>
             <Link href="/explore">
-              <button className="text-primary text-sm font-bold hover:underline transition-all">View All</button>
+              <button className="text-primary text-sm font-bold hover:underline transition-all">See All</button>
             </Link>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
@@ -37,9 +37,9 @@ export default function Home() {
         {/* New Episodes */}
         <section className="flex flex-col gap-6">
           <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-white tracking-tight">New Episodes</h2>
+            <h2 className="text-2xl font-bold text-white tracking-tight">New</h2>
             <Link href="/explore">
-              <button className="text-primary text-sm font-bold hover:underline transition-all">View All</button>
+              <button className="text-primary text-sm font-bold hover:underline transition-all">See All</button>
             </Link>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">

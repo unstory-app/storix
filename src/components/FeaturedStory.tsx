@@ -41,7 +41,7 @@ const FeaturedStory = ({ story }: { story: any }) => {
         >
           <div className="flex items-center gap-3">
             <span className="bg-primary/20 text-primary text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-primary/30">
-              Featured Story
+              Featured
             </span>
             <div className="flex items-center gap-1 text-yellow-400">
               <Star size={14} fill="currentColor" />
@@ -73,7 +73,7 @@ const FeaturedStory = ({ story }: { story: any }) => {
                 className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-2xl font-bold flex items-center gap-2 shadow-[0_10px_20px_-10px_#FF3D81]"
               >
                 <Play size={20} fill="currentColor" />
-                Start Reading
+                Read Now
               </motion.button>
             </Link>
             <motion.button 

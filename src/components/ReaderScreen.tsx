@@ -13,14 +13,21 @@ interface ReaderScreenProps {
   seasonNumber: number;
   nextEpisodeId?: string | null;
   slug: string;
+  availableLanguages?: string[];
 }
 
-const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: ReaderScreenProps) => {
+const LANG_NAMES: Record<string, string> = {
+  en: 'English',
+  hi: 'Hindi',
+};
+
+const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug, availableLanguages = ['en'] }: ReaderScreenProps) => {
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [direction, setDirection] = useState(0); // 1 for down, -1 for up
+  const [direction, setDirection] = useState(0); 
   const [showHUD, setShowHUD] = useState(true);
   const [isBookmarked, setIsBookmarked] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState('en');
 
   useEffect(() => {
     // Load existing progress
@@ -122,7 +129,20 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
               </span>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1">
+              {availableLanguages.length > 1 && (
+                <select 
+                  value={selectedLanguage}
+                  onChange={(e) => setSelectedLanguage(e.target.value)}
+                  className="bg-white/5 text-white text-[10px] font-bold px-2 py-1 rounded-lg border border-white/10 outline-none focus:border-primary/50 transition-colors mr-2 cursor-pointer"
+                >
+                  {availableLanguages.map(lang => (
+                    <option key={lang} value={lang} className="bg-background text-white">
+                      {LANG_NAMES[lang] || lang.toUpperCase()}
+                    </option>
+                  ))}
+                </select>
+              )}
               <button 
                 onClick={() => setIsBookmarked(!isBookmarked)}
                 className={`p-2 transition-colors ${isBookmarked ? 'text-primary' : 'text-text-secondary hover:text-white'}`}
@@ -193,7 +213,10 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
                >
                   {/* Part Text with Paragraph handling */}
                   <div className="text-xl md:text-2xl leading-[1.7] text-white/90 text-left whitespace-pre-wrap font-serif tracking-wide selection:bg-primary/30">
-                    {episode.parts?.[currentIndex]?.text || 'Content loading...'}
+                    {selectedLanguage === 'en' 
+                      ? (episode.parts?.[currentIndex]?.text || 'Content loading...')
+                      : (episode.parts?.[currentIndex]?.translations?.[selectedLanguage] || episode.parts?.[currentIndex]?.text || 'Content loading...')
+                    }
                   </div>
                   
                   {/* Action Hints */}
@@ -215,11 +238,12 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
            <div className="absolute bottom-12 left-0 right-0 flex flex-col items-center gap-2 pointer-events-none opacity-50">
              <motion.div 
                animate={{ y: [0, -10, 0] }}
-               transition={{ repeat: Infinity, duration: 2 }}
-               className="flex flex-col items-center text-text-muted"
+               transition={{ duration: 2, repeat: Infinity }}
+               className="text-white"
              >
                <ChevronUp size={24} />
              </motion.div>
+             <span className="text-[10px] font-bold text-white uppercase tracking-[0.2em]">Swipe for more</span>
            </div>
         )}
 
