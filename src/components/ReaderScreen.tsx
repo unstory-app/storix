@@ -40,7 +40,8 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug, ava
   const toggleHUD = () => setShowHUD(!showHUD);
 
   const handleNext = useCallback(() => {
-    if (currentIndex < (episode.parts?.length || 0) - 1) {
+    const partsLength = episode.parts?.length || 0;
+    if (currentIndex < partsLength) {
       setDirection(1);
       setCurrentIndex((prev) => prev + 1);
     }
@@ -54,16 +55,18 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug, ava
   }, [currentIndex]);
 
   useEffect(() => {
+    const partsLength = episode.parts?.length || 0;
     // Save progress whenever currentIndex changes
+    // Cap currentIndex at partsLength - 1 for storage so it loads back at the last text part
     saveProgress({
       storyId,
       seasonNumber,
       episodeId: episode.id,
       episodeNumber: episode.episodeNumber,
-      partIndex: currentIndex,
-      totalParts: episode.parts?.length || 0,
+      partIndex: Math.min(currentIndex, partsLength - 1),
+      totalParts: partsLength,
       updatedAt: new Date().toISOString(),
-      completed: currentIndex === (episode.parts?.length || 0) - 1,
+      completed: currentIndex >= partsLength - 1,
     });
   }, [currentIndex, storyId, seasonNumber, episode.id, episode.parts?.length, episode.episodeNumber]);
 
@@ -98,6 +101,8 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug, ava
       opacity: 0,
     })
   };
+
+  const isAtEnd = currentIndex === (episode.parts?.length || 0);
 
   return (
     <div className="fixed inset-0 z-[100] bg-background flex flex-col overflow-hidden select-none">
@@ -178,118 +183,125 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug, ava
         className="relative flex-1 flex flex-col overflow-hidden touch-none"
         onClick={toggleHUD}
       >
-        <AnimatePresence initial={false} custom={direction}>
-          <motion.div
-            key={currentIndex}
-            custom={direction}
-            variants={variants}
-            initial="enter"
-            animate="center"
-            exit="exit"
-            transition={{
-              y: { type: "spring", stiffness: 300, damping: 35 },
-              opacity: { duration: 0.3 }
-            }}
-            drag="y"
-            dragConstraints={{ top: 0, bottom: 0 }}
-            dragElastic={0.2}
-            onDragEnd={(e, { offset, velocity }) => {
-              const swipe = swipePower(offset.y, velocity.y);
+        <AnimatePresence initial={false} custom={direction} mode="wait">
+          {!isAtEnd ? (
+            <motion.div
+              key={currentIndex}
+              custom={direction}
+              variants={variants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{
+                y: { type: "spring", stiffness: 300, damping: 35 },
+                opacity: { duration: 0.3 }
+              }}
+              drag="y"
+              dragConstraints={{ top: 0, bottom: 0 }}
+              dragElastic={0.2}
+              onDragEnd={(e, { offset, velocity }) => {
+                const swipe = swipePower(offset.y, velocity.y);
 
-              if (swipe < -swipeConfidenceThreshold) {
-                handleNext();
-              } else if (swipe > swipeConfidenceThreshold) {
-                handlePrev();
-              }
-            }}
-            className="absolute inset-0 flex flex-col items-center justify-center px-8 md:px-24 py-32"
-          >
-            <div className="max-w-xl w-full h-full flex flex-col items-start justify-center overflow-y-auto no-scrollbar py-12">
-               <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                className="flex flex-col gap-8 w-full"
-               >
-                  {/* Part Text with Paragraph handling */}
-                  <div className="text-xl md:text-2xl leading-[1.7] text-white/90 text-left whitespace-pre-wrap font-serif tracking-wide selection:bg-primary/30">
-                    {selectedLanguage === 'en' 
-                      ? (episode.parts?.[currentIndex]?.text || 'Content loading...')
-                      : (episode.parts?.[currentIndex]?.translations?.[selectedLanguage] || episode.parts?.[currentIndex]?.text || 'Content loading...')
-                    }
-                  </div>
-                  
-                  {/* Action Hints */}
-                  <div className="flex items-center gap-4 pt-12 border-t border-white/5 opacity-30">
-                    <div className="flex -space-x-2">
-                       {[1,2,3].map(i => (
-                         <div key={i} className="w-6 h-6 rounded-full border-2 border-background bg-white/10" />
-                       ))}
-                    </div>
-                    <span className="text-[10px] font-bold uppercase tracking-widest text-white">12.4K others reading</span>
-                  </div>
-               </motion.div>
-            </div>
-          </motion.div>
-        </AnimatePresence>
-
-        {/* Swipe Indicators */}
-        {currentIndex < (episode.parts?.length || 0) - 1 && !showHUD && (
-           <div className="absolute bottom-12 left-0 right-0 flex flex-col items-center gap-2 pointer-events-none opacity-50">
-             <motion.div 
-               animate={{ y: [0, -10, 0] }}
-               transition={{ duration: 2, repeat: Infinity }}
-               className="text-white"
-             >
-               <ChevronUp size={24} />
-             </motion.div>
-             <span className="text-[10px] font-bold text-white uppercase tracking-[0.2em]">Swipe for more</span>
-           </div>
-        )}
-
-        {/* End of Episode View */}
-        {currentIndex === (episode.parts?.length || 0) - 1 && (
-          <div className="absolute inset-0 z-50 flex items-center justify-center p-6 bg-black/40 backdrop-blur-sm">
-            <motion.div 
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              className="glass p-8 rounded-[2.5rem] flex flex-col items-center gap-8 max-w-sm w-full shadow-2xl border border-white/10"
+                if (swipe < -swipeConfidenceThreshold) {
+                  handleNext();
+                } else if (swipe > swipeConfidenceThreshold) {
+                  handlePrev();
+                }
+              }}
+              className="absolute inset-0 flex flex-col items-center justify-center px-8 md:px-24 py-32"
             >
-              <div className="relative">
-                <div className="absolute inset-0 bg-primary blur-2xl opacity-20 rounded-full" />
-                <div className="relative bg-primary/20 p-6 rounded-full">
-                   <Bookmark size={48} className="text-primary" fill="currentColor" />
-                </div>
-              </div>
-              
-              <div className="text-center space-y-2">
-                <h4 className="text-2xl font-black text-white">Cliffhanger!</h4>
-                <p className="text-text-secondary">What happens next? Don't stop now.</p>
-              </div>
-
-              <div className="flex flex-col gap-3 w-full">
-                 <button 
-                  onClick={() => router.back()}
-                  className="w-full py-4 bg-white/5 hover:bg-white/10 rounded-2xl text-sm font-bold transition-all border border-white/5"
+              <div className="max-w-xl w-full h-full flex flex-col items-start justify-center overflow-y-auto no-scrollbar py-12">
+                 <motion.div 
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6 }}
+                  className="flex flex-col gap-8 w-full"
                  >
-                   Back to Story
-                 </button>
-                 <button 
-                  onClick={() => {
-                    if (nextEpisodeId) {
-                      router.push(`/read/${slug}/${nextEpisodeId}`);
-                    } else {
-                      router.push(`/story/${slug}`);
-                    }
-                  }}
-                  className="w-full py-4 bg-primary hover:bg-primary-dark text-white rounded-2xl text-sm font-black shadow-xl shadow-primary/20 transition-all"
-                 >
-                   {nextEpisodeId ? 'NEXT EPISODE' : 'BACK TO DETAILS'}
-                 </button>
+                    {/* Part Text with Paragraph handling */}
+                    <div className="text-xl md:text-2xl leading-[1.7] text-white/90 text-left whitespace-pre-wrap font-serif tracking-wide selection:bg-primary/30">
+                      {selectedLanguage === 'en' 
+                        ? (episode.parts?.[currentIndex]?.text || 'Content loading...')
+                        : (episode.parts?.[currentIndex]?.translations?.[selectedLanguage] || episode.parts?.[currentIndex]?.text || 'Content loading...')
+                      }
+                    </div>
+                    
+                    {/* Action Hints */}
+                    <div className="flex items-center gap-4 pt-12 border-t border-white/5 opacity-30">
+                      <div className="flex -space-x-2">
+                         {[1,2,3].map(i => (
+                           <div key={i} className="w-6 h-6 rounded-full border-2 border-background bg-white/10" />
+                         ))}
+                      </div>
+                      <span className="text-[10px] font-bold uppercase tracking-widest text-white">12.4K others reading</span>
+                    </div>
+                 </motion.div>
               </div>
             </motion.div>
-          </div>
-        )}
+          ) : (
+            /* End of Episode View (Now as a slide) */
+            <motion.div 
+              key="end-slide"
+              custom={direction}
+              variants={variants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{
+                y: { type: "spring", stiffness: 300, damping: 35 },
+                opacity: { duration: 0.3 }
+              }}
+              drag="y"
+              dragConstraints={{ top: 0, bottom: 0 }}
+              dragElastic={0.2}
+              onDragEnd={(e, { offset, velocity }) => {
+                const swipe = swipePower(offset.y, velocity.y);
+                if (swipe > swipeConfidenceThreshold) {
+                  handlePrev();
+                }
+              }}
+              className="absolute inset-0 z-50 flex items-center justify-center p-6 bg-black/40 backdrop-blur-sm"
+            >
+              <motion.div 
+                initial={{ scale: 0.9, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                className="glass p-8 rounded-[2.5rem] flex flex-col items-center gap-8 max-w-sm w-full shadow-2xl border border-white/10"
+              >
+                <div className="relative">
+                  <div className="absolute inset-0 bg-primary blur-2xl opacity-20 rounded-full" />
+                  <div className="relative bg-primary/20 p-6 rounded-full">
+                     <Bookmark size={48} className="text-primary" fill="currentColor" />
+                  </div>
+                </div>
+                
+                <div className="text-center space-y-2">
+                  <h4 className="text-2xl font-black text-white">Cliffhanger!</h4>
+                  <p className="text-text-secondary">What happens next? Don't stop now.</p>
+                </div>
+
+                <div className="flex flex-col gap-3 w-full">
+                   <button 
+                    onClick={() => router.back()}
+                    className="w-full py-4 bg-white/5 hover:bg-white/10 rounded-2xl text-sm font-bold transition-all border border-white/5"
+                   >
+                     Back to Story
+                   </button>
+                   <button 
+                    onClick={() => {
+                      if (nextEpisodeId) {
+                        router.push(`/read/${slug}/${nextEpisodeId}`);
+                      } else {
+                        router.push(`/story/${slug}`);
+                      }
+                    }}
+                    className="w-full py-4 bg-primary hover:bg-primary-dark text-white rounded-2xl text-sm font-black shadow-xl shadow-primary/20 transition-all"
+                   >
+                     {nextEpisodeId ? 'NEXT EPISODE' : 'BACK TO DETAILS'}
+                   </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </main>
 
       {/* Bottom Actions */}
