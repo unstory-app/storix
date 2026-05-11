@@ -33,11 +33,10 @@ export default async function ReaderPage({ params }: { params: Promise<{ slug: s
     <ReaderScreen 
       key={episodeId}
       episode={episode} 
-      storyId={story.id} 
+      story={story}
       seasonNumber={season?.seasonNumber || 1} 
       nextEpisodeId={nextEpisodeId}
       slug={slug}
-      availableLanguages={story.availableLanguages}
     />
   );
 }
