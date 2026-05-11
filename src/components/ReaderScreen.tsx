@@ -70,9 +70,22 @@ const ReaderScreen = ({ episode, story, seasonNumber, nextEpisodeId, slug }: Rea
     if (progress) {
       setCurrentIndex(progress.partIndex);
     }
-  }, [episode.id]);
+    
+    // Load language preference
+    const savedLang = localStorage.getItem('wify_pref_lang');
+    if (savedLang && availableLanguages.includes(savedLang)) {
+      setSelectedLanguage(savedLang);
+    } else if (availableLanguages.length > 0) {
+      setSelectedLanguage(availableLanguages[0]);
+    }
+  }, [episode.id, availableLanguages]);
 
   const toggleHUD = () => setShowHUD(!showHUD);
+
+  const handleLanguageChange = (lang: string) => {
+    setSelectedLanguage(lang);
+    localStorage.setItem('wify_pref_lang', lang);
+  };
 
   const handleNext = useCallback(() => {
     const partsLength = episode.parts?.length || 0;
@@ -237,7 +250,7 @@ const ReaderScreen = ({ episode, story, seasonNumber, nextEpisodeId, slug }: Rea
               {availableLanguages.length > 1 && (
                 <select 
                   value={selectedLanguage}
-                  onChange={(e) => setSelectedLanguage(e.target.value)}
+                  onChange={(e) => handleLanguageChange(e.target.value)}
                   className="bg-white/5 text-white text-[10px] font-bold px-2 py-1 rounded-lg border border-white/10 outline-none focus:border-primary/50 transition-colors mr-2 cursor-pointer"
                 >
                   {availableLanguages.map(lang => (

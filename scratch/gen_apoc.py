@@ -26,13 +26,7 @@ story = {
     "rating": 4.7,
     "views": "1.8M",
     "status": "Ongoing",
-    "availableLanguages": ["en", "hi"],
-    "translations": {
-        "hi": {
-            "title": "अॅपोकॅलिप्स लव्ह सिस्टम",
-            "description": "मैंने एक ज़ोंबी लड़की को वश में किया और एक सर्वाइवल बेस बनाया। इस तबाही में, प्यार ही एकमात्र सहारा है।"
-        }
-    },
+    "availableLanguages": ["hi"],
     "seasons": []
 }
 
@@ -63,14 +57,10 @@ for s_idx in range(seasons_count):
             current_line += lines_per_part
             
             hindi_text = "\n\n".join(part_lines)
-            english_text = f"Survival in the apocalypse. Part {p_idx+1} of Episode {e_idx+1}." 
             
             part = {
                 "id": f"apoc-s{s_idx+1}e{e_idx+1}p{p_idx+1}",
-                "text": english_text,
-                "translations": {
-                    "hi": hindi_text
-                }
+                "text": hindi_text
             }
             episode["parts"].append(part)
         

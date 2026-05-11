@@ -9,7 +9,8 @@ stories_config = [
         "title": "Reborn! My Family Hears My Thoughts",
         "poster": "/images/stories/reborn-thoughts.png",
         "desc": "My family hears my thoughts and regrets everything after I expose the evil daughter.",
-        "genres": ["Fantasy", "Drama", "Revenge"]
+        "genres": ["Fantasy", "Drama", "Revenge"],
+        "lang": "en"
     },
     {
         "filename": "[Hindi (auto-generated)] 18 Girls Rejected Him Now the Dragon King Is Coming  (HINDI) [DownSub.com].txt",
@@ -17,7 +18,8 @@ stories_config = [
         "title": "18 Girls Rejected Him Now the Dragon King Is Coming",
         "poster": "/images/stories/dragon-king.png",
         "desc": "He was rejected by 18 girls. Now, the Dragon King returns for revenge.",
-        "genres": ["Action", "Revenge", "Thriller"]
+        "genres": ["Action", "Revenge", "Thriller"],
+        "lang": "hi"
     },
     {
         "filename": "[Hindi (auto-generated)] FROZEN APOCALYPSE! He Hoards UNLIMITED Food in a Bunker While Sister BEGS -.txt",
@@ -25,7 +27,8 @@ stories_config = [
         "title": "Frozen Apocalypse",
         "poster": "/images/stories/frozen-apocalypse.png",
         "desc": "In a frozen wasteland, he hoards unlimited food while others beg.",
-        "genres": ["Thriller", "Drama", "Horror"]
+        "genres": ["Thriller", "Drama", "Horror"],
+        "lang": "hi"
     },
     {
         "filename": "[Hindi (auto-generated)] I Tried to Start Over But My Landlady Turned Out to Be My Ex! - Manhwa Reca.txt",
@@ -33,7 +36,8 @@ stories_config = [
         "title": "My Landlady Is My Ex",
         "poster": "/images/stories/landlady-ex.png",
         "desc": "Starting over was hard enough, but my landlady is my former girlfriend!",
-        "genres": ["Romance", "Comedy"]
+        "genres": ["Romance", "Comedy"],
+        "lang": "hi"
     },
     {
         "filename": "[Hindi (auto-generated)] I Was Useless - Until My CEO Wife Lost Everything and I Helped Her [DownSub.txt",
@@ -41,7 +45,8 @@ stories_config = [
         "title": "I Was Useless Until My CEO Wife Lost Everything",
         "poster": "/images/stories/ceo-wife.png",
         "desc": "A redemption story of a husband who helps his CEO wife regain everything.",
-        "genres": ["Drama", "Romance", "Billionaire"]
+        "genres": ["Drama", "Romance", "Billionaire"],
+        "lang": "hi"
     },
     {
         "filename": "[Hindi (auto-generated)] Kidnapped By A Beast Girl I Built A Civilization From Scratch  Manhwa Recap.txt",
@@ -49,7 +54,8 @@ stories_config = [
         "title": "Kidnapped By A Beast Girl",
         "poster": "/images/stories/beast-girl.png",
         "desc": "Kidnapped and taken to a wild land, I built a civilization from scratch.",
-        "genres": ["Fantasy", "Thriller"]
+        "genres": ["Fantasy", "Thriller"],
+        "lang": "hi"
     },
     {
         "filename": "[Hindi (auto-generated)] Sharing a Bed with a New Girl Every Night!   I Have 5 Campus Beauty Roommat.txt",
@@ -57,7 +63,8 @@ stories_config = [
         "title": "Sharing a Bed with Campus Beauties",
         "poster": "/images/stories/beauty-roommates.png",
         "desc": "Life in a dorm with 5 campus beauties is full of surprises.",
-        "genres": ["Romance", "Comedy", "Teen"]
+        "genres": ["Romance", "Comedy", "Teen"],
+        "lang": "hi"
     },
     {
         "filename": "[Hindi (auto-generated)] She Stole His First Kiss Then Jumped From a Crashing Plane! - Manhwa Recaps.txt",
@@ -65,7 +72,8 @@ stories_config = [
         "title": "She Stole His First Kiss Then Jumped",
         "poster": "/images/stories/plane-kiss.png",
         "desc": "An unforgettable kiss on a crashing plane changed everything.",
-        "genres": ["Romance", "Thriller", "Action"]
+        "genres": ["Romance", "Thriller", "Action"],
+        "lang": "hi"
     },
     {
         "filename": "[Hindi (auto-generated)] The Only Male Teacher in a Sinister All-Girls School!  Manhwa Explained in .txt",
@@ -73,7 +81,17 @@ stories_config = [
         "title": "The Only Male Teacher",
         "poster": "/images/stories/sinister-school.png",
         "desc": "Teaching at a sinister all-girls school was not what I expected.",
-        "genres": ["Mystery", "Horror", "Thriller"]
+        "genres": ["Mystery", "Horror", "Thriller"],
+        "lang": "hi"
+    },
+    {
+        "filename": "[Hindi (auto-generated)] The Girl I Saved Was a Monster, and My Reborn Self Decided to Let the Monst.txt",
+        "slug": "monster-girl",
+        "title": "The Girl I Saved Was a Monster",
+        "poster": "/images/stories/monster-girl.png",
+        "desc": "In my past life, I saved her and it was a mistake. This time, I will let her be what she is.",
+        "genres": ["Rebirth", "Drama", "Mystery"],
+        "lang": "hi"
     }
 ]
 
@@ -100,17 +118,11 @@ def process_story(config):
         "slug": config["slug"],
         "posterImage": config["poster"],
         "description": config["desc"],
-        "genres": config["genres"],
+        "genres": config.get("genres", ["Drama"]),
         "rating": 4.8,
         "views": "1.2M",
         "status": "Completed",
-        "availableLanguages": ["en", "hi"],
-        "translations": {
-            "hi": {
-                "title": config["title"],
-                "description": config["desc"]
-            }
-        },
+        "availableLanguages": [config["lang"]],
         "seasons": [
             {
                 "seasonNumber": 1,
@@ -143,10 +155,7 @@ def process_story(config):
             
             part = {
                 "id": f"{config['slug']}-s1e{e_idx+1}p{p_idx+1}",
-                "text": text if "English" in config["filename"] else f"Summary of part {p_idx+1} in English.",
-                "translations": {
-                    "hi": text if "Hindi" in config["filename"] else "हिंदी अनुवाद जल्द आ रहा है।"
-                }
+                "text": text
             }
             episode["parts"].append(part)
         

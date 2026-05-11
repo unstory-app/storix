@@ -23,13 +23,7 @@ story = {
     "rating": 4.9,
     "views": "2.5M",
     "status": "Completed",
-    "availableLanguages": ["en", "hi"],
-    "translations": {
-        "hi": {
-            "title": "99 रिजेक्शन के बाद वह चला गया",
-            "description": "99 बार ठुकराए जाने के बाद, उसने आखिरकार हार मान ली। लेकिन तब उसे अपनी गलती का एहसास हुआ।"
-        }
-    },
+    "availableLanguages": ["hi"],
     "seasons": [
         {
             "seasonNumber": 1,
@@ -59,14 +53,10 @@ for e_idx in range(episodes_count):
         current_line += lines_per_part
         
         hindi_text = "\n\n".join(part_lines)
-        english_text = f"The story of a man who was rejected 99 times. Part {p_idx+1} of Episode {e_idx+1}." 
         
         part = {
             "id": f"after99-s1e{e_idx+1}p{p_idx+1}",
-            "text": english_text,
-            "translations": {
-                "hi": hindi_text
-            }
+            "text": hindi_text
         }
         episode["parts"].append(part)
     

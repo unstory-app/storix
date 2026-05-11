@@ -11,6 +11,7 @@ import beastGirl from './beast-girl.json';
 import beautyRoommates from './beauty-roommates.json';
 import planeKiss from './plane-kiss.json';
 import sinisterSchool from './sinister-school.json';
+import monsterGirl from './monster-girl.json';
 
 // Simple registry of all stories. 
 // When an AI agent creates a new story, they just add the import above and add it to this array.
@@ -25,7 +26,8 @@ const ALL_STORIES: Story[] = [
   beastGirl as Story,
   beautyRoommates as Story,
   planeKiss as Story,
-  sinisterSchool as Story
+  sinisterSchool as Story,
+  monsterGirl as Story
 ];
 
 /**
