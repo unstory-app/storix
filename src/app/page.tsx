@@ -1,94 +1,23 @@
-'use client';
-
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import FeaturedStory from '@/components/FeaturedStory';
 import StoryCard from '@/components/StoryCard';
-import GenrePill from '@/components/GenrePill';
-import { getStoryRegistry } from '@/stories';
-import { motion } from 'framer-motion';
-import { getFullProgress } from '@/lib/storage';
-import { UserProgress } from '@/types';
+import HomeInteractive from '@/components/HomeInteractive';
+import { getAllStories } from '@/stories';
 
 export default function Home() {
-  const [activeGenre, setActiveGenre] = useState('All');
-  const [progress, setProgress] = useState<UserProgress[]>([]);
-
-  useEffect(() => {
-    setProgress(getFullProgress());
-  }, []);
-
-  const genres = ['All', 'Romance', 'Drama', 'Thriller', 'Fantasy', 'Mystery', 'Horror'];
-  
-  const registry = getStoryRegistry();
-
-  const filteredStories = activeGenre === 'All' 
-    ? registry 
-    : registry.filter(s => s.genres.includes(activeGenre as any));
-
-  const continueReading = registry.filter(s => progress.some(p => p.storyId === s.id && !p.completed));
-  const trending = registry.slice(0, 4);
-  const newEpisodes = registry.slice(4, 8);
-
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
-  };
-
-  const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 }
-  };
+  const stories = getAllStories();
+  const trending = stories.slice(0, 4);
+  const newEpisodes = stories.slice(4, 8);
 
   return (
-    <div className="flex flex-col gap-12 px-6 md:px-12 py-8 pb-24">
+    <div className="flex flex-col px-6 md:px-12 py-8 pb-24">
       {/* Hero Section */}
-      <FeaturedStory story={STORIES[0]} />
+      <FeaturedStory story={stories[0]} />
 
-      {/* Genre Filter */}
-      <div className="flex gap-3 overflow-x-auto pb-4 no-scrollbar">
-        {genres.map((genre) => (
-          <GenrePill 
-            key={genre} 
-            genre={genre} 
-            active={activeGenre === genre} 
-            onClick={() => setActiveGenre(genre)} 
-          />
-        ))}
-      </div>
+      {/* Interactive Client Section (Genre Filters & Continue Reading) */}
+      <HomeInteractive stories={stories} />
 
-      {/* Sections */}
-      <motion.div 
-        variants={container}
-        initial="hidden"
-        animate="show"
-        className="flex flex-col gap-16"
-      >
-        {/* Continue Reading */}
-        {continueReading.length > 0 && (
-          <section className="flex flex-col gap-6">
-            <div className="flex items-center justify-between">
-              <h2 className="text-2xl font-bold text-white">Continue Reading</h2>
-              <button className="text-primary text-sm font-bold">View All</button>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
-              {continueReading.map((story) => {
-                const storyProgress = progress.find(p => p.storyId === story.id);
-                const percent = storyProgress ? (storyProgress.partIndex / storyProgress.totalParts) * 100 : 0;
-                return (
-                  <motion.div key={story.id} variants={item}>
-                    <StoryCard story={story} progress={percent} />
-                  </motion.div>
-                );
-              })}
-            </div>
-          </section>
-        )}
-
+      <div className="flex flex-col gap-16 mt-16">
         {/* Trending Now */}
         <section className="flex flex-col gap-6">
           <div className="flex items-center justify-between">
@@ -97,9 +26,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
             {trending.map((story) => (
-              <motion.div key={story.id} variants={item}>
-                <StoryCard story={story} />
-              </motion.div>
+              <StoryCard key={story.id} story={story} />
             ))}
           </div>
         </section>
@@ -112,27 +39,11 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
             {newEpisodes.map((story) => (
-              <motion.div key={story.id} variants={item}>
-                <StoryCard story={story} />
-              </motion.div>
+              <StoryCard key={story.id} story={story} />
             ))}
           </div>
         </section>
-
-        {/* Categories (Filtered) */}
-        {activeGenre !== 'All' && (
-          <section className="flex flex-col gap-6">
-            <h2 className="text-2xl font-bold text-white">{activeGenre} Stories</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
-              {filteredStories.map((story) => (
-                <motion.div key={story.id} variants={item}>
-                  <StoryCard story={story} />
-                </motion.div>
-              ))}
-            </div>
-          </section>
-        )}
-      </motion.div>
+      </div>
     </div>
   );
 }

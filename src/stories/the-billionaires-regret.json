@@ -1,6 +1,4 @@
-import { Story } from '../../../types';
-
-export const metadata: Omit<Story, 'seasons'> & { seasons: any[] } = {
+{
   "id": "8",
   "title": "The Billionaire’s Regret",
   "slug": "the-billionaires-regret",
@@ -26,9 +24,22 @@ export const metadata: Omit<Story, 'seasons'> & { seasons: any[] } = {
           "title": "Table Turned",
           "duration": "5 min",
           "isLocked": false,
-          "partsCount": 3
+          "parts": [
+            {
+              "id": "p1",
+              "text": "He walked into the boardroom, expecting to meet the new CEO. He didn't expect to see her."
+            },
+            {
+              "id": "p2",
+              "text": "She didn't look like the girl he had abandoned in the rain. She looked like a queen on her throne."
+            },
+            {
+              "id": "p3",
+              "text": "\"Hello, Adrian,\" she said, her voice steady and cold. \"I believe you're here to ask for my help.\""
+            }
+          ]
         }
       ]
     }
   ]
-};
+}

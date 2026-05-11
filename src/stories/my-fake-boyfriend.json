@@ -1,6 +1,4 @@
-import { Story } from '../../../types';
-
-export const metadata: Omit<Story, 'seasons'> & { seasons: any[] } = {
+{
   "id": "7",
   "title": "My Fake Boyfriend",
   "slug": "my-fake-boyfriend",
@@ -26,9 +24,22 @@ export const metadata: Omit<Story, 'seasons'> & { seasons: any[] } = {
           "title": "The Deal",
           "duration": "4 min",
           "isLocked": false,
-          "partsCount": 3
+          "parts": [
+            {
+              "id": "p1",
+              "text": "She just needed a date for the dance. Any date. Even if it was the school's most notorious troublemaker."
+            },
+            {
+              "id": "p2",
+              "text": "He leaned against the locker, a smirk playing on his lips. \"So, you want me to be your boyfriend? That's going to cost you.\""
+            },
+            {
+              "id": "p3",
+              "text": "She didn't realize the cost would be her heart."
+            }
+          ]
         }
       ]
     }
   ]
-};
+}

@@ -1,6 +1,4 @@
-import { Story } from '../../../types';
-
-export const metadata: Omit<Story, 'seasons'> & { seasons: any[] } = {
+{
   "id": "2",
   "title": "Moonlit Curse",
   "slug": "moonlit-curse",
@@ -26,9 +24,22 @@ export const metadata: Omit<Story, 'seasons'> & { seasons: any[] } = {
           "title": "The Alpha's Mark",
           "duration": "6 min",
           "isLocked": false,
-          "partsCount": 3
+          "parts": [
+            {
+              "id": "p1",
+              "text": "The moon hung low and heavy in the sky, like a silver eye watching her every move."
+            },
+            {
+              "id": "p2",
+              "text": "She felt the burn on her shoulder before she saw it—a glowing crescent that shouldn't exist."
+            },
+            {
+              "id": "p3",
+              "text": "In the distance, a howl ripped through the silence. He was coming for her."
+            }
+          ]
         }
       ]
     }
   ]
-};
+}

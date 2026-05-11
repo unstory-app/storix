@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { getStoryRegistry } from '@/stories';
+import { getAllStories } from '@/stories';
 import { getFullProgress, getBookmarks } from '@/lib/storage';
 import StoryCard from '@/components/StoryCard';
 import { UserProgress, Bookmark } from '@/types';
@@ -19,7 +19,7 @@ export default function Library() {
     setBookmarks(getBookmarks());
   }, []);
 
-  const registry = getStoryRegistry();
+  const registry = getAllStories();
 
   const readingStories = registry.filter(s => progress.some(p => p.storyId === s.id && !p.completed));
   const bookmarkedStories = registry.filter(s => bookmarks.some(b => b.storyId === s.id));

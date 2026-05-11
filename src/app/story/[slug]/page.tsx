@@ -1,50 +1,15 @@
-'use client';
+import React from 'react';
+import { getStoryBySlug } from '@/stories';
+import { Star, Eye, Layers } from 'lucide-react';
+import StoryActionsClient from '@/components/StoryActionsClient';
+import { notFound } from 'next/navigation';
 
-import React, { useState, useEffect, use } from 'react';
-import { useParams, useRouter } from 'next/navigation';
-import { getStoryDetails } from '@/stories';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Star, Eye, Layers, Clock, Play, Bookmark, ChevronRight, Lock, CheckCircle } from 'lucide-react';
-import Link from 'next/link';
-import { isBookmarked, toggleBookmark, getStoryProgress } from '@/lib/storage';
-import { Story } from '@/types';
-
-export default function StoryDetails({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = use(params);
-  const router = useRouter();
+export default async function StoryDetails({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   
-  const [story, setStory] = useState<Story | null>(null);
-  const [loading, setLoading] = useState(true);
-  
-  const [activeSeason, setActiveSeason] = useState(1);
-  const [bookmarked, setBookmarked] = useState(false);
-  const [progress, setProgress] = useState<any>(null);
+  const story = getStoryBySlug(slug);
 
-  useEffect(() => {
-    getStoryDetails(slug).then(data => {
-      setStory(data);
-      setLoading(false);
-    });
-  }, [slug]);
-
-  useEffect(() => {
-    if (story) {
-      setBookmarked(isBookmarked(story.id));
-      setProgress(getStoryProgress(story.id));
-    }
-  }, [story]);
-
-  if (loading) return <div className="p-12 text-center text-text-secondary">Loading story...</div>;
-  if (!story) return <div className="p-12 text-center text-text-secondary">Story not found</div>;
-
-  const currentSeason = story.seasons?.find(s => s.seasonNumber === activeSeason) || story.seasons?.[0];
-
-  if (!currentSeason) return <div className="p-12 text-center">No seasons available</div>;
-
-  const handleBookmark = () => {
-    toggleBookmark(story.id);
-    setBookmarked(!bookmarked);
-  };
+  if (!story) return notFound();
 
   return (
     <div className="min-h-screen pb-24">
@@ -60,13 +25,9 @@ export default function StoryDetails({ params }: { params: Promise<{ slug: strin
         </div>
 
         <div className="relative z-10 h-full flex flex-col md:flex-row items-end gap-8 px-6 md:px-12 pb-12">
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            className="w-40 md:w-64 aspect-[2/3] rounded-2xl overflow-hidden shadow-premium shrink-0"
-          >
+          <div className="w-40 md:w-64 aspect-[2/3] rounded-2xl overflow-hidden shadow-premium shrink-0 animate-in fade-in slide-in-from-bottom-8 duration-700">
             <img src={story.posterImage} alt={story.title} className="w-full h-full object-cover" />
-          </motion.div>
+          </div>
 
           <div className="flex flex-col gap-4">
             <div className="flex flex-wrap gap-2">
@@ -91,30 +52,14 @@ export default function StoryDetails({ params }: { params: Promise<{ slug: strin
               </div>
               <div className="flex items-center gap-1.5">
                 <Layers size={16} />
-                <span className="font-bold text-white">{story.seasons.length}</span>
+                <span className="font-bold text-white">{story.seasons?.length || 1}</span>
                 <span>Seasons</span>
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-4 mt-4">
-              <Link href={`/read/${slug}/${progress?.episodeId || currentSeason.episodes[0].id}`}>
-                <motion.button 
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-primary text-white px-8 py-4 rounded-2xl font-bold flex items-center gap-2 shadow-[0_10px_20px_-10px_#FF3D81]"
-                >
-                  <Play size={20} fill="currentColor" />
-                  {progress ? 'Continue Reading' : 'Start Reading'}
-                </motion.button>
-              </Link>
-              <motion.button 
-                onClick={handleBookmark}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className={`glass p-4 rounded-2xl transition-colors ${bookmarked ? 'text-primary' : 'text-white'}`}
-              >
-                <Bookmark size={20} fill={bookmarked ? "currentColor" : "none"} />
-              </motion.button>
+            {/* Interactive Client Actions (Buttons and Seasons) */}
+            <div className="hidden">
+               {/* We render the buttons inside StoryActionsClient, but we can't easily break the layout here. Let's pass the story. */}
             </div>
           </div>
         </div>
@@ -123,7 +68,7 @@ export default function StoryDetails({ params }: { params: Promise<{ slug: strin
       {/* Content Section */}
       <section className="px-6 md:px-12 grid lg:grid-cols-3 gap-12 mt-12">
         <div className="lg:col-span-2 flex flex-col gap-12">
-          {/* Description */}
+          
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-bold text-white">Summary</h3>
             <p className="text-text-secondary text-lg leading-relaxed">
@@ -131,71 +76,8 @@ export default function StoryDetails({ params }: { params: Promise<{ slug: strin
             </p>
           </div>
 
-          {/* Season Selector */}
-          <div className="flex flex-col gap-6">
-            <h3 className="text-xl font-bold text-white">Seasons</h3>
-            <div className="flex gap-4 p-1 glass rounded-2xl w-fit">
-              {story.seasons?.map((s) => (
-                <button
-                  key={s.seasonNumber}
-                  onClick={() => setActiveSeason(s.seasonNumber)}
-                  className={`px-6 py-2.5 rounded-xl text-sm font-bold transition-all ${
-                    activeSeason === s.seasonNumber 
-                      ? 'bg-gradient-to-r from-primary to-secondary text-white shadow-lg shadow-primary/20' 
-                      : 'text-text-muted hover:text-white'
-                  }`}
-                >
-                  Season {s.seasonNumber}
-                </button>
-              ))}
-            </div>
-
-            {/* Episode List */}
-            <div className="grid gap-4 mt-4">
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={activeSeason}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -10 }}
-                  className="grid gap-4"
-                >
-                  {currentSeason.episodes.map((episode) => (
-                    <Link key={episode.id} href={`/read/${slug}/${episode.id}`}>
-                      <motion.div 
-                        whileHover={{ x: 4 }}
-                        className="glass p-5 rounded-2xl flex items-center justify-between group hover:border-primary/30 transition-all"
-                      >
-                        <div className="flex items-center gap-6">
-                          <div className="w-12 h-12 rounded-xl bg-white/5 flex items-center justify-center font-black text-xl text-text-muted group-hover:text-primary transition-colors">
-                            {episode.episodeNumber}
-                          </div>
-                          <div className="flex flex-col">
-                            <h4 className="font-bold text-white group-hover:text-primary transition-colors">{episode.title}</h4>
-                            <div className="flex items-center gap-3 mt-1">
-                              <span className="flex items-center gap-1 text-[10px] text-text-muted uppercase font-bold tracking-widest">
-                                <Clock size={10} /> {episode.duration}
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div className="flex items-center gap-4">
-                          {episode.isLocked ? (
-                            <Lock size={18} className="text-text-muted" />
-                          ) : (
-                            <div className="bg-primary/10 p-2 rounded-lg text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                              <Play size={18} fill="currentColor" />
-                            </div>
-                          )}
-                        </div>
-                      </motion.div>
-                    </Link>
-                  ))}
-                </motion.div>
-              </AnimatePresence>
-            </div>
-          </div>
+          <StoryActionsClient story={story} />
+          
         </div>
 
         {/* Sidebar */}

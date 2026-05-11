@@ -1,6 +1,4 @@
-import { Story } from '../../../types';
-
-export const metadata: Omit<Story, 'seasons'> & { seasons: any[] } = {
+{
   "id": "6",
   "title": "Crown of Ashes",
   "slug": "crown-of-ashes",
@@ -25,9 +23,22 @@ export const metadata: Omit<Story, 'seasons'> & { seasons: any[] } = {
           "title": "The Enemy's Bed",
           "duration": "6 min",
           "isLocked": false,
-          "partsCount": 3
+          "parts": [
+            {
+              "id": "p1",
+              "text": "The crown felt like lead on her head. It was no longer a symbol of power, but of her failure."
+            },
+            {
+              "id": "p2",
+              "text": "He stood across the hall, the man who had burned her city to the ground. Now, he was her husband."
+            },
+            {
+              "id": "p3",
+              "text": "\"I will not be your pawn,\" she whispered to the shadows. \"I will be your downfall.\""
+            }
+          ]
         }
       ]
     }
   ]
-};
+}
