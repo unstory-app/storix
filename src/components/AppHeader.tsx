@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { Search, Bookmark, User } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+import InstallButton from './InstallButton';
+
 const AppHeader = () => {
   return (
     <header className="sticky top-0 z-50 w-full glass-dark py-4 px-6 md:px-12 flex items-center justify-between">
@@ -20,6 +22,7 @@ const AppHeader = () => {
       </div>
 
       <div className="flex items-center gap-4">
+        <InstallButton />
         <button className="p-2 text-text-secondary hover:text-white transition-colors">
           <Search size={22} />
         </button>

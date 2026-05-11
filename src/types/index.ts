@@ -23,7 +23,7 @@ export interface Episode {
   episodeNumber: number;
   title: string;
   duration: string;
-  isLocked: boolean;
+  isLocked?: boolean;
   parts: StoryPart[];
   translations?: Record<string, { title: string }>;
 }
@@ -31,7 +31,7 @@ export interface Episode {
 export interface Season {
   seasonNumber: number;
   title: string;
-  description: string;
+  description?: string;
   episodes: Episode[];
   translations?: Record<string, { title: string, description: string }>;
 }
