@@ -299,6 +299,36 @@
               }
             }
           ]
+        },
+        {
+          "id": "reincarnated-father-s1e10",
+          "episodeNumber": 10,
+          "title": "A Powerful Ally",
+          "duration": "5 min",
+          "isLocked": false,
+          "parts": [
+            {
+              "id": "rf-s1e10p1",
+              "text": "While I was at the herbal store, an incident occurred. A customer was trying to cheat Secretary Wang, claiming a batch of herbs was spoiled. My knowledge of traditional medicine, honed through years of hardship, allowed me to step in and prove the customer wrong. Secretary Wang was impressed. He realized I wasn't just a lucky villager, but a man of real expertise.",
+              "translations": {
+                "hi": "जब मैं जड़ी-बूटी की दुकान पर था, तो एक घटना घटी। एक ग्राहक सचिव वांग को धोखा देने की कोशिश कर रहा था, यह दावा करते हुए कि जड़ी-बूटियों का एक बैच खराब हो गया था। पारंपरिक चिकित्सा के मेरे ज्ञान ने, जो वर्षों की कठिनाई के माध्यम से निखरा था, मुझे बीच में आने और ग्राहक को गलत साबित करने की अनुमति दी। सचिव वांग प्रभावित हुए। उन्होंने महसूस किया कि मैं केवल एक भाग्यशाली ग्रामीण नहीं था, बल्कि वास्तविक विशेषज्ञता वाला व्यक्ति था।"
+              }
+            },
+            {
+              "id": "rf-s1e10p2",
+              "text": "He thanked me personally and offered me his business card. 'If you ever have more rare finds, come directly to me,' he said. I knew this was more than just a business contact; it was a powerful connection that could protect my family in the future. I used some of the money I had earned to buy high-quality supplements and gifts for Ruyan and Niuniu.",
+              "translations": {
+                "hi": "उन्होंने मुझे व्यक्तिगत रूप से धन्यवाद दिया और मुझे अपना बिजनेस कार्ड दिया। 'यदि आपको कभी भी और दुर्लभ चीजें मिलें, तो सीधे मेरे पास आएं,' उन्होंने कहा। मुझे पता था कि यह सिर्फ एक व्यावसायिक संपर्क से कहीं अधिक था; यह एक शक्तिशाली संबंध था जो भविष्य में मेरे परिवार की रक्षा कर सकता था। मैंने अपनी कमाई के कुछ पैसों का उपयोग रुयान और निउ निउ के लिए उच्च गुणवत्ता वाले सप्लीमेंट्स और उपहार खरीदने के लिए किया।"
+              }
+            },
+            {
+              "id": "rf-s1e10p3",
+              "text": "I also bought a beautiful blue jacket for Ruyan. She had always wanted one, but in our past life, it was a dream far beyond our reach. As I walked through the city, my arms full of packages, I felt like a different person. The weight of the past was lifting, replaced by the heavy, satisfying weight of success. My family would finally have the life they deserved.",
+              "translations": {
+                "hi": "मैंने रुयान के लिए एक खूबसूरत नीली जैकेट भी खरीदी। वह हमेशा से एक चाहती थी, लेकिन हमारे पिछले जीवन में, यह हमारी पहुँच से बहुत दूर एक सपना था। जैसे ही मैं शहर से गुज़रा, मेरी बाहें पैकेजों से भरी थीं, मैंने एक अलग व्यक्ति जैसा महसूस किया। अतीत का बोझ उठ रहा था, जिसकी जगह सफलता के भारी, संतोषजनक बोझ ने ले ली थी। मेरे परिवार को अंततः वह जीवन मिलेगा जिसके वे हकदार थे।"
+              }
+            }
+          ]
         }
       ]
     }
