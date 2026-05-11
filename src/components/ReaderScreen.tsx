@@ -33,11 +33,11 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
   const toggleHUD = () => setShowHUD(!showHUD);
 
   const handleNext = useCallback(() => {
-    if (currentIndex < episode.parts.length - 1) {
+    if (currentIndex < (episode.parts?.length || 0) - 1) {
       setDirection(1);
       setCurrentIndex((prev) => prev + 1);
     }
-  }, [currentIndex, episode.parts.length]);
+  }, [currentIndex, episode.parts?.length]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) {
@@ -54,11 +54,11 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
       episodeId: episode.id,
       episodeNumber: episode.episodeNumber,
       partIndex: currentIndex,
-      totalParts: episode.parts.length,
+      totalParts: episode.parts?.length || 0,
       updatedAt: new Date().toISOString(),
-      completed: currentIndex === episode.parts.length - 1,
+      completed: currentIndex === (episode.parts?.length || 0) - 1,
     });
-  }, [currentIndex, storyId, seasonNumber, episode.id, episode.parts.length, episode.episodeNumber]);
+  }, [currentIndex, storyId, seasonNumber, episode.id, episode.parts?.length, episode.episodeNumber]);
 
   // Handle keyboard navigation
   useEffect(() => {
@@ -139,7 +139,7 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
 
       {/* Segmented Progress Bar - Fixed at top, below header */}
       <div className={`fixed top-0 left-0 right-0 z-[60] flex gap-1 px-4 pt-1 transition-all duration-300 ${showHUD ? 'translate-y-20' : 'translate-y-2'}`}>
-        {episode.parts.map((_, idx) => (
+        {episode.parts?.map((_, idx) => (
           <div key={idx} className="flex-1 h-[2px] rounded-full bg-white/10 overflow-hidden">
             <motion.div
               initial={false}
@@ -193,7 +193,7 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
                >
                   {/* Part Text with Paragraph handling */}
                   <div className="text-xl md:text-2xl leading-[1.7] text-white/90 text-left whitespace-pre-wrap font-serif tracking-wide selection:bg-primary/30">
-                    {episode.parts[currentIndex].text}
+                    {episode.parts?.[currentIndex]?.text || 'Content loading...'}
                   </div>
                   
                   {/* Action Hints */}
@@ -211,7 +211,7 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
         </AnimatePresence>
 
         {/* Swipe Indicators */}
-        {currentIndex < episode.parts.length - 1 && !showHUD && (
+        {currentIndex < (episode.parts?.length || 0) - 1 && !showHUD && (
            <div className="absolute bottom-12 left-0 right-0 flex flex-col items-center gap-2 pointer-events-none opacity-50">
              <motion.div 
                animate={{ y: [0, -10, 0] }}
@@ -224,7 +224,7 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
         )}
 
         {/* End of Episode View */}
-        {currentIndex === episode.parts.length - 1 && (
+        {currentIndex === (episode.parts?.length || 0) - 1 && (
           <div className="absolute inset-0 z-50 flex items-center justify-center p-6 bg-black/40 backdrop-blur-sm">
             <motion.div 
               initial={{ scale: 0.9, opacity: 0 }}
@@ -278,7 +278,7 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
             className="fixed bottom-0 left-0 right-0 z-50 glass-dark border-t border-white/5 p-6 flex items-center justify-between"
           >
             <div className="flex flex-col gap-1">
-              <span className="text-[10px] font-black text-text-muted uppercase tracking-widest">Part {currentIndex + 1} / {episode.parts.length}</span>
+              <span className="text-[10px] font-black text-text-muted uppercase tracking-widest">Part {currentIndex + 1} / {episode.parts?.length || 0}</span>
               <div className="flex items-center gap-2">
                  <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                  <span className="text-xs font-bold text-white uppercase tracking-tight">Live Session</span>
@@ -295,8 +295,8 @@ const ReaderScreen = ({ episode, storyId, seasonNumber, nextEpisodeId, slug }: R
               </button>
               <button 
                 onClick={(e) => { e.stopPropagation(); handleNext(); }}
-                disabled={currentIndex === episode.parts.length - 1}
-                className={`p-3 rounded-2xl transition-all ${currentIndex === episode.parts.length - 1 ? 'opacity-20' : 'bg-white/5 text-white hover:bg-white/10 active:scale-90'}`}
+                disabled={currentIndex === (episode.parts?.length || 0) - 1}
+                className={`p-3 rounded-2xl transition-all ${currentIndex === (episode.parts?.length || 0) - 1 ? 'opacity-20' : 'bg-white/5 text-white hover:bg-white/10 active:scale-90'}`}
               >
                 <ChevronUp size={22} />
               </button>

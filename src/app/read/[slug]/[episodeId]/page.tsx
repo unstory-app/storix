@@ -19,6 +19,7 @@ export default async function ReaderPage({ params }: { params: Promise<{ slug: s
 
   return (
     <ReaderScreen 
+      key={episodeId}
       episode={episode} 
       storyId={story.id} 
       seasonNumber={season?.seasonNumber || 1} 

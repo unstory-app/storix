@@ -1,25 +1,11 @@
 import { Story } from '../types';
 
-import ceosSecretWife from './ceos-secret-wife.json';
-import crownOfAshes from './crown-of-ashes.json';
-import moonlitCurse from './moonlit-curse.json';
-import myFakeBoyfriend from './my-fake-boyfriend.json';
-import revengeInRed from './revenge-in-red.json';
-import room909 from './room-909.json';
-import theBillionairesRegret from './the-billionaires-regret.json';
-import theLastMessage from './the-last-message.json';
+import after99Rejections from './after-99-rejections.json';
 
 // Simple registry of all stories. 
 // When an AI agent creates a new story, they just add the import above and add it to this array.
 const ALL_STORIES: Story[] = [
-  ceosSecretWife as Story,
-  crownOfAshes as Story,
-  moonlitCurse as Story,
-  myFakeBoyfriend as Story,
-  revengeInRed as Story,
-  room909 as Story,
-  theBillionairesRegret as Story,
-  theLastMessage as Story
+  after99Rejections as Story
 ];
 
 /**
