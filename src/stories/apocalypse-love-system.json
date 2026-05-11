@@ -3,7 +3,7 @@
   "title": "Apocalypse Love System",
   "slug": "apocalypse-love-system",
   "posterImage": "/images/stories/apocalypse-love-system.png",
-  "description": "I tamed a zombie girl and built the ultimate survival base. In this apocalypse, love is the only system that matters.",
+  "description": "I tamed a zombie girl and built the ultimate survival base. In this apocalypse, love is the only system that truly matters.",
   "genres": [
     "Fantasy",
     "Romance",
@@ -20,7 +20,7 @@
     {
       "seasonNumber": 1,
       "title": "Season 1: Survival",
-      "description": "The beginning of the end. Season 1.",
+      "description": "The beginning of the end. This is Season 1.",
       "episodes": [
         {
           "id": "apoc-s1e1",
@@ -31,7 +31,7 @@
           "parts": [
             {
               "id": "apoc-s1e1p1",
-              "text": "The boy who lunged at me was wearing a t-shirt. From his build, he looked like he might have been an athlete when he was alive.",
+              "text": "The boy who lunged at me was wearing a T-shirt. From his build, he looked like he might have been an athlete when he was alive.",
               "translations": {
                 "hi": "जो मुझ पर झपटा, वह एक टी-शर्ट पहने लड़का था। देखने से लगता था कि जिंदा रहते वक्त"
               }
@@ -94,9 +94,9 @@
             },
             {
               "id": "apoc-s1e1p10",
-              "text": "Part 10 of Episode 1: बाद भी नहीं कर पाया। जैसे ही मैंने पूरी\n\nताकत जुटाकर फिर से कोशिश करने की सोची, (English Version)",
+              "text": "I still couldn’t do it. Just as I gathered all my strength to try once more,",
               "translations": {
-                "hi": "बाद भी नहीं कर पाया। जैसे ही मैंने पूरी\n\nताकत जुटाकर फिर से कोशिश करने की सोची,"
+                "hi": "बाद भी नहीं कर पाया। जैसे ही मैंने पूरी\n\nताकत जुटाकर फिर से कोशिश करने की सोची"
               }
             }
           ]
@@ -152,28 +152,28 @@
             },
             {
               "id": "apoc-s1e2p7",
-              "text": "Part 7 of Episode 2: में इवॉल्व हो चुकी है। पहले जब मैंने\n\nउसकी स्किन का रंग हल्का ग्रे से पिंक (English Version)",
+              "text": "She has indeed evolved. Previously, when I saw her skin turning from light grey to pink,",
               "translations": {
                 "hi": "में इवॉल्व हो चुकी है। पहले जब मैंने\n\nउसकी स्किन का रंग हल्का ग्रे से पिंक"
               }
             },
             {
               "id": "apoc-s1e2p8",
-              "text": "Part 8 of Episode 2: होते देखा था तभी मुझे शक हुआ था और अब यह\n\nपूरी तरह कंफर्म हो गया। मैंने सिस्टम (English Version)",
+              "text": "I had my suspicions, and now it was fully confirmed. I opened the system",
               "translations": {
                 "hi": "होते देखा था तभी मुझे शक हुआ था और अब यह\n\nपूरी तरह कंफर्म हो गया। मैंने सिस्टम"
               }
             },
             {
               "id": "apoc-s1e2p9",
-              "text": "Part 9 of Episode 2: पैनल खोला तो देखा कि शिचिंगू का अफेक्शन\n\nलेवल 50 तक बढ़ चुका था। उसे खुश करना (English Version)",
+              "text": "panel and saw that Shiqing’s affection level had risen to 50. Pleasing her",
               "translations": {
-                "hi": "पैनल खोला तो देखा कि शिचिंगू का अफेक्शन\n\nलेवल 50 तक बढ़ चुका था। उसे खुश करना"
+                "hi": "पैनल खोला तो देखा कि शिचिंगू का अफेक्शन\n\nलेवल  तक बढ़ चुका था। उसे खुश करना"
               }
             },
             {
               "id": "apoc-s1e2p10",
-              "text": "Part 10 of Episode 2: किसी इंसान लड़की से कहीं आसान था। ना उसे\n\nमहंगे बैग चाहिए ना कोई कॉस्मेटिक्स। बस (English Version)",
+              "text": "was easier than a human girl. She didn’t need expensive bags or cosmetics. Just",
               "translations": {
                 "hi": "किसी इंसान लड़की से कहीं आसान था। ना उसे\n\nमहंगे बैग चाहिए ना कोई कॉस्मेटिक्स। बस"
               }
@@ -231,30 +231,30 @@
             },
             {
               "id": "apoc-s1e3p7",
-              "text": "Part 7 of Episode 3: पहुंचा, मैं अपने कपड़े उतार कर खून साफ\n\nकरने ही वाला था कि तभी मुझे एहसास हुआ (English Version)",
+              "text": "When I arrived, I was about to take off my clothes and clean the blood, when I realized",
               "translations": {
-                "hi": "पहुंचा, मैं अपने कपड़े उतार कर खून साफ\n\nकरने ही वाला था कि तभी मुझे एहसास हुआ"
+                "hi": "पहुंचा मैं अपने कपड़े उतार कर खून साफ\n\nकरने ही वाला था कि तभी मुझे एहसास हुआ"
               }
             },
             {
               "id": "apoc-s1e3p8",
-              "text": "Part 8 of Episode 3: शिचिंगो भी अंदर आ गई है। किसी लड़की के\n\nसामने नहाना मेरे लिए यह पहली बार था। (English Version)",
+              "text": "Shiqing had followed me inside. This was the first time I was bathing in front of a girl.",
               "translations": {
                 "hi": "शिचिंगो भी अंदर आ गई है। किसी लड़की के\n\nसामने नहाना मेरे लिए यह पहली बार था।"
               }
             },
             {
               "id": "apoc-s1e3p9",
-              "text": "Part 9 of Episode 3: थोड़ा अजीब लग रहा था। लेकिन फिर सोचा\n\nआखिर वह एक ज़ॉम्बी ही तो है। बस मैंने (English Version)",
+              "text": "It felt a bit strange. But then I thought, after all, she is just a zombie. So I",
               "translations": {
                 "hi": "थोड़ा अजीब लग रहा था। लेकिन फिर सोचा\n\nआखिर वह एक ज़ॉम्बी ही तो है। बस मैंने"
               }
             },
             {
               "id": "apoc-s1e3p10",
-              "text": "Part 10 of Episode 3: जल्दी-जल्दी नहाना खत्म किया और साफ कपड़े\n\nपहनने ही वाला था कि अचानक मेरी नजर (English Version)",
+              "text": "finished my bath quickly and was about to put on clean clothes when suddenly my eyes",
               "translations": {
-                "hi": "जल्दी-जल्दी नहाना खत्म किया और साफ कपड़े\n\nपहनने ही वाला था कि अचानक मेरी नजर"
+                "hi": "जल्दी जल्दी नहाना खत्म किया और साफ कपड़े\n\nपहनने ही वाला था कि अचानक मेरी नजर"
               }
             }
           ]
@@ -317,21 +317,21 @@
             },
             {
               "id": "apoc-s1e4p8",
-              "text": "Part 8 of Episode 4: बाद वह पूरी तरह साफ हो चुकी थी। मैंने\n\nसिर उठाकर उसकी तरफ देखा। हो गया। अब (English Version)",
+              "text": "Later, she was completely clean. I lifted my head and looked at her. ‘It’s done. Now",
               "translations": {
                 "hi": "बाद वह पूरी तरह साफ हो चुकी थी। मैंने\n\nसिर उठाकर उसकी तरफ देखा। हो गया। अब"
               }
             },
             {
               "id": "apoc-s1e4p9",
-              "text": "Part 9 of Episode 4: तुम्हें थोड़ा अच्छा लग रहा होगा। है ना?\n\nलेकिन वह अब भी मेरी आंखों में ही देखे जा (English Version)",
+              "text": "you must be feeling a bit better, right?’ But she was still just staring into my eyes.",
               "translations": {
-                "hi": "तुम्हें थोड़ा अच्छा लग रहा होगा। है ना?\n\nलेकिन वह अब भी मेरी आंखों में ही देखे जा"
+                "hi": "तुम्हें थोड़ा अच्छा लग रहा होगा। है ना लेकिन वह अब भी मेरी आंखों में ही देखे जा"
               }
             },
             {
               "id": "apoc-s1e4p10",
-              "text": "Part 10 of Episode 4: रही थी। इस बार शिचिंगू की आंखों में कुछ\n\nअलग था। जैसे उसमें हल्की सी भावना दिख (English Version)",
+              "text": "This time, there was something different in Shiqing’s eyes. It was as if a faint emotion was visible,",
               "translations": {
                 "hi": "रही थी। इस बार शिचिंगू की आंखों में कुछ\n\nअलग था। जैसे उसमें हल्की सी भावना दिख"
               }
@@ -347,72 +347,72 @@
           "parts": [
             {
               "id": "apoc-s1e5p1",
-              "text": "Part 1 of Episode 5: रही हो। मुझे नहीं पता यह सच था या सिर्फ\n\nमेरा वहम। जिज्ञासा में मैं थोड़ा और पास (English Version)",
+              "text": "as if she were alive. I didn’t know if it was real or just my imagination. Driven by curiosity, I moved a bit closer.",
               "translations": {
                 "hi": "रही हो। मुझे नहीं पता यह सच था या सिर्फ\n\nमेरा वहम। जिज्ञासा में मैं थोड़ा और पास"
               }
             },
             {
               "id": "apoc-s1e5p2",
-              "text": "Part 2 of Episode 5: गया। अगले ही पल शिचिंगू का शरीर अचानक\n\nमेरे ऊपर आ गया। मुझे बिल्कुल भी उम्मीद (English Version)",
+              "text": "The next moment, Shiqing’s body suddenly moved towards me. I hadn’t expected her to do something so sudden.",
               "translations": {
                 "hi": "गया। अगले ही पल शिचिंगू का शरीर अचानक\n\nमेरे ऊपर आ गया। मुझे बिल्कुल भी उम्मीद"
               }
             },
             {
               "id": "apoc-s1e5p3",
-              "text": "Part 3 of Episode 5: नहीं थी कि वह ऐसे अचानक कुछ करेगी। बचना\n\nनामुमकिन था। लेकिन जो मैंने सोचा था कि (English Version)",
+              "text": "It was impossible to escape. But what I thought would happen—that she would attack me—didn’t.",
               "translations": {
                 "hi": "नहीं थी कि वह ऐसे अचानक कुछ करेगी। बचना\n\nनामुमकिन था। लेकिन जो मैंने सोचा था कि"
               }
             },
             {
               "id": "apoc-s1e5p4",
-              "text": "Part 4 of Episode 5: वह मुझ पर टूट पड़ेगी वैसा कुछ नहीं हुआ।\n\nमेरे होठों पर एक नरम हल्का सा मीठा एहसास (English Version)",
+              "text": "Instead, I felt a soft, light, sweet sensation on my lips. My eyes widened in shock.",
               "translations": {
                 "hi": "वह मुझ पर टूट पड़ेगी वैसा कुछ नहीं हुआ।\n\nमेरे होठों पर एक नरम हल्का सा मीठा एहसास"
               }
             },
             {
               "id": "apoc-s1e5p5",
-              "text": "Part 5 of Episode 5: हुआ। मेरी आंखें हैरानी से खुल गई। तभी\n\nसिस्टम की आवाज आई और मुझे होश आया। बधाई (English Version)",
+              "text": "Then the system’s voice came, and I snapped back to reality. ‘Congratulations, Host!’",
               "translations": {
                 "hi": "हुआ। मेरी आंखें हैरानी से खुल गई। तभी\n\nसिस्टम की आवाज आई और मुझे होश आया। बधाई"
               }
             },
             {
               "id": "apoc-s1e5p6",
-              "text": "Part 6 of Episode 5: होस्ट आपको रिवॉर्ड मिला है। फर्स्ट किस\n\nवैक्सीन ज़ॉम्बी वायरस। इसे इस्तेमाल करने (English Version)",
+              "text": "‘You have received a reward: First Kiss Vaccine (Zombie Virus). After using this,",
               "translations": {
                 "hi": "होस्ट आपको रिवॉर्ड मिला है। फर्स्ट किस\n\nवैक्सीन ज़ॉम्बी वायरस। इसे इस्तेमाल करने"
               }
             },
             {
               "id": "apoc-s1e5p7",
-              "text": "Part 7 of Episode 5: के बाद आप ज़ॉम्बी वायरस से इम्यून हो\n\nजाएंगे। मैंने तुरंत सिस्टम पैनल खोला और (English Version)",
+              "text": "you will become immune to the zombie virus.’ I immediately opened the system panel and",
               "translations": {
                 "hi": "के बाद आप ज़ॉम्बी वायरस से इम्यून हो\n\nजाएंगे। मैंने तुरंत सिस्टम पैनल खोला और"
               }
             },
             {
               "id": "apoc-s1e5p8",
-              "text": "Part 8 of Episode 5: शिचिंगू का अफेक्शन लेवल देखा। एक और बड़ा\n\nसरप्राइज मिला। किसने सोचा था सिर्फ (English Version)",
+              "text": "checked Shiqing’s affection level. I was in for another big surprise. Who would have thought",
               "translations": {
                 "hi": "शिचिंगू का अफेक्शन लेवल देखा। एक और बड़ा\n\nसरप्राइज मिला। किसने सोचा था सिर्फ"
               }
             },
             {
               "id": "apoc-s1e5p9",
-              "text": "Part 9 of Episode 5: नहलाने से उसका अफेक्शन लेवल 60 तक पहुंच\n\nजाएगा। सीधे लाइक वाले फेज में। मैंने (English Version)",
+              "text": "that just giving her a bath would raise her affection level to 60? Straight into the ‘Like’ phase!",
               "translations": {
-                "hi": "नहलाने से उसका अफेक्शन लेवल 60 तक पहुंच\n\nजाएगा। सीधे लाइक वाले फेज में। मैंने"
+                "hi": "नहलाने से उसका अफेक्शन लेवल  तक पहुंच\n\nजाएगा। सीधे लाइक वाले फेज में। मैंने"
               }
             },
             {
               "id": "apoc-s1e5p10",
-              "text": "Part 10 of Episode 5: सिस्टम बंद किया और शिचिंगू से पूछा, क्या\n\nतुम्हें अब कुछ महसूस होता है? शिचिंगू ने (English Version)",
+              "text": "I closed the system and asked Shiqing, ‘Do you feel anything now?’ Shiqing just",
               "translations": {
-                "hi": "सिस्टम बंद किया और शिचिंगू से पूछा, क्या\n\nतुम्हें अब कुछ महसूस होता है? शिचिंगू ने"
+                "hi": "सिस्टम बंद किया और शिचिंगू से पूछा क्या\n\nतुम्हें अब कुछ महसूस होता है शिचिंगू ने"
               }
             }
           ]
@@ -426,70 +426,70 @@
           "parts": [
             {
               "id": "apoc-s1e6p1",
-              "text": "Part 1 of Episode 6: सिर्फ हल्का सा तिरछा किया। चेहरे पर एक\n\nमासूम सा एक्सप्रेशन था। साफ था उसे इतनी (English Version)",
+              "text": "tilted her head slightly. There was an innocent expression on her face. It was clear she",
               "translations": {
                 "hi": "सिर्फ हल्का सा तिरछा किया। चेहरे पर एक\n\nमासूम सा एक्सप्रेशन था। साफ था उसे इतनी"
               }
             },
             {
               "id": "apoc-s1e6p2",
-              "text": "Part 2 of Episode 6: मुश्किल बात समझ नहीं आई। तो मैंने सवाल\n\nआसान कर दिया। क्या तुम मेरी बात समझती (English Version)",
+              "text": "didn’t understand such a complex question. So I simplified it: ‘Do you understand what I say?’",
               "translations": {
                 "hi": "मुश्किल बात समझ नहीं आई। तो मैंने सवाल\n\nआसान कर दिया। क्या तुम मेरी बात समझती"
               }
             },
             {
               "id": "apoc-s1e6p3",
-              "text": "Part 3 of Episode 6: हो? इस बार उसने सिर हिला दिया। मैंने उसे\n\nकुछ और सवाल पूछे लेकिन जैसे ही बात थोड़ी (English Version)",
+              "text": "This time, she nodded. I asked her a few more questions, but as soon as things got",
               "translations": {
-                "hi": "हो? इस बार उसने सिर हिला दिया। मैंने उसे\n\nकुछ और सवाल पूछे लेकिन जैसे ही बात थोड़ी"
+                "hi": "हो इस बार उसने सिर हिला दिया। मैंने उसे\n\nकुछ और सवाल पूछे लेकिन जैसे ही बात थोड़ी"
               }
             },
             {
               "id": "apoc-s1e6p4",
-              "text": "Part 4 of Episode 6: भी मुश्किल होती वह एकदम खाली सी नजरों से\n\nदेखने लगती जैसे कुछ समझ ही नहीं आ रहा। (English Version)",
+              "text": "even slightly difficult, she would just stare with blank eyes, as if she didn’t understand anything.",
               "translations": {
                 "hi": "भी मुश्किल होती वह एकदम खाली सी नजरों से\n\nदेखने लगती जैसे कुछ समझ ही नहीं आ रहा।"
               }
             },
             {
               "id": "apoc-s1e6p5",
-              "text": "Part 5 of Episode 6: लगता है अभी उसे खुद से काम करवाना आसान\n\nनहीं है। लेकिन जैसे-जैसे उसका अफेक्शन (English Version)",
+              "text": "It seems that getting her to do things on her own isn’t easy yet. But as her affection",
               "translations": {
-                "hi": "लगता है अभी उसे खुद से काम करवाना आसान\n\nनहीं है। लेकिन जैसे-जैसे उसका अफेक्शन"
+                "hi": "लगता है अभी उसे खुद से काम करवाना आसान\n\nनहीं है। लेकिन जैसे जैसे उसका अफेक्शन"
               }
             },
             {
               "id": "apoc-s1e6p6",
-              "text": "Part 6 of Episode 6: बढ़ेगा शायद वह अपने इंसानी एहसास वापस पा\n\nले और उस वक्त वो मुश्किल बातें भी समझ (English Version)",
+              "text": "increases, perhaps she will regain her human feelings and then she will be able to understand complex things.",
               "translations": {
                 "hi": "बढ़ेगा शायद वह अपने इंसानी एहसास वापस पा\n\nले और उस वक्त वो मुश्किल बातें भी समझ"
               }
             },
             {
               "id": "apoc-s1e6p7",
-              "text": "Part 7 of Episode 6: पाएगी। फिलहाल पहले इस बाथरूम से निकलते\n\nहैं बाकी बाद में सोचेंगे। क्लास रूम में (English Version)",
+              "text": "For now, let’s get out of this bathroom first; we’ll think about the rest later. Back in the classroom,",
               "translations": {
                 "hi": "पाएगी। फिलहाल पहले इस बाथरूम से निकलते\n\nहैं बाकी बाद में सोचेंगे। क्लास रूम में"
               }
             },
             {
               "id": "apoc-s1e6p8",
-              "text": "Part 8 of Episode 6: वापस आकर मैंने धीरे से रून यूएन यूएन से\n\nपूछा। मुझे पता चला है कि मिनी फायर (English Version)",
+              "text": "I quietly asked Ruan Yuanyuan. I found out that the mini fire",
               "translations": {
                 "hi": "वापस आकर मैंने धीरे से रून यूएन यूएन से\n\nपूछा। मुझे पता चला है कि मिनी फायर"
               }
             },
             {
               "id": "apoc-s1e6p9",
-              "text": "Part 9 of Episode 6: स्टेशन एडमिन बिल्डिंग के मेन गेट के पास\n\nहै। लेकिन वहां पहुंचने के लिए स्पोर्ट्स (English Version)",
+              "text": "station is near the main gate of the Administration building. But to reach there, I’d have to",
               "translations": {
                 "hi": "स्टेशन एडमिन बिल्डिंग के मेन गेट के पास\n\nहै। लेकिन वहां पहुंचने के लिए स्पोर्ट्स"
               }
             },
             {
               "id": "apoc-s1e6p10",
-              "text": "Part 10 of Episode 6: ग्राउंड में मौजूद ज़ॉम्बी के झुंड को घुमा\n\nकर जाना पड़ेगा। मैंने यह जानकारी चुपचाप (English Version)",
+              "text": "go around the swarm of zombies in the sports ground. I quietly memorized this information.",
               "translations": {
                 "hi": "ग्राउंड में मौजूद ज़ॉम्बी के झुंड को घुमा\n\nकर जाना पड़ेगा। मैंने यह जानकारी चुपचाप"
               }
@@ -505,70 +505,70 @@
           "parts": [
             {
               "id": "apoc-s1e7p1",
-              "text": "Part 1 of Episode 7: याद कर ली। फिर मैंने उसे आराम करने के\n\nलिए कहा। कुछ ही देर में क्लास में सिर्फ (English Version)",
+              "text": "I thought for a moment, then asked, ‘Do you want me to go save her?’ At my question, Ruan",
               "translations": {
                 "hi": "याद कर ली। फिर मैंने उसे आराम करने के\n\nलिए कहा। कुछ ही देर में क्लास में सिर्फ"
               }
             },
             {
               "id": "apoc-s1e7p2",
-              "text": "Part 2 of Episode 7: मैं और शिचिंगू बचे थे। मैंने ज़ॉम्बी\n\nवायरस वैक्सीन निकाली और सीधे अपने हाथ (English Version)",
+              "text": "Yuanyuan, who was holding the mouse, paused for a moment. Then she said, ‘I think she",
               "translations": {
                 "hi": "मैं और शिचिंगू बचे थे। मैंने ज़ॉम्बी\n\nवायरस वैक्सीन निकाली और सीधे अपने हाथ"
               }
             },
             {
               "id": "apoc-s1e7p3",
-              "text": "Part 3 of Episode 7: में इंजेक्ट कर ली। पूरा वायल खाली कर\n\nदिया। अब उन ज़ॉम्बी के झुंड से मुझे खतरा (English Version)",
+              "text": "could be useful to you. And yes, that building is the Administration building.’ I",
               "translations": {
                 "hi": "में इंजेक्ट कर ली। पूरा वायल खाली कर\n\nदिया। अब उन ज़ॉम्बी के झुंड से मुझे खतरा"
               }
             },
             {
               "id": "apoc-s1e7p4",
-              "text": "Part 4 of Episode 7: और कम हो गया था। उसी वक्त क्लासरूम\n\nबिल्डिंग की तीसरी मंजिल पर दो लोग चुपचाप (English Version)",
+              "text": "understood. Saying this, I took Shiqing for a bath, and two days passed. The surviving",
               "translations": {
                 "hi": "और कम हो गया था। उसी वक्त क्लासरूम\n\nबिल्डिंग की तीसरी मंजिल पर दो लोग चुपचाप"
               }
             },
             {
               "id": "apoc-s1e7p5",
-              "text": "Part 5 of Episode 7: सीढ़ियों की तरफ बढ़ रहे थे। उनमें से एक\n\nथोड़ा घबराया हुआ था। क्या सच में कुछ (English Version)",
+              "text": "students’ numbers were decreasing. When I first came here, more than 50",
               "translations": {
                 "hi": "सीढ़ियों की तरफ बढ़ रहे थे। उनमें से एक\n\nथोड़ा घबराया हुआ था। क्या सच में कुछ"
               }
             },
             {
               "id": "apoc-s1e7p6",
-              "text": "Part 6 of Episode 7: नहीं होगा अगर हम यह करें? दूसरा हंस कर\n\nबोला क्या होगा? चाहे वह कितना भी अच्छा (English Version)",
+              "text": "people were alive. Now maybe only around 30 are left. Fear was starting to spread",
               "translations": {
-                "hi": "नहीं होगा अगर हम यह करें? दूसरा हंस कर\n\nबोला क्या होगा? चाहे वह कितना भी अच्छा"
+                "hi": "नहीं होगा अगर हम यह करें दूसरा हंस कर\n\nबोला क्या होगा चाहे वह कितना भी अच्छा"
               }
             },
             {
               "id": "apoc-s1e7p7",
-              "text": "Part 7 of Episode 7: लड़ता हो आखिर हैं तो सिर्फ दो लोग और\n\nउनमें से एक तो बस एक लड़की है। ताईजू तू (English Version)",
+              "text": "among everyone. That day, pointing towards Shiqing, I told Ruan, ‘Take care of her",
               "translations": {
                 "hi": "लड़ता हो आखिर हैं तो सिर्फ दो लोग और\n\nउनमें से एक तो बस एक लड़की है। ताईजू तू"
               }
             },
             {
               "id": "apoc-s1e7p8",
-              "text": "Part 8 of Episode 7: एक लड़की से भी डर रहा है क्या? यह बोलने\n\nवाला था लुए। जल्द ही दोनों एक-एक करके (English Version)",
+              "text": "for a bit. I have to go to the Administration building. It won’t be right to take her along.’",
               "translations": {
-                "hi": "एक लड़की से भी डर रहा है क्या? यह बोलने\n\nवाला था लुए। जल्द ही दोनों एक-एक करके"
+                "hi": "एक लड़की से भी डर रहा है क्या यह बोलने\n\nवाला था लुए। जल्द ही दोनों एक एक करके"
               }
             },
             {
               "id": "apoc-s1e7p9",
-              "text": "Part 9 of Episode 7: मेरे क्लास रूम तक पहुंच गए। उन्होंने\n\nदेखा कि आगे और पीछे के दरवाजे अंदर से (English Version)",
+              "text": "I had intentionally waited for two days so that the woman, Wanning, would completely",
               "translations": {
                 "hi": "मेरे क्लास रूम तक पहुंच गए। उन्होंने\n\nदेखा कि आगे और पीछे के दरवाजे अंदर से"
               }
             },
             {
               "id": "apoc-s1e7p10",
-              "text": "Part 10 of Episode 7: बंद है। लेकिन यह लुए को रोकने के लिए\n\nकाफी नहीं था। वह पहले भी क्लास बंद करने (English Version)",
+              "text": "lose hope. So that when I go to save her, she will trust me completely.",
               "translations": {
                 "hi": "बंद है। लेकिन यह लुए को रोकने के लिए\n\nकाफी नहीं था। वह पहले भी क्लास बंद करने"
               }
@@ -584,70 +584,70 @@
           "parts": [
             {
               "id": "apoc-s1e8p1",
-              "text": "Part 1 of Episode 8: में एक्सपर्ट था। उसने खिड़की पकड़ी।\n\nथोड़ी मेहनत के बाद उसे खोल लिया और फिर (English Version)",
+              "text": "Half an hour later, I reached my target. But more than 10 zombies were wandering",
               "translations": {
                 "hi": "में एक्सपर्ट था। उसने खिड़की पकड़ी।\n\nथोड़ी मेहनत के बाद उसे खोल लिया और फिर"
               }
             },
             {
               "id": "apoc-s1e8p2",
-              "text": "Part 2 of Episode 8: एक छलांग लगाकर अंदर आ गया। ताई जो लुए\n\nजितना फुर्तीला नहीं था और खिड़की पर बैठ (English Version)",
+              "text": "there. I wanted to finish them with a surprise attack, but killing them all at once",
               "translations": {
                 "hi": "एक छलांग लगाकर अंदर आ गया। ताई जो लुए\n\nजितना फुर्तीला नहीं था और खिड़की पर बैठ"
               }
             },
             {
               "id": "apoc-s1e8p3",
-              "text": "Part 3 of Episode 8: गया। लेकिन जैसे ही वह दूसरा पैर अंदर\n\nलाने वाला था, उसने क्लासरूम के अंदर एक (English Version)",
+              "text": "wasn’t possible. I had to finish the job quickly. I took a deep breath and ran straight",
               "translations": {
-                "hi": "गया। लेकिन जैसे ही वह दूसरा पैर अंदर\n\nलाने वाला था, उसने क्लासरूम के अंदर एक"
+                "hi": "गया। लेकिन जैसे ही वह दूसरा पैर अंदर\n\nलाने वाला था उसने क्लासरूम के अंदर एक"
               }
             },
             {
               "id": "apoc-s1e8p4",
-              "text": "Part 4 of Episode 8: छोटी सी परछाई को धीरे-धीरे खड़े होते\n\nदेखा। डर के मारे उसकी आवाज कांप गई। ओ (English Version)",
+              "text": "towards the fire station. Then the zombies saw me. They started snarling loudly",
               "translations": {
-                "hi": "छोटी सी परछाई को धीरे-धीरे खड़े होते\n\nदेखा। डर के मारे उसकी आवाज कांप गई। ओ"
+                "hi": "छोटी सी परछाई को धीरे धीरे खड़े होते\n\nदेखा। डर के मारे उसकी आवाज कांप गई। ओ"
               }
             },
             {
               "id": "apoc-s1e8p5",
-              "text": "Part 5 of Episode 8: लुए, अंदर कोई है? लुए तुरंत सतर्क हो\n\nगया। लेकिन अब बहुत देर हो चुकी थी। अचानक (English Version)",
+              "text": "and surrounding me. Seeing this, I ran forward with all my might. The zombies",
               "translations": {
-                "hi": "लुए, अंदर कोई है? लुए तुरंत सतर्क हो\n\nगया। लेकिन अब बहुत देर हो चुकी थी। अचानक"
+                "hi": "लुए अंदर कोई है लुए तुरंत सतर्क हो\n\nगया। लेकिन अब बहुत देर हो चुकी थी। अचानक"
               }
             },
             {
               "id": "apoc-s1e8p6",
-              "text": "Part 6 of Episode 8: उसे अपने सीने में बर्फ जैसी ठंडक महसूस\n\nहुई। एक पतली सी बाह उसके सीने के आर-पार (English Version)",
+              "text": "hadn’t completely surrounded me yet. I took the chance and went straight into the small",
               "translations": {
-                "hi": "उसे अपने सीने में बर्फ जैसी ठंडक महसूस\n\nहुई। एक पतली सी बाह उसके सीने के आर-पार"
+                "hi": "उसे अपने सीने में बर्फ जैसी ठंडक महसूस\n\nहुई। एक पतली सी बाह उसके सीने के आर पार"
               }
             },
             {
               "id": "apoc-s1e8p7",
-              "text": "Part 7 of Episode 8: निकल चुकी थी। ताईजू डर के मारे जड़ हो\n\nगया। वो मुड़कर भागने की कोशिश करने लगा। (English Version)",
+              "text": "fire station. There I found two walkie-talkies, a fire axe, and an escape rope.",
               "translations": {
                 "hi": "निकल चुकी थी। ताईजू डर के मारे जड़ हो\n\nगया। वो मुड़कर भागने की कोशिश करने लगा।"
               }
             },
             {
               "id": "apoc-s1e8p8",
-              "text": "Part 8 of Episode 8: लेकिन तभी एक और हाथ उसके सीने के आर-पार\n\nनिकल गया। शिचिंगू ने अपने खून से भीगे (English Version)",
+              "text": "I picked everything up and immediately headed out. I was so focused on gathering the supplies",
               "translations": {
-                "hi": "लेकिन तभी एक और हाथ उसके सीने के आर-पार\n\nनिकल गया। शिचिंगू ने अपने खून से भीगे"
+                "hi": "लेकिन तभी एक और हाथ उसके सीने के आर पार\n\nनिकल गया। शिचिंगू ने अपने खून से भीगे"
               }
             },
             {
               "id": "apoc-s1e8p9",
-              "text": "Part 9 of Episode 8: हाथों को देखा। अचानक उसके अंदर एक अजीब\n\nसी भूख और प्यास जागी। ऐसा लग रहा था जैसे (English Version)",
+              "text": "that I didn’t notice—a zombie was standing just 3 meters away. I reacted quickly",
               "translations": {
                 "hi": "हाथों को देखा। अचानक उसके अंदर एक अजीब\n\nसी भूख और प्यास जागी। ऐसा लग रहा था जैसे"
               }
             },
             {
               "id": "apoc-s1e8p10",
-              "text": "Part 10 of Episode 8: वह सारा खून चाट लेना चाहती हो। लेकिन\n\nआखिर में उसने खुद को कंट्रोल कर लिया। (English Version)",
+              "text": "and immediately ducked into a bathroom. On the third floor of the Administration building,",
               "translations": {
                 "hi": "वह सारा खून चाट लेना चाहती हो। लेकिन\n\nआखिर में उसने खुद को कंट्रोल कर लिया।"
               }
@@ -663,70 +663,70 @@
           "parts": [
             {
               "id": "apoc-s1e9p1",
-              "text": "Part 1 of Episode 9: अगले दिन जब मैं उठा तो मैंने देखा कि\n\nशिचिंगू बहुत एक्साइटेड होकर मुझे अपने (English Version)",
+              "text": "Wanning’s condition was very bad. Her consciousness was fading. In the midst of that,",
               "translations": {
                 "hi": "अगले दिन जब मैं उठा तो मैंने देखा कि\n\nशिचिंगू बहुत एक्साइटेड होकर मुझे अपने"
               }
             },
             {
               "id": "apoc-s1e9p2",
-              "text": "Part 2 of Episode 9: हाथ का खून दिखा रही थी। मैं एकदम रुक\n\nगया। इसका क्या मतलब है? शिचिंगू ने फिर (English Version)",
+              "text": "she heard a loud sound as if someone had broken down the door. Then a man’s voice",
               "translations": {
-                "hi": "हाथ का खून दिखा रही थी। मैं एकदम रुक\n\nगया। इसका क्या मतलब है? शिचिंगू ने फिर"
+                "hi": "हाथ का खून दिखा रही थी। मैं एकदम रुक\n\nगया। इसका क्या मतलब है शिचिंगू ने फिर"
               }
             },
             {
               "id": "apoc-s1e9p3",
-              "text": "Part 3 of Episode 9: खिड़की की तरफ देखा। मैंने भी उसकी नजर\n\nफॉलो की। वहां एक आदमी जमीन पर गिरा पड़ा (English Version)",
+              "text": "echoed. ‘Is she already dead? Sadly, I’m late.’ Hearing this, Wanning suddenly",
               "translations": {
                 "hi": "खिड़की की तरफ देखा। मैंने भी उसकी नजर\n\nफॉलो की। वहां एक आदमी जमीन पर गिरा पड़ा"
               }
             },
             {
               "id": "apoc-s1e9p4",
-              "text": "Part 4 of Episode 9: था और दूसरा खिड़की के सहारे टिका हुआ था।\n\nदोनों के सीने में बड़ा सा छेद था। उनके (English Version)",
+              "text": "opened her eyes and screamed with all her might, ‘I’m alive! Please save me!’ I",
               "translations": {
                 "hi": "था और दूसरा खिड़की के सहारे टिका हुआ था।\n\nदोनों के सीने में बड़ा सा छेद था। उनके"
               }
             },
             {
               "id": "apoc-s1e9p5",
-              "text": "Part 5 of Episode 9: पास ही एक नन चाकू लटका हुआ था। यह सब\n\nदेखकर मुझे सब कुछ तुरंत समझ में आ गया। (English Version)",
+              "text": "threw a baseball bat towards her. ‘Can you still walk? If you want to live, grab the weapon",
               "translations": {
                 "hi": "पास ही एक नन चाकू लटका हुआ था। यह सब\n\nदेखकर मुझे सब कुछ तुरंत समझ में आ गया।"
               }
             },
             {
               "id": "apoc-s1e9p6",
-              "text": "Part 6 of Episode 9: लेकिन उसी वक्त चिंगू ने मेरा हाथ पकड़\n\nलिया और उसे आगे पीछे हिलाने लगी। मैं (English Version)",
+              "text": "tightly.’ Wanning gritted her teeth and stood up, leaning against the wall. ‘I can",
               "translations": {
                 "hi": "लेकिन उसी वक्त चिंगू ने मेरा हाथ पकड़\n\nलिया और उसे आगे पीछे हिलाने लगी। मैं"
               }
             },
             {
               "id": "apoc-s1e9p7",
-              "text": "Part 7 of Episode 9: तुरंत समझ गया कि वो क्या चाहती है। मैं\n\nउसे लेकर बाथरूम गया और उसके हाथों से खून (English Version)",
+              "text": "do it.’ I took her out of the room. Just then, a zombie came staggering towards",
               "translations": {
                 "hi": "तुरंत समझ गया कि वो क्या चाहती है। मैं\n\nउसे लेकर बाथरूम गया और उसके हाथों से खून"
               }
             },
             {
               "id": "apoc-s1e9p8",
-              "text": "Part 8 of Episode 9: साफ कर दिया। जब मैं वापस क्लासरूम में\n\nआया तो मैंने जल्दी से दोनों लाशों को (English Version)",
+              "text": "us. I moved forward slightly and, with a single blow, drove the axe into its head. The",
               "translations": {
                 "hi": "साफ कर दिया। जब मैं वापस क्लासरूम में\n\nआया तो मैंने जल्दी से दोनों लाशों को"
               }
             },
             {
               "id": "apoc-s1e9p9",
-              "text": "Part 9 of Episode 9: खिड़की के बाहर फेंक दिया। तभी रूएन यूएन\n\nअपने लैपटॉप के साथ आ गई। उसने हल्का सा (English Version)",
+              "text": "zombie stopped dead in its tracks. Seeing this, I couldn’t help but think to myself,",
               "translations": {
                 "hi": "खिड़की के बाहर फेंक दिया। तभी रूएन यूएन\n\nअपने लैपटॉप के साथ आ गई। उसने हल्का सा"
               }
             },
             {
               "id": "apoc-s1e9p10",
-              "text": "Part 10 of Episode 9: सिर हिलाकर मुझे नमस्ते किया और अपनी सीट\n\nपर जाकर काम करने लगी। थोड़ी देर बाद (English Version)",
+              "text": "‘Using this axe is actually quite fun.’ Standing behind me, Wanning was shocked. For her,",
               "translations": {
                 "hi": "सिर हिलाकर मुझे नमस्ते किया और अपनी सीट\n\nपर जाकर काम करने लगी। थोड़ी देर बाद"
               }
@@ -742,70 +742,70 @@
           "parts": [
             {
               "id": "apoc-s1e10p1",
-              "text": "Part 1 of Episode 10: दरवाजे पर गुचंगू का नफरत भरा चेहरा दिखाई\n\nदिया। उसने गुस्से में पूछा लुए कहां है? (English Version)",
+              "text": "I was killing zombies as if I were just out for a stroll. As we reached the stairs,",
               "translations": {
-                "hi": "दरवाजे पर गुचंगू का नफरत भरा चेहरा दिखाई\n\nदिया। उसने गुस्से में पूछा लुए कहां है?"
+                "hi": "दरवाजे पर गुचंगू का नफरत भरा चेहरा दिखाई\n\nदिया। उसने गुस्से में पूछा लुए कहां है"
               }
             },
             {
               "id": "apoc-s1e10p2",
-              "text": "Part 2 of Episode 10: तुमने उसके साथ क्या किया? मैंने बिल्कुल\n\nशांत चेहरे से कहा कौन लुए? नाटक मत करो (English Version)",
+              "text": "she also ran carefully behind me. There were quite a few zombies on the stairs who had",
               "translations": {
-                "hi": "तुमने उसके साथ क्या किया? मैंने बिल्कुल\n\nशांत चेहरे से कहा कौन लुए? नाटक मत करो"
+                "hi": "तुमने उसके साथ क्या किया मैंने बिल्कुल\n\nशांत चेहरे से कहा कौन लुए नाटक मत करो"
               }
             },
             {
               "id": "apoc-s1e10p3",
-              "text": "Part 3 of Episode 10: जो मेरे साथ था हरे बाल वाला। तभी मुझे\n\nसमझ आया। कल रात जो दो लोग आए थे उनमें से (English Version)",
+              "text": "followed me here. Outside was an open field; if they surrounded me, I would be",
               "translations": {
                 "hi": "जो मेरे साथ था हरे बाल वाला। तभी मुझे\n\nसमझ आया। कल रात जो दो लोग आए थे उनमें से"
               }
             },
             {
               "id": "apoc-s1e10p4",
-              "text": "Part 4 of Episode 10: एक का नाम लुए था। लेकिन मैंने ऐसे दिखाया\n\nजैसे मुझे कुछ पता ही नहीं। मुझे नहीं पता (English Version)",
+              "text": "attacked from every side. But here there was only one staircase. Only one zombie at a time",
               "translations": {
                 "hi": "एक का नाम लुए था। लेकिन मैंने ऐसे दिखाया\n\nजैसे मुझे कुछ पता ही नहीं। मुझे नहीं पता"
               }
             },
             {
               "id": "apoc-s1e10p5",
-              "text": "Part 5 of Episode 10: तुम क्या कह रहे हो और मैं किसी लुए को\n\nनहीं जानता। वो गुस्से से बोला क्या (English Version)",
+              "text": "could attack me. So I felt quite safe. Plus,",
               "translations": {
                 "hi": "तुम क्या कह रहे हो और मैं किसी लुए को\n\nनहीं जानता। वो गुस्से से बोला क्या"
               }
             },
             {
               "id": "apoc-s1e10p6",
-              "text": "Part 6 of Episode 10: तुम्हें लगता है मैं तुम्हारी बात मान\n\nलूंगा? वह पहले गायब नहीं हुआ। बाद में भी (English Version)",
+              "text": "I had the advantage of height. I could easily strike at their heads and necks. Within",
               "translations": {
-                "hi": "तुम्हें लगता है मैं तुम्हारी बात मान\n\nलूंगा? वह पहले गायब नहीं हुआ। बाद में भी"
+                "hi": "तुम्हें लगता है मैं तुम्हारी बात मान\n\nलूंगा वह पहले गायब नहीं हुआ। बाद में भी"
               }
             },
             {
               "id": "apoc-s1e10p7",
-              "text": "Part 7 of Episode 10: नहीं। वह ठीक उसी वक्त गायब हुआ जब तुम\n\nयहां आए। अगर यह तुम नहीं थे तो और कौन हो (English Version)",
+              "text": "minutes, the stairs were filled with zombie corpses. Wanning was stunned again. In her",
               "translations": {
                 "hi": "नहीं। वह ठीक उसी वक्त गायब हुआ जब तुम\n\nयहां आए। अगर यह तुम नहीं थे तो और कौन हो"
               }
             },
             {
               "id": "apoc-s1e10p8",
-              "text": "Part 8 of Episode 10: सकता है? मैंने झुझुलाकर कहा, \"यह कैसी\n\nबकवास कर रहे हो?\" अगर कोई यहां से गायब (English Version)",
+              "text": "heart, my image was becoming even larger and more powerful. But then suddenly, someone",
               "translations": {
-                "hi": "सकता है? मैंने झुझुलाकर कहा, \"यह कैसी\n\nबकवास कर रहे हो?\" अगर कोई यहां से गायब"
+                "hi": "सकता है मैंने झुझुलाकर कहा यह कैसी\n\nबकवास कर रहे हो अगर कोई यहां से गायब"
               }
             },
             {
               "id": "apoc-s1e10p9",
-              "text": "Part 9 of Episode 10: हुआ है तो खुद जाकर ढूंढो। मेरे पास आकर\n\nपरेशान मत करो। हमारी बहस सुनकर काफी सारे (English Version)",
+              "text": "grabbed her ankle. Near her feet was a female zombie with half its face missing.",
               "translations": {
                 "hi": "हुआ है तो खुद जाकर ढूंढो। मेरे पास आकर\n\nपरेशान मत करो। हमारी बहस सुनकर काफी सारे"
               }
             },
             {
               "id": "apoc-s1e10p10",
-              "text": "Part 10 of Episode 10: स्टूडेंट्स इकट्ठा हो गए। उनमें लूहा भी\n\nथी। उसने थोड़ा शक भरे अंदाज में पूछा। (English Version)",
+              "text": "Wanning froze with fear. Her whole body began to tremble. Her eyes filled with tears and",
               "translations": {
                 "hi": "स्टूडेंट्स इकट्ठा हो गए। उनमें लूहा भी\n\nथी। उसने थोड़ा शक भरे अंदाज में पूछा।"
               }
@@ -817,7 +817,7 @@
     {
       "seasonNumber": 2,
       "title": "Season 2: Survival",
-      "description": "The beginning of the end. Season 2.",
+      "description": "The beginning of the end. This is Season 2.",
       "episodes": [
         {
           "id": "apoc-s2e1",
@@ -828,70 +828,70 @@
           "parts": [
             {
               "id": "apoc-s2e1p1",
-              "text": "Part 1 of Episode 1: क्या हुआ? कुछ हुआ है क्या? गुचंगू का\n\nलहजा थोड़ा नरम हो गया। लुए और ताईजू गायब (English Version)",
+              "text": "‘What happened? Did something happen?’ Gu Chang-u’s",
               "translations": {
-                "hi": "क्या हुआ? कुछ हुआ है क्या? गुचंगू का\n\nलहजा थोड़ा नरम हो गया। लुए और ताईजू गायब"
+                "hi": "क्या हुआ कुछ हुआ है क्या गुचंगू का\n\nलहजा थोड़ा नरम हो गया। लुए और ताईजू गायब"
               }
             },
             {
               "id": "apoc-s2e1p2",
-              "text": "Part 2 of Episode 1: हो गए हैं। लूहा ने कुछ पल सोचा। क्या वह\n\nदोनों सामान ढूंढने बाहर गए होंगे? (English Version)",
+              "text": "tone softened slightly. ‘Lue and Taiju are missing.’",
               "translations": {
-                "hi": "हो गए हैं। लूहा ने कुछ पल सोचा। क्या वह\n\nदोनों सामान ढूंढने बाहर गए होंगे?"
+                "hi": "हो गए हैं। लूहा ने कुछ पल सोचा। क्या वह\n\nदोनों सामान ढूंढने बाहर गए होंगे"
               }
             },
             {
               "id": "apoc-s2e1p3",
-              "text": "Part 3 of Episode 1: नामुमकिन। गुचंगू ने तुरंत कहा, मेरे\n\nऑर्डर के बिना वह कहीं नहीं जाते। मैंने (English Version)",
+              "text": "Lu Ha thought for a moment. ‘Could they have gone out to look for supplies?’",
               "translations": {
-                "hi": "नामुमकिन। गुचंगू ने तुरंत कहा, मेरे\n\nऑर्डर के बिना वह कहीं नहीं जाते। मैंने"
+                "hi": "नामुमकिन। गुचंगू ने तुरंत कहा मेरे\n\nऑर्डर के बिना वह कहीं नहीं जाते। मैंने"
               }
             },
             {
               "id": "apoc-s2e1p4",
-              "text": "Part 4 of Episode 1: मौका देखकर बात बीच में डाली। तुम्हें\n\nइतना यकीन है कि वह तुम्हारी इतनी सुनते (English Version)",
+              "text": "‘Impossible,’ Gu Chang-u said immediately. ‘They never go anywhere without my",
               "translations": {
                 "hi": "मौका देखकर बात बीच में डाली। तुम्हें\n\nइतना यकीन है कि वह तुम्हारी इतनी सुनते"
               }
             },
             {
               "id": "apoc-s2e1p5",
-              "text": "Part 5 of Episode 1: हैं। कौन जाने, शायद वह तुमसे तंग आ चुके\n\nहो। हो सकता है तुम सो रहे थे और वह (English Version)",
+              "text": "orders.’ I took the opportunity to intervene. ‘Are you so",
               "translations": {
-                "hi": "हैं। कौन जाने, शायद वह तुमसे तंग आ चुके\n\nहो। हो सकता है तुम सो रहे थे और वह"
+                "hi": "हैं। कौन जाने शायद वह तुमसे तंग आ चुके\n\nहो। हो सकता है तुम सो रहे थे और वह"
               }
             },
             {
               "id": "apoc-s2e1p6",
-              "text": "Part 6 of Episode 1: चुपचाप भाग गए। यह सुनकर गुचंगू का चेहरा\n\nगुस्से से लाल हो गया। वो वहीं मुझे मार (English Version)",
+              "text": "sure they listen to you that much? Who knows, maybe they were tired of you.",
               "translations": {
                 "hi": "चुपचाप भाग गए। यह सुनकर गुचंगू का चेहरा\n\nगुस्से से लाल हो गया। वो वहीं मुझे मार"
               }
             },
             {
               "id": "apoc-s2e1p7",
-              "text": "Part 7 of Episode 1: देना चाहता था। लेकिन अफसोस वो मुझे हरा\n\nनहीं सकता था। तभी माहौल शांत करने के लिए (English Version)",
+              "text": "Perhaps they ran away quietly while you were sleeping.’ Hearing this, Gu Chang-u’s face",
               "translations": {
                 "hi": "देना चाहता था। लेकिन अफसोस वो मुझे हरा\n\nनहीं सकता था। तभी माहौल शांत करने के लिए"
               }
             },
             {
               "id": "apoc-s2e1p8",
-              "text": "Part 8 of Episode 1: लू बीच में आई। हो सकता है वह दोनों सच\n\nमें किसी काम से बाहर गए हो। थोड़ी देर (English Version)",
+              "text": "turned red with rage. He wanted to kill me right there. But unfortunately, he",
               "translations": {
                 "hi": "लू बीच में आई। हो सकता है वह दोनों सच\n\nमें किसी काम से बाहर गए हो। थोड़ी देर"
               }
             },
             {
               "id": "apoc-s2e1p9",
-              "text": "Part 9 of Episode 1: में वापस आ जाएंगे। थोड़ा इंतजार करो। इस\n\nबार गुचंगू ने उसकी बात मान ली। अगर वह (English Version)",
+              "text": "couldn’t defeat me. Just then, to calm the atmosphere,",
               "translations": {
                 "hi": "में वापस आ जाएंगे। थोड़ा इंतजार करो। इस\n\nबार गुचंगू ने उसकी बात मान ली। अगर वह"
               }
             },
             {
               "id": "apoc-s2e1p10",
-              "text": "Part 10 of Episode 1: रात होने से पहले वापस नहीं आए तो मैं\n\nतुमसे हिसाब लेने जरूर आऊंगा। यह धमकी (English Version)",
+              "text": "Lu Ha stepped in. ‘Maybe they really did go out for some work. They’ll be back in",
               "translations": {
                 "hi": "रात होने से पहले वापस नहीं आए तो मैं\n\nतुमसे हिसाब लेने जरूर आऊंगा। यह धमकी"
               }
@@ -907,70 +907,70 @@
           "parts": [
             {
               "id": "apoc-s2e2p1",
-              "text": "Part 1 of Episode 2: देकर वह ठंडे चेहरे के साथ वहां से चला\n\nगया। जैसे ही वह वेयर हाउस के पास से (English Version)",
+              "text": "a while. Just wait a bit.’ This time, Gu Chang-u listened to her. ‘If they",
               "translations": {
                 "hi": "देकर वह ठंडे चेहरे के साथ वहां से चला\n\nगया। जैसे ही वह वेयर हाउस के पास से"
               }
             },
             {
               "id": "apoc-s2e2p2",
-              "text": "Part 2 of Episode 2: गुजरा चश्मा पहने एक आदमी जो वहां पहरा दे\n\nरहा था बोला यंग मास्टर गु वेयर हाउस का (English Version)",
+              "text": "aren’t back before nightfall, I’ll definitely settle the score with you.’ With that threat,",
               "translations": {
                 "hi": "गुजरा चश्मा पहने एक आदमी जो वहां पहरा दे\n\nरहा था बोला यंग मास्टर गु वेयर हाउस का"
               }
             },
             {
               "id": "apoc-s2e2p3",
-              "text": "Part 3 of Episode 2: खाना कम हो रहा है तो लोगों को भेजो और\n\nलाओ। जी मैं अभी इंतजाम करता हूं। वो आदमी (English Version)",
+              "text": "he walked away with a cold expression. As he passed near the warehouse,",
               "translations": {
                 "hi": "खाना कम हो रहा है तो लोगों को भेजो और\n\nलाओ। जी मैं अभी इंतजाम करता हूं। वो आदमी"
               }
             },
             {
               "id": "apoc-s2e2p4",
-              "text": "Part 4 of Episode 2: जाने ही वाला था कि गुचंगू ने उसे रोक\n\nलिया। रुको मैं तुम्हें एक नई लिस्ट देता (English Version)",
+              "text": "a man wearing glasses who was guarding there said, ‘Young Master Gu, the food in the",
               "translations": {
                 "hi": "जाने ही वाला था कि गुचंगू ने उसे रोक\n\nलिया। रुको मैं तुम्हें एक नई लिस्ट देता"
               }
             },
             {
               "id": "apoc-s2e2p5",
-              "text": "Part 5 of Episode 2: हूं। सब कुछ इसी लिस्ट के हिसाब से करना।\n\nउस लिस्ट में उन सभी लोगों के नाम थे जो (English Version)",
+              "text": "warehouse is running low. Send people to get more.’ ‘I’ll arrange it now.’ The man",
               "translations": {
                 "hi": "हूं। सब कुछ इसी लिस्ट के हिसाब से करना।\n\nउस लिस्ट में उन सभी लोगों के नाम थे जो"
               }
             },
             {
               "id": "apoc-s2e2p6",
-              "text": "Part 6 of Episode 2: उसकी बात नहीं मानते थे। ऐसे लोग उसके लिए\n\nसिर्फ बोझ थे। उन्हें बाहर सामान ढूंढने (English Version)",
+              "text": "was about to leave when Gu Chang-u stopped him. ‘Wait, I’ll give you a new list.",
               "translations": {
                 "hi": "उसकी बात नहीं मानते थे। ऐसे लोग उसके लिए\n\nसिर्फ बोझ थे। उन्हें बाहर सामान ढूंढने"
               }
             },
             {
               "id": "apoc-s2e2p7",
-              "text": "Part 7 of Episode 2: भेजना ही बेहतर था। अगर वह बाहर मर भी गए\n\nतो खाने की बचत होगी। एक ही चाल में दो (English Version)",
+              "text": "Do everything according to this list.’ That list contained the names of all the people who",
               "translations": {
                 "hi": "भेजना ही बेहतर था। अगर वह बाहर मर भी गए\n\nतो खाने की बचत होगी। एक ही चाल में दो"
               }
             },
             {
               "id": "apoc-s2e2p8",
-              "text": "Part 8 of Episode 2: काम। यह सोचकर गुचंगू के होठों पर हल्की\n\nसी मुस्कान आ गई। इस तरह थोड़े ही समय में (English Version)",
+              "text": "didn’t follow his orders. Such people were just a burden to him. Sending them out",
               "translations": {
                 "hi": "काम। यह सोचकर गुचंगू के होठों पर हल्की\n\nसी मुस्कान आ गई। इस तरह थोड़े ही समय में"
               }
             },
             {
               "id": "apoc-s2e2p9",
-              "text": "Part 9 of Episode 2: यहां सिर्फ वही लोग बचेंगे जो उसकी हर बात\n\nआंख बंद करके मानते हैं। और फिर वह आराम (English Version)",
+              "text": "to find supplies was better. If they died out there, it would save food. Two birds with one",
               "translations": {
                 "hi": "यहां सिर्फ वही लोग बचेंगे जो उसकी हर बात\n\nआंख बंद करके मानते हैं। और फिर वह आराम"
               }
             },
             {
               "id": "apoc-s2e2p10",
-              "text": "Part 10 of Episode 2: से उस इंसान से बदला ले सकेगा जिसने उसे\n\nबेइज्जत किया था। तभी दूर से एक मीठी (English Version)",
+              "text": "stone. Thinking this, a faint smile appeared on Gu Chang-u’s lips. In this way, in a short time,",
               "translations": {
                 "hi": "से उस इंसान से बदला ले सकेगा जिसने उसे\n\nबेइज्जत किया था। तभी दूर से एक मीठी"
               }
@@ -986,70 +986,70 @@
           "parts": [
             {
               "id": "apoc-s2e3p1",
-              "text": "Part 1 of Episode 3: लेकिन बनावटी सी आवाज आई। यंग मास्टर ग आप\n\nयहां हैं। मैं आपको ढूंढ रही थी। गो छंगू (English Version)",
+              "text": "only those who blindly follow his every word will remain here. And then he will easily",
               "translations": {
                 "hi": "लेकिन बनावटी सी आवाज आई। यंग मास्टर ग आप\n\nयहां हैं। मैं आपको ढूंढ रही थी। गो छंगू"
               }
             },
             {
               "id": "apoc-s2e3p2",
-              "text": "Part 2 of Episode 3: ने ऊपर देखा। उसके सामने जेंग वेववेई खड़ी\n\nथी। चमकदमक वाले कपड़े पहने हुए। उसकी तरफ (English Version)",
+              "text": "be able to take revenge on the person who humiliated him. Just then, a sweet",
               "translations": {
                 "hi": "ने ऊपर देखा। उसके सामने जेंग वेववेई खड़ी\n\nथी। चमकदमक वाले कपड़े पहने हुए। उसकी तरफ"
               }
             },
             {
               "id": "apoc-s2e3p3",
-              "text": "Part 3 of Episode 3: चलते हुए तुम यहां क्यों आई हो? लू कहां\n\nहै? वो तुम्हारे साथ नहीं है। जंग वेववेई (English Version)",
+              "text": "but artificial voice came. ‘Young Master Gu, you’re here! I was looking for you.’ Gu Chang-u",
               "translations": {
-                "hi": "चलते हुए तुम यहां क्यों आई हो? लू कहां\n\nहै? वो तुम्हारे साथ नहीं है। जंग वेववेई"
+                "hi": "चलते हुए तुम यहां क्यों आई हो लू कहां\n\nहै वो तुम्हारे साथ नहीं है। जंग वेववेई"
               }
             },
             {
               "id": "apoc-s2e3p4",
-              "text": "Part 4 of Episode 3: ने जवाब दिया। एक क्लासमेट को बुखार है।\n\nवो उसकी देखभाल में लगी हुई है। यह सुनते (English Version)",
+              "text": "looked up. Zeng Wei-wei was standing before him, dressed in flashy clothes. Walking towards",
               "translations": {
                 "hi": "ने जवाब दिया। एक क्लासमेट को बुखार है।\n\nवो उसकी देखभाल में लगी हुई है। यह सुनते"
               }
             },
             {
               "id": "apoc-s2e3p5",
-              "text": "Part 5 of Episode 3: ही गोछू के चेहरे पर एक गंदी सी मुस्कान आ\n\nगई। अगर अभी लू यहां नहीं है तो क्या यह (English Version)",
+              "text": "him, she asked, ‘Why are you here? Where is Lu? Isn’t she with you?’ Zeng Wei-wei",
               "translations": {
                 "hi": "ही गोछू के चेहरे पर एक गंदी सी मुस्कान आ\n\nगई। अगर अभी लू यहां नहीं है तो क्या यह"
               }
             },
             {
               "id": "apoc-s2e3p6",
-              "text": "Part 6 of Episode 3: मौका सही नहीं है? थोड़ा मजा लेने का। यह\n\nसोचते ही गोछू की नजर जैंग वैवई पर बदल (English Version)",
+              "text": "replied, ‘A classmate has a fever, and she’s busy taking care of them.’ Hearing",
               "translations": {
-                "hi": "मौका सही नहीं है? थोड़ा मजा लेने का। यह\n\nसोचते ही गोछू की नजर जैंग वैवई पर बदल"
+                "hi": "मौका सही नहीं है थोड़ा मजा लेने का। यह\n\nसोचते ही गोछू की नजर जैंग वैवई पर बदल"
               }
             },
             {
               "id": "apoc-s2e3p7",
-              "text": "Part 7 of Episode 3: गई। अब वह काफी गंदी और लालची लग रही थी।\n\nतुम मुझे ढूंढ रही थी। कोई काम था? जंग (English Version)",
+              "text": "this, a dirty smile appeared on Gu Chang-u’s face. ‘If Lu isn’t here right now, isn’t this",
               "translations": {
-                "hi": "गई। अब वह काफी गंदी और लालची लग रही थी।\n\nतुम मुझे ढूंढ रही थी। कोई काम था? जंग"
+                "hi": "गई। अब वह काफी गंदी और लालची लग रही थी।\n\nतुम मुझे ढूंढ रही थी। कोई काम था जंग"
               }
             },
             {
               "id": "apoc-s2e3p8",
-              "text": "Part 8 of Episode 3: वेवई ने हल्का सा होठ काटा। क्या मैं बिना\n\nकाम के तुम्हें नहीं ढूंढ सकती? तो मैं भी (English Version)",
+              "text": "the perfect opportunity to have some fun?’ Thinking this, his gaze towards Zeng Wei-wei changed.",
               "translations": {
-                "hi": "वेवई ने हल्का सा होठ काटा। क्या मैं बिना\n\nकाम के तुम्हें नहीं ढूंढ सकती? तो मैं भी"
+                "hi": "वेवई ने हल्का सा होठ काटा। क्या मैं बिना\n\nकाम के तुम्हें नहीं ढूंढ सकती तो मैं भी"
               }
             },
             {
               "id": "apoc-s2e3p9",
-              "text": "Part 9 of Episode 3: तुम्हारे बारे में ही सोच रहा था। यह\n\nसुनकर जंग वेवई थोड़ी शर्मा गई। आप भी ना (English Version)",
+              "text": "She now looked quite dirty and greedy. ‘You were looking for me? Was there something you needed?’",
               "translations": {
                 "hi": "तुम्हारे बारे में ही सोच रहा था। यह\n\nसुनकर जंग वेवई थोड़ी शर्मा गई। आप भी ना"
               }
             },
             {
               "id": "apoc-s2e3p10",
-              "text": "Part 10 of Episode 3: ऐसी बातें करते हैं कि मुझे शर्म आ जाती\n\nहै। उसे ऐसे देखकर गोछंगू के अंदर एक अजीब (English Version)",
+              "text": "Zeng Wei-wei bit her lip slightly. ‘Can’t I look for you without a reason? Well, I was also",
               "translations": {
                 "hi": "ऐसी बातें करते हैं कि मुझे शर्म आ जाती\n\nहै। उसे ऐसे देखकर गोछंगू के अंदर एक अजीब"
               }
@@ -1065,70 +1065,70 @@
           "parts": [
             {
               "id": "apoc-s2e4p1",
-              "text": "Part 1 of Episode 4: सी गर्मी उठने लगी। अचानक उसके अंदर चाहत\n\nजाग उठी। वो तुरंत आगे बढ़ा और जंग वेवई (English Version)",
+              "text": "thinking about you.’ Hearing this, Zeng Wei-wei blushed slightly. ‘Oh, you always",
               "translations": {
                 "hi": "सी गर्मी उठने लगी। अचानक उसके अंदर चाहत\n\nजाग उठी। वो तुरंत आगे बढ़ा और जंग वेवई"
               }
             },
             {
               "id": "apoc-s2e4p2",
-              "text": "Part 2 of Episode 4: की कमर पकड़ने की कोशिश की। लेकिन उसने\n\nफुर्ती से खुद को छुड़ा लिया। यंग मास्टर (English Version)",
+              "text": "say such things that make me blush.’ Seeing her like that, a strange",
               "translations": {
                 "hi": "की कमर पकड़ने की कोशिश की। लेकिन उसने\n\nफुर्ती से खुद को छुड़ा लिया। यंग मास्टर"
               }
             },
             {
               "id": "apoc-s2e4p3",
-              "text": "Part 3 of Episode 4: गर् आपको डर नहीं लगता कि कोई हमें देख\n\nलेगा? मुझे बहुत शर्म आएगी। यह सुनकर (English Version)",
+              "text": "heat began to rise within Gu Chang-u. Suddenly, desire woke up inside him. He immediately moved forward and tried to grab Zeng Wei-wei’s",
               "translations": {
-                "hi": "गर् आपको डर नहीं लगता कि कोई हमें देख\n\nलेगा? मुझे बहुत शर्म आएगी। यह सुनकर"
+                "hi": "गर् आपको डर नहीं लगता कि कोई हमें देख\n\nलेगा मुझे बहुत शर्म आएगी। यह सुनकर"
               }
             },
             {
               "id": "apoc-s2e4p4",
-              "text": "Part 4 of Episode 4: गोछंगू जोर से हंसा। ऐसा करते हैं। मुझे\n\nवैसे भी वेयर हाउस जाकर सामान देखना है। (English Version)",
+              "text": "waist. But she quickly pulled away. ‘Young Master Gu, aren’t you afraid someone will see",
               "translations": {
                 "hi": "गोछंगू जोर से हंसा। ऐसा करते हैं। मुझे\n\nवैसे भी वेयर हाउस जाकर सामान देखना है।"
               }
             },
             {
               "id": "apoc-s2e4p5",
-              "text": "Part 5 of Episode 4: तुम मेरे साथ चलो। जंगवई ने तुरंत सिर\n\nहिला दिया। ठीक है। दोनों एक के पीछे एक (English Version)",
+              "text": "us? I’d be so embarrassed.’ Hearing this,",
               "translations": {
                 "hi": "तुम मेरे साथ चलो। जंगवई ने तुरंत सिर\n\nहिला दिया। ठीक है। दोनों एक के पीछे एक"
               }
             },
             {
               "id": "apoc-s2e4p6",
-              "text": "Part 6 of Episode 4: वेयर हाउस में गए। पीछे से गोछंगू ने\n\nदरवाजा बंद कर लिया। वह बेचैन होकर फिर से (English Version)",
+              "text": "Gu Chang-u laughed loudly. ‘Let’s do this. I need to go to the warehouse anyway to check the supplies.",
               "translations": {
                 "hi": "वेयर हाउस में गए। पीछे से गोछंगू ने\n\nदरवाजा बंद कर लिया। वह बेचैन होकर फिर से"
               }
             },
             {
               "id": "apoc-s2e4p7",
-              "text": "Part 7 of Episode 4: उसे किस करने की कोशिश करने लगा। लेकिन\n\nजैंग वेवई फिर से बच गई। अब गोछंगू थोड़ा (English Version)",
+              "text": "Come with me.’ Zeng Wei-wei immediately nodded. ‘Okay.’ One after the other,",
               "translations": {
                 "hi": "उसे किस करने की कोशिश करने लगा। लेकिन\n\nजैंग वेवई फिर से बच गई। अब गोछंगू थोड़ा"
               }
             },
             {
               "id": "apoc-s2e4p8",
-              "text": "Part 8 of Episode 4: परेशान हो गया। अब क्या हुआ? जैंग वेववेई\n\nने पहले वेयर हाउस में पड़े सामान को (English Version)",
+              "text": "they went into the warehouse. Gu Chang-u closed the door behind them. Restlessly, he tried to",
               "translations": {
-                "hi": "परेशान हो गया। अब क्या हुआ? जैंग वेववेई\n\nने पहले वेयर हाउस में पड़े सामान को"
+                "hi": "परेशान हो गया। अब क्या हुआ जैंग वेववेई\n\nने पहले वेयर हाउस में पड़े सामान को"
               }
             },
             {
               "id": "apoc-s2e4p9",
-              "text": "Part 9 of Episode 4: देखा। फिर धीरे से बोली, यंग मास्टर ग\n\nलगता है खाना ज्यादा नहीं बचा है। है ना? (English Version)",
+              "text": "kiss her again. But Zeng Wei-wei escaped again. Now Gu Chang-u was a bit",
               "translations": {
-                "hi": "देखा। फिर धीरे से बोली, यंग मास्टर ग\n\nलगता है खाना ज्यादा नहीं बचा है। है ना?"
+                "hi": "देखा। फिर धीरे से बोली यंग मास्टर ग\n\nलगता है खाना ज्यादा नहीं बचा है। है ना"
               }
             },
             {
               "id": "apoc-s2e4p10",
-              "text": "Part 10 of Episode 4: गोचंगू ने बेफिक्री से कहा। मेरे पिता के\n\nलोग आने तक तो काफी है। इतना कहते हुए वह (English Version)",
+              "text": "annoyed. ‘Now what?’ Zeng Wei-wei first looked at the supplies in the",
               "translations": {
                 "hi": "गोचंगू ने बेफिक्री से कहा। मेरे पिता के\n\nलोग आने तक तो काफी है। इतना कहते हुए वह"
               }
@@ -1144,70 +1144,70 @@
           "parts": [
             {
               "id": "apoc-s2e5p1",
-              "text": "Part 1 of Episode 5: अपने कपड़े उतारने लगा। फालतू बातें मत\n\nकरो। जल्दी करो। अगर किसी ने देख लिया तो (English Version)",
+              "text": "warehouse. Then she whispered, ‘Young Master Gu, it seems there isn’t much food left, is there?’",
               "translations": {
                 "hi": "अपने कपड़े उतारने लगा। फालतू बातें मत\n\nकरो। जल्दी करो। अगर किसी ने देख लिया तो"
               }
             },
             {
               "id": "apoc-s2e5p2",
-              "text": "Part 2 of Episode 5: अच्छा नहीं होगा। जंग वही हल्का सा हंसी।\n\nएक तरह से मजाक उड़ाते हुए। यंग मास्टर ग (English Version)",
+              "text": "Gu Chang-u said carelessly, ‘It’s enough until my father’s people arrive.’ Saying this,",
               "translations": {
                 "hi": "अच्छा नहीं होगा। जंग वही हल्का सा हंसी।\n\nएक तरह से मजाक उड़ाते हुए। यंग मास्टर ग"
               }
             },
             {
               "id": "apoc-s2e5p3",
-              "text": "Part 3 of Episode 5: क्या आपको सच में लगता है कि आपके पिता के\n\nपास आपको बचाने का टाइम है? यह सुनकर (English Version)",
+              "text": "he started taking off his clothes. ‘Don’t talk nonsense. Hurry up. If someone sees us, it",
               "translations": {
-                "hi": "क्या आपको सच में लगता है कि आपके पिता के\n\nपास आपको बचाने का टाइम है? यह सुनकर"
+                "hi": "क्या आपको सच में लगता है कि आपके पिता के\n\nपास आपको बचाने का टाइम है यह सुनकर"
               }
             },
             {
               "id": "apoc-s2e5p4",
-              "text": "Part 4 of Episode 5: गोछंगू एकदम रुक गया। क्या मतलब? जेंग\n\nवेवई ने बात बदल दी और हल्के से हंसते हुए (English Version)",
+              "text": "won’t be good.’ Zeng Wei-wei laughed slightly, in a mockingly way. ‘Young Master Gu,",
               "translations": {
-                "hi": "गोछंगू एकदम रुक गया। क्या मतलब? जेंग\n\nवेवई ने बात बदल दी और हल्के से हंसते हुए"
+                "hi": "गोछंगू एकदम रुक गया। क्या मतलब जेंग\n\nवेवई ने बात बदल दी और हल्के से हंसते हुए"
               }
             },
             {
               "id": "apoc-s2e5p5",
-              "text": "Part 5 of Episode 5: बोली, \"मैं तो बस अंदाजा लगा रही थी। इतना\n\nसीरियस मत होइए।\" अच्छा हां, अभी याद आया। (English Version)",
+              "text": "do you really think your father has time to save you?’ Hearing this,",
               "translations": {
-                "hi": "बोली, \"मैं तो बस अंदाजा लगा रही थी। इतना\n\nसीरियस मत होइए।\" अच्छा हां, अभी याद आया।"
+                "hi": "बोली मैं तो बस अंदाजा लगा रही थी। इतना\n\nसीरियस मत होइए। अच्छा हां अभी याद आया।"
               }
             },
             {
               "id": "apoc-s2e5p6",
-              "text": "Part 6 of Episode 5: लू ने मुझे बुलाया था। मैं चलती हूं यंग\n\nमास्टर गर्। इतना कहकर जेंगई वहां से चली (English Version)",
+              "text": "Gu Chang-u stopped dead. ‘What do you mean?’ Zeng Wei-wei changed the subject and said with a light laugh,",
               "translations": {
                 "hi": "लू ने मुझे बुलाया था। मैं चलती हूं यंग\n\nमास्टर गर्। इतना कहकर जेंगई वहां से चली"
               }
             },
             {
               "id": "apoc-s2e5p7",
-              "text": "Part 7 of Episode 5: गई और गोछू वहीं खड़ा रह गया। पूरी तरह\n\nबेइज्जत। इस वक्त वह किसी जोकर से कम नहीं (English Version)",
+              "text": "‘I was just guessing. Don’t be so serious. Oh, I just remembered,",
               "translations": {
                 "hi": "गई और गोछू वहीं खड़ा रह गया। पूरी तरह\n\nबेइज्जत। इस वक्त वह किसी जोकर से कम नहीं"
               }
             },
             {
               "id": "apoc-s2e5p8",
-              "text": "Part 8 of Episode 5: लग रहा था। दूसरी तरफ जब मैं ज़ॉम्बी साफ\n\nकर रहा था, तभी अचानक दूर से मदद की आवाज (English Version)",
+              "text": "Lu called me. I’ll be going, Young Master Gu.’ Saying this, Zeng Wei-wei left",
               "translations": {
-                "hi": "लग रहा था। दूसरी तरफ जब मैं ज़ॉम्बी साफ\n\nकर रहा था, तभी अचानक दूर से मदद की आवाज"
+                "hi": "लग रहा था। दूसरी तरफ जब मैं ज़ॉम्बी साफ\n\nकर रहा था तभी अचानक दूर से मदद की आवाज"
               }
             },
             {
               "id": "apoc-s2e5p9",
-              "text": "Part 9 of Episode 5: आई। मैंने अपना बेसबॉल बैट कसकर पकड़ा और\n\nउस दिशा में देखा। एक बड़ी बिल्डिंग की (English Version)",
+              "text": "and Gu Chang-u was left standing there, completely humiliated. At that moment, he looked like nothing more than a clown.",
               "translations": {
                 "hi": "आई। मैंने अपना बेसबॉल बैट कसकर पकड़ा और\n\nउस दिशा में देखा। एक बड़ी बिल्डिंग की"
               }
             },
             {
               "id": "apoc-s2e5p10",
-              "text": "Part 10 of Episode 5: खिड़की से एक औरत मेरी तरफ देखकर चिल्ला\n\nरही थी। यह देखकर मैंने धीरे से गाली दी। (English Version)",
+              "text": "On the other hand, while I was clearing out zombies, I suddenly heard a cry for help from afar.",
               "translations": {
                 "hi": "खिड़की से एक औरत मेरी तरफ देखकर चिल्ला\n\nरही थी। यह देखकर मैंने धीरे से गाली दी।"
               }
@@ -1223,72 +1223,72 @@
           "parts": [
             {
               "id": "apoc-s2e6p1",
-              "text": "Part 1 of Episode 6: क्या यह औरत मरना चाहती है? इस एपोकलिप्स\n\nमें जोर-जोर से मदद के लिए चिल्लाना बहुत (English Version)",
+              "text": "‘Does this woman want to die?’ Screaming for help at the top of your lungs in this apocalypse is very",
               "translations": {
-                "hi": "क्या यह औरत मरना चाहती है? इस एपोकलिप्स\n\nमें जोर-जोर से मदद के लिए चिल्लाना बहुत"
+                "hi": "क्या यह औरत मरना चाहती है इस एपोकलिप्स\n\nमें जोर जोर से मदद के लिए चिल्लाना बहुत"
               }
             },
             {
               "id": "apoc-s2e6p2",
-              "text": "Part 2 of Episode 6: खतरनाक होता है। मुझे पता था वह मेरा\n\nध्यान खींचना चाहती है। लेकिन मेरा उसे (English Version)",
+              "text": "dangerous. I knew she wanted to get my attention, but I had no intention of",
               "translations": {
                 "hi": "खतरनाक होता है। मुझे पता था वह मेरा\n\nध्यान खींचना चाहती है। लेकिन मेरा उसे"
               }
             },
             {
               "id": "apoc-s2e6p3",
-              "text": "Part 3 of Episode 6: बचाने का कोई इरादा नहीं था। फिर भी उसकी\n\nआवाज ने अनजाने में मेरी मदद कर दी। खाली (English Version)",
+              "text": "saving her. Still, her voice inadvertently helped me. The zombies in the open",
               "translations": {
                 "hi": "बचाने का कोई इरादा नहीं था। फिर भी उसकी\n\nआवाज ने अनजाने में मेरी मदद कर दी। खाली"
               }
             },
             {
               "id": "apoc-s2e6p4",
-              "text": "Part 4 of Episode 6: मैदान में जो ज़ॉम्बी थे, आवाज सुनकर\n\nधीरे-धीरे उसी दिशा में बढ़ने लगे। मैंने (English Version)",
+              "text": "field started moving slowly in her direction upon hearing the sound. I",
               "translations": {
-                "hi": "मैदान में जो ज़ॉम्बी थे, आवाज सुनकर\n\nधीरे-धीरे उसी दिशा में बढ़ने लगे। मैंने"
+                "hi": "मैदान में जो ज़ॉम्बी थे आवाज सुनकर\n\nधीरे धीरे उसी दिशा में बढ़ने लगे। मैंने"
               }
             },
             {
               "id": "apoc-s2e6p5",
-              "text": "Part 5 of Episode 6: शन शिंगू से कहा, चलो, लगता है आज जल्दी\n\nकाम खत्म हो जाएगा। लेकिन यह देखकर (English Version)",
+              "text": "said to Shiqing, ‘Come on, looks like we’ll finish the job early today.’ But seeing this,",
               "translations": {
-                "hi": "शन शिंगू से कहा, चलो, लगता है आज जल्दी\n\nकाम खत्म हो जाएगा। लेकिन यह देखकर"
+                "hi": "शन शिंगू से कहा चलो लगता है आज जल्दी\n\nकाम खत्म हो जाएगा। लेकिन यह देखकर"
               }
             },
             {
               "id": "apoc-s2e6p6",
-              "text": "Part 6 of Episode 6: बिल्डिंग में खड़ी वो औरत बेचैन हो गई।\n\nतुम कहां जा रहे हो? क्या तुम्हें मेरी (English Version)",
+              "text": "the woman in the building became restless. ‘Where are you going? Can’t you hear my",
               "translations": {
-                "hi": "बिल्डिंग में खड़ी वो औरत बेचैन हो गई।\n\nतुम कहां जा रहे हो? क्या तुम्हें मेरी"
+                "hi": "बिल्डिंग में खड़ी वो औरत बेचैन हो गई।\n\nतुम कहां जा रहे हो क्या तुम्हें मेरी"
               }
             },
             {
               "id": "apoc-s2e6p7",
-              "text": "Part 7 of Episode 6: मदद की आवाज सुनाई नहीं दे रही? जैसे-जैसे\n\nज़ॉम्बी उसकी तरफ बढ़ने लगे, वह चुप हो गई (English Version)",
+              "text": "cries for help?’ As the zombies started moving towards her, she went silent",
               "translations": {
-                "hi": "मदद की आवाज सुनाई नहीं दे रही? जैसे-जैसे\n\nज़ॉम्बी उसकी तरफ बढ़ने लगे, वह चुप हो गई"
+                "hi": "मदद की आवाज सुनाई नहीं दे रही जैसे जैसे\n\nज़ॉम्बी उसकी तरफ बढ़ने लगे वह चुप हो गई"
               }
             },
             {
               "id": "apoc-s2e6p8",
-              "text": "Part 8 of Episode 6: और रोने लगी। क्लासरूम में वापस आकर मैंने\n\nरॉन यानवेन से पूछा। अभी थोड़ी देर पहले (English Version)",
+              "text": "and began to cry. Back in the classroom, I asked Ruan Yuanyuan, ‘Just a moment ago,",
               "translations": {
                 "hi": "और रोने लगी। क्लासरूम में वापस आकर मैंने\n\nरॉन यानवेन से पूछा। अभी थोड़ी देर पहले"
               }
             },
             {
               "id": "apoc-s2e6p9",
-              "text": "Part 9 of Episode 6: तुमने किसी औरत की आवाज सुनी। उसने सिर\n\nहिलाया। हां, सुनी थी। मुझे लगता है वो (English Version)",
+              "text": "did you hear a woman’s voice?’ She nodded. ‘Yes, I heard it. I think it was",
               "translations": {
-                "hi": "तुमने किसी औरत की आवाज सुनी। उसने सिर\n\nहिलाया। हां, सुनी थी। मुझे लगता है वो"
+                "hi": "तुमने किसी औरत की आवाज सुनी। उसने सिर\n\nहिलाया। हां सुनी थी। मुझे लगता है वो"
               }
             },
             {
               "id": "apoc-s2e6p10",
-              "text": "Part 10 of Episode 6: टीचर वैन थी। टीचर वैन तुम उसे जानती हो?\n\nवो हमारी स्कूल डॉक्टर है। मैंने थोड़ी (English Version)",
+              "text": "Teacher Wang.’ ‘Teacher Wang? Do you know her? She is our school doctor.’ I thought for a",
               "translations": {
-                "hi": "टीचर वैन थी। टीचर वैन तुम उसे जानती हो?\n\nवो हमारी स्कूल डॉक्टर है। मैंने थोड़ी"
+                "hi": "टीचर वैन थी। टीचर वैन तुम उसे जानती हो वो हमारी स्कूल डॉक्टर है। मैंने थोड़ी"
               }
             }
           ]
@@ -1302,72 +1302,72 @@
           "parts": [
             {
               "id": "apoc-s2e7p1",
-              "text": "Part 1 of Episode 7: देर सोचा। फिर पूछा क्या तुम चाहती हो कि\n\nमैं उसे बचाने जाऊं? मेरे सवाल पर रॉन (English Version)",
+              "text": "while, then asked, ‘Do you want me to go save her?’ At my question, Ruan",
               "translations": {
-                "hi": "देर सोचा। फिर पूछा क्या तुम चाहती हो कि\n\nमैं उसे बचाने जाऊं? मेरे सवाल पर रॉन"
+                "hi": "देर सोचा। फिर पूछा क्या तुम चाहती हो कि\n\nमैं उसे बचाने जाऊं मेरे सवाल पर रॉन"
               }
             },
             {
               "id": "apoc-s2e7p2",
-              "text": "Part 2 of Episode 7: यानवेन जो माउस पकड़ कर बैठी थी एक पल के\n\nलिए रुक गई। फिर बोली मुझे लगता है वह (English Version)",
+              "text": "Yuanyuan, who was holding the mouse, paused for a moment. Then she said, ‘I think she",
               "translations": {
                 "hi": "यानवेन जो माउस पकड़ कर बैठी थी एक पल के\n\nलिए रुक गई। फिर बोली मुझे लगता है वह"
               }
             },
             {
               "id": "apoc-s2e7p3",
-              "text": "Part 3 of Episode 7: तुम्हारे काम आ सकती है। और हां वो\n\nबिल्डिंग एडमिनिस्ट्रेशन बिल्डिंग है। समझ (English Version)",
+              "text": "could be useful to you. And yes, that building is the Administration building.’ I",
               "translations": {
                 "hi": "तुम्हारे काम आ सकती है। और हां वो\n\nबिल्डिंग एडमिनिस्ट्रेशन बिल्डिंग है। समझ"
               }
             },
             {
               "id": "apoc-s2e7p4",
-              "text": "Part 4 of Episode 7: गया। यह कहकर मैं शन शिंगवू को लेकर नहाने\n\nचला गया और फिर दो दिन बीत गए। जिंदा बचे (English Version)",
+              "text": "understood. Saying this, I took Shiqing for a bath, and two days passed. The surviving",
               "translations": {
                 "hi": "गया। यह कहकर मैं शन शिंगवू को लेकर नहाने\n\nचला गया और फिर दो दिन बीत गए। जिंदा बचे"
               }
             },
             {
               "id": "apoc-s2e7p5",
-              "text": "Part 5 of Episode 7: स्टूडेंट्स की संख्या कम होती जा रही थी।\n\nजब मैं यहां पहली बार आया था तो 50 से (English Version)",
+              "text": "students’ numbers were decreasing. When I first came here, more than 50",
               "translations": {
-                "hi": "स्टूडेंट्स की संख्या कम होती जा रही थी।\n\nजब मैं यहां पहली बार आया था तो 50 से"
+                "hi": "स्टूडेंट्स की संख्या कम होती जा रही थी।\n\nजब मैं यहां पहली बार आया था तो  से"
               }
             },
             {
               "id": "apoc-s2e7p6",
-              "text": "Part 6 of Episode 7: ज्यादा लोग जिंदा थे। अब शायद सिर्फ 30 के\n\nआसपास ही बचे हैं। इस वक्त सबके बीच डर (English Version)",
+              "text": "people were alive. Now maybe only around 30 are left. Fear was starting to spread",
               "translations": {
-                "hi": "ज्यादा लोग जिंदा थे। अब शायद सिर्फ 30 के\n\nआसपास ही बचे हैं। इस वक्त सबके बीच डर"
+                "hi": "ज्यादा लोग जिंदा थे। अब शायद सिर्फ  के\n\nआसपास ही बचे हैं। इस वक्त सबके बीच डर"
               }
             },
             {
               "id": "apoc-s2e7p7",
-              "text": "Part 7 of Episode 7: फैलने लगा था। उस दिन मैंने शन शिंगवू की\n\nतरफ इशारा करते हुए रॉन से कहा, थोड़ी देर (English Version)",
+              "text": "among everyone. That day, pointing towards Shiqing, I told Ruan, ‘Take care of her",
               "translations": {
-                "hi": "फैलने लगा था। उस दिन मैंने शन शिंगवू की\n\nतरफ इशारा करते हुए रॉन से कहा, थोड़ी देर"
+                "hi": "फैलने लगा था। उस दिन मैंने शन शिंगवू की\n\nतरफ इशारा करते हुए रॉन से कहा थोड़ी देर"
               }
             },
             {
               "id": "apoc-s2e7p8",
-              "text": "Part 8 of Episode 7: इसका ध्यान रखना। मुझे एडमिनिस्ट्रेशन\n\nबिल्डिंग जाना है। इसे साथ ले जाना ठीक (English Version)",
+              "text": "for a bit. I have to go to the Administration building. It won’t be right to take her along.’",
               "translations": {
                 "hi": "इसका ध्यान रखना। मुझे एडमिनिस्ट्रेशन\n\nबिल्डिंग जाना है। इसे साथ ले जाना ठीक"
               }
             },
             {
               "id": "apoc-s2e7p9",
-              "text": "Part 9 of Episode 7: नहीं रहेगा। मैंने जानबूझकर दो दिन इंतजार\n\nकिया था ताकि वह औरत वैनिंग पूरी तरह (English Version)",
+              "text": "I had intentionally waited for two days so that the woman, Wanning, would completely",
               "translations": {
                 "hi": "नहीं रहेगा। मैंने जानबूझकर दो दिन इंतजार\n\nकिया था ताकि वह औरत वैनिंग पूरी तरह"
               }
             },
             {
               "id": "apoc-s2e7p10",
-              "text": "Part 10 of Episode 7: उम्मीद छोड़ दे। ताकि जब मैं उसे बचाने\n\nजाऊं, तो वह मुझ पर पूरी तरह भरोसा करें। (English Version)",
+              "text": "lose hope. So that when I go to save her, she will trust me completely.",
               "translations": {
-                "hi": "उम्मीद छोड़ दे। ताकि जब मैं उसे बचाने\n\nजाऊं, तो वह मुझ पर पूरी तरह भरोसा करें।"
+                "hi": "उम्मीद छोड़ दे। ताकि जब मैं उसे बचाने\n\nजाऊं तो वह मुझ पर पूरी तरह भरोसा करें।"
               }
             }
           ]
@@ -1381,70 +1381,70 @@
           "parts": [
             {
               "id": "apoc-s2e8p1",
-              "text": "Part 1 of Episode 8: आधे घंटे बाद मैं अपने टारगेट पर पहुंच\n\nगया। लेकिन वहां 10 से ज्यादा ज़ॉम्बी घूम (English Version)",
+              "text": "Half an hour later, I reached my target. But more than 10 zombies were wandering",
               "translations": {
-                "hi": "आधे घंटे बाद मैं अपने टारगेट पर पहुंच\n\nगया। लेकिन वहां 10 से ज्यादा ज़ॉम्बी घूम"
+                "hi": "आधे घंटे बाद मैं अपने टारगेट पर पहुंच\n\nगया। लेकिन वहां  से ज्यादा ज़ॉम्बी घूम"
               }
             },
             {
               "id": "apoc-s2e8p2",
-              "text": "Part 2 of Episode 8: रहे थे। मैं उन्हें अचानक हमला करके खत्म\n\nकरना चाहता था। लेकिन सबको एक साथ मारना (English Version)",
+              "text": "there. I wanted to finish them with a surprise attack, but killing them all at once",
               "translations": {
                 "hi": "रहे थे। मैं उन्हें अचानक हमला करके खत्म\n\nकरना चाहता था। लेकिन सबको एक साथ मारना"
               }
             },
             {
               "id": "apoc-s2e8p3",
-              "text": "Part 3 of Episode 8: मुमकिन नहीं था। मुझे जल्दी काम खत्म करना\n\nथा। मैंने गहरी सांस ली और सीधे फायर (English Version)",
+              "text": "wasn’t possible. I had to finish the job quickly. I took a deep breath and ran straight",
               "translations": {
                 "hi": "मुमकिन नहीं था। मुझे जल्दी काम खत्म करना\n\nथा। मैंने गहरी सांस ली और सीधे फायर"
               }
             },
             {
               "id": "apoc-s2e8p4",
-              "text": "Part 4 of Episode 8: स्टेशन की तरफ दौड़ पड़ा। तभी उन ज़ॉम्बी\n\nने मुझे देख लिया। वह जोर-जोर से गुर्राने (English Version)",
+              "text": "towards the fire station. Then the zombies saw me. They started snarling loudly",
               "translations": {
-                "hi": "स्टेशन की तरफ दौड़ पड़ा। तभी उन ज़ॉम्बी\n\nने मुझे देख लिया। वह जोर-जोर से गुर्राने"
+                "hi": "स्टेशन की तरफ दौड़ पड़ा। तभी उन ज़ॉम्बी\n\nने मुझे देख लिया। वह जोर जोर से गुर्राने"
               }
             },
             {
               "id": "apoc-s2e8p5",
-              "text": "Part 5 of Episode 8: लगे और मुझे चारों तरफ से घेरने लगे। यह\n\nदेखकर मैं पूरी ताकत से आगे भागा। ज़ॉम्बी (English Version)",
+              "text": "and surrounding me. Seeing this, I ran forward with all my might. The zombies",
               "translations": {
                 "hi": "लगे और मुझे चारों तरफ से घेरने लगे। यह\n\nदेखकर मैं पूरी ताकत से आगे भागा। ज़ॉम्बी"
               }
             },
             {
               "id": "apoc-s2e8p6",
-              "text": "Part 6 of Episode 8: अभी पूरी तरह मुझे घेर नहीं पाए थे। मैंने\n\nमौका लिया और सीधे छोटे फायर स्टेशन के (English Version)",
+              "text": "hadn’t completely surrounded me yet. I took the chance and went straight into the small",
               "translations": {
                 "hi": "अभी पूरी तरह मुझे घेर नहीं पाए थे। मैंने\n\nमौका लिया और सीधे छोटे फायर स्टेशन के"
               }
             },
             {
               "id": "apoc-s2e8p7",
-              "text": "Part 7 of Episode 8: अंदर घुस गया। वहां मुझे मिले दो वॉकी\n\nटॉकी, एक फायर एक्स और एक एस्केप रोप। (English Version)",
+              "text": "fire station. There I found two walkie-talkies, a fire axe, and an escape rope.",
               "translations": {
-                "hi": "अंदर घुस गया। वहां मुझे मिले दो वॉकी\n\nटॉकी, एक फायर एक्स और एक एस्केप रोप।"
+                "hi": "अंदर घुस गया। वहां मुझे मिले दो वॉकी\n\nटॉकी एक फायर एक्स और एक एस्केप रोप।"
               }
             },
             {
               "id": "apoc-s2e8p8",
-              "text": "Part 8 of Episode 8: मैंने सब उठाया और तुरंत बाहर निकल गया।\n\nमैं सामान लेने में इतना ध्यान लगा रहा था (English Version)",
+              "text": "I picked everything up and immediately headed out. I was so focused on gathering the supplies",
               "translations": {
                 "hi": "मैंने सब उठाया और तुरंत बाहर निकल गया।\n\nमैं सामान लेने में इतना ध्यान लगा रहा था"
               }
             },
             {
               "id": "apoc-s2e8p9",
-              "text": "Part 9 of Episode 8: कि मुझे पता ही नहीं चला। एक ज़ॉम्बी सिर्फ\n\n3 मीटर दूर खड़ा था। मैंने जल्दी रिएक्ट (English Version)",
+              "text": "that I didn’t notice—a zombie was standing just 3 meters away. I reacted quickly",
               "translations": {
-                "hi": "कि मुझे पता ही नहीं चला। एक ज़ॉम्बी सिर्फ\n\n3 मीटर दूर खड़ा था। मैंने जल्दी रिएक्ट"
+                "hi": "कि मुझे पता ही नहीं चला। एक ज़ॉम्बी सिर्फ\n\n मीटर दूर खड़ा था। मैंने जल्दी रिएक्ट"
               }
             },
             {
               "id": "apoc-s2e8p10",
-              "text": "Part 10 of Episode 8: किया और तुरंत बाथरूम में घुस गया।\n\nएडमिनिस्ट्रेशन बिल्डिंग की तीसरी मंजिल (English Version)",
+              "text": "and immediately ducked into a bathroom. On the third floor of the Administration building,",
               "translations": {
                 "hi": "किया और तुरंत बाथरूम में घुस गया।\n\nएडमिनिस्ट्रेशन बिल्डिंग की तीसरी मंजिल"
               }
@@ -1460,70 +1460,70 @@
           "parts": [
             {
               "id": "apoc-s2e9p1",
-              "text": "Part 1 of Episode 9: पर विनिंग की हालत बहुत खराब थी। उसकी होश\n\nकी हालत भी धुंधली हो चुकी थी। उसी बीच (English Version)",
+              "text": "Wanning’s condition was very bad. Her consciousness was fading. In the midst of that,",
               "translations": {
                 "hi": "पर विनिंग की हालत बहुत खराब थी। उसकी होश\n\nकी हालत भी धुंधली हो चुकी थी। उसी बीच"
               }
             },
             {
               "id": "apoc-s2e9p2",
-              "text": "Part 2 of Episode 9: उसे एक जोर की आवाज सुनाई दी जैसे किसी ने\n\nदरवाजा तोड़ दिया हो। फिर एक आदमी की आवाज (English Version)",
+              "text": "she heard a loud sound as if someone had broken down the door. Then a man’s voice",
               "translations": {
                 "hi": "उसे एक जोर की आवाज सुनाई दी जैसे किसी ने\n\nदरवाजा तोड़ दिया हो। फिर एक आदमी की आवाज"
               }
             },
             {
               "id": "apoc-s2e9p3",
-              "text": "Part 3 of Episode 9: गूंजी। क्या वह पहले ही मर गई? अफसोस मैं\n\nलेट हो गया। यह सुनते ही वेनिंग ने अचानक (English Version)",
+              "text": "echoed. ‘Is she already dead? Sadly, I’m late.’ Hearing this, Wanning suddenly",
               "translations": {
-                "hi": "गूंजी। क्या वह पहले ही मर गई? अफसोस मैं\n\nलेट हो गया। यह सुनते ही वेनिंग ने अचानक"
+                "hi": "गूंजी। क्या वह पहले ही मर गई अफसोस मैं\n\nलेट हो गया। यह सुनते ही वेनिंग ने अचानक"
               }
             },
             {
               "id": "apoc-s2e9p4",
-              "text": "Part 4 of Episode 9: आंखें खोल दी और पूरी ताकत से चिल्लाई।\n\nमैं जिंदा हूं। प्लीज मुझे बचाओ। मैंने (English Version)",
+              "text": "opened her eyes and screamed with all her might, ‘I’m alive! Please save me!’ I",
               "translations": {
                 "hi": "आंखें खोल दी और पूरी ताकत से चिल्लाई।\n\nमैं जिंदा हूं। प्लीज मुझे बचाओ। मैंने"
               }
             },
             {
               "id": "apoc-s2e9p5",
-              "text": "Part 5 of Episode 9: उसकी तरफ एक बेसबॉल बैट फेंका। क्या तुम\n\nअभी भी चल सकती हो? अगर जीना है तो हथियार (English Version)",
+              "text": "threw a baseball bat towards her. ‘Can you still walk? If you want to live, grab the weapon",
               "translations": {
-                "hi": "उसकी तरफ एक बेसबॉल बैट फेंका। क्या तुम\n\nअभी भी चल सकती हो? अगर जीना है तो हथियार"
+                "hi": "उसकी तरफ एक बेसबॉल बैट फेंका। क्या तुम\n\nअभी भी चल सकती हो अगर जीना है तो हथियार"
               }
             },
             {
               "id": "apoc-s2e9p6",
-              "text": "Part 6 of Episode 9: कस कर पकड़ो। विनिंग ने दांत बीजेचे।\n\nदीवार का सहारा लेकर खड़ी हुई। मैं कर (English Version)",
+              "text": "tightly.’ Wanning gritted her teeth and stood up, leaning against the wall. ‘I can",
               "translations": {
                 "hi": "कस कर पकड़ो। विनिंग ने दांत बीजेचे।\n\nदीवार का सहारा लेकर खड़ी हुई। मैं कर"
               }
             },
             {
               "id": "apoc-s2e9p7",
-              "text": "Part 7 of Episode 9: सकती हूं। मैं उसे लेकर कमरे से बाहर\n\nनिकला। तभी एक ज़ॉम्बी लड़खड़ाता हुआ हमारी (English Version)",
+              "text": "do it.’ I took her out of the room. Just then, a zombie came staggering towards",
               "translations": {
                 "hi": "सकती हूं। मैं उसे लेकर कमरे से बाहर\n\nनिकला। तभी एक ज़ॉम्बी लड़खड़ाता हुआ हमारी"
               }
             },
             {
               "id": "apoc-s2e9p8",
-              "text": "Part 8 of Episode 9: तरफ आया। मैं थोड़ा आगे बढ़ा और एक ही वार\n\nमें एक्स उसके सिर में घुसा दी। ज़ॉम्बी (English Version)",
+              "text": "us. I moved forward slightly and, with a single blow, drove the axe into its head. The",
               "translations": {
                 "hi": "तरफ आया। मैं थोड़ा आगे बढ़ा और एक ही वार\n\nमें एक्स उसके सिर में घुसा दी। ज़ॉम्बी"
               }
             },
             {
               "id": "apoc-s2e9p9",
-              "text": "Part 9 of Episode 9: वहीं का वहीं रुक गया। यह देखकर मैं खुद\n\nसोचे बिना नहीं रह पाया। यह एक्स इस्तेमाल (English Version)",
+              "text": "zombie stopped dead in its tracks. Seeing this, I couldn’t help but think to myself,",
               "translations": {
                 "hi": "वहीं का वहीं रुक गया। यह देखकर मैं खुद\n\nसोचे बिना नहीं रह पाया। यह एक्स इस्तेमाल"
               }
             },
             {
               "id": "apoc-s2e9p10",
-              "text": "Part 10 of Episode 9: करने में सच में मजा आ रहा है। पीछे खड़ी\n\nवेनिंग यह सब देखकर हैरान रह गई। उसके लिए (English Version)",
+              "text": "‘Using this axe is actually quite fun.’ Standing behind me, Wanning was shocked. For her,",
               "translations": {
                 "hi": "करने में सच में मजा आ रहा है। पीछे खड़ी\n\nवेनिंग यह सब देखकर हैरान रह गई। उसके लिए"
               }
@@ -1539,70 +1539,70 @@
           "parts": [
             {
               "id": "apoc-s2e10p1",
-              "text": "Part 1 of Episode 10: मैं ऐसे ज़ॉम्बी मार रहा था जैसे कोई घूम\n\nरहा हो। जैसे ही हम सीढ़ियों तक पहुंचे, (English Version)",
+              "text": "I was killing zombies as if I were just out for a stroll. As we reached the stairs,",
               "translations": {
-                "hi": "मैं ऐसे ज़ॉम्बी मार रहा था जैसे कोई घूम\n\nरहा हो। जैसे ही हम सीढ़ियों तक पहुंचे,"
+                "hi": "मैं ऐसे ज़ॉम्बी मार रहा था जैसे कोई घूम\n\nरहा हो। जैसे ही हम सीढ़ियों तक पहुंचे"
               }
             },
             {
               "id": "apoc-s2e10p2",
-              "text": "Part 2 of Episode 10: वह भी संभल कर मेरे पीछे भागी। सीढ़ियों\n\nपर काफी सारे ज़ॉम्बी थे, जो मुझे फॉलो (English Version)",
+              "text": "she also ran carefully behind me. There were quite a few zombies on the stairs who had",
               "translations": {
-                "hi": "वह भी संभल कर मेरे पीछे भागी। सीढ़ियों\n\nपर काफी सारे ज़ॉम्बी थे, जो मुझे फॉलो"
+                "hi": "वह भी संभल कर मेरे पीछे भागी। सीढ़ियों\n\nपर काफी सारे ज़ॉम्बी थे जो मुझे फॉलो"
               }
             },
             {
               "id": "apoc-s2e10p3",
-              "text": "Part 3 of Episode 10: करते हुए यहां तक आ गए थे। बाहर खुला\n\nमैदान था। अगर वह मुझे घेर लेते, तो हर (English Version)",
+              "text": "followed me here. Outside was an open field; if they surrounded me, I would be",
               "translations": {
-                "hi": "करते हुए यहां तक आ गए थे। बाहर खुला\n\nमैदान था। अगर वह मुझे घेर लेते, तो हर"
+                "hi": "करते हुए यहां तक आ गए थे। बाहर खुला\n\nमैदान था। अगर वह मुझे घेर लेते तो हर"
               }
             },
             {
               "id": "apoc-s2e10p4",
-              "text": "Part 4 of Episode 10: तरफ से हमला होता। लेकिन यहां सिर्फ एक\n\nसीढ़ी थी। एक समय पर सिर्फ एक ज़ॉम्बी ही (English Version)",
+              "text": "attacked from every side. But here there was only one staircase. Only one zombie at a time",
               "translations": {
                 "hi": "तरफ से हमला होता। लेकिन यहां सिर्फ एक\n\nसीढ़ी थी। एक समय पर सिर्फ एक ज़ॉम्बी ही"
               }
             },
             {
               "id": "apoc-s2e10p5",
-              "text": "Part 5 of Episode 10: मुझ पर हमला कर सकता था। इसलिए मैं खुद को\n\nकाफी सुरक्षित महसूस कर रहा था। ऊपर से (English Version)",
+              "text": "could attack me. So I felt quite safe. Plus,",
               "translations": {
                 "hi": "मुझ पर हमला कर सकता था। इसलिए मैं खुद को\n\nकाफी सुरक्षित महसूस कर रहा था। ऊपर से"
               }
             },
             {
               "id": "apoc-s2e10p6",
-              "text": "Part 6 of Episode 10: मुझे ऊंचाई का फायदा भी था। मैं आसानी से\n\nउनके सिर और गर्दन पर वार कर सकता था। कुछ (English Version)",
+              "text": "I had the advantage of height. I could easily strike at their heads and necks. Within",
               "translations": {
                 "hi": "मुझे ऊंचाई का फायदा भी था। मैं आसानी से\n\nउनके सिर और गर्दन पर वार कर सकता था। कुछ"
               }
             },
             {
               "id": "apoc-s2e10p7",
-              "text": "Part 7 of Episode 10: ही मिनटों में सीढ़ियां ज़ॉम्बी की लाशों\n\nसे भर गई। वेनिंग फिर से दंग रह गई। उसके (English Version)",
+              "text": "minutes, the stairs were filled with zombie corpses. Wanning was stunned again. In her",
               "translations": {
                 "hi": "ही मिनटों में सीढ़ियां ज़ॉम्बी की लाशों\n\nसे भर गई। वेनिंग फिर से दंग रह गई। उसके"
               }
             },
             {
               "id": "apoc-s2e10p8",
-              "text": "Part 8 of Episode 10: दिल में मेरी छवि और भी बड़ी और ताकतवर\n\nबनती जा रही थी। लेकिन तभी अचानक किसी ने (English Version)",
+              "text": "heart, my image was becoming even larger and more powerful. But then suddenly, someone",
               "translations": {
                 "hi": "दिल में मेरी छवि और भी बड़ी और ताकतवर\n\nबनती जा रही थी। लेकिन तभी अचानक किसी ने"
               }
             },
             {
               "id": "apoc-s2e10p9",
-              "text": "Part 9 of Episode 10: उसका टखना पकड़ लिया। उसके पैरों के पास\n\nएक फीमेल ज़ॉम्बी थी जिसका आधा चेहरा गायब (English Version)",
+              "text": "grabbed her ankle. Near her feet was a female zombie with half its face missing.",
               "translations": {
                 "hi": "उसका टखना पकड़ लिया। उसके पैरों के पास\n\nएक फीमेल ज़ॉम्बी थी जिसका आधा चेहरा गायब"
               }
             },
             {
               "id": "apoc-s2e10p10",
-              "text": "Part 10 of Episode 10: था। वेनिंग डरकेन मारे जम गई। उसका पूरा\n\nशरीर कांपने लगा। आंखों में आंसू भर गए और (English Version)",
+              "text": "Wanning froze with fear. Her whole body began to tremble. Her eyes filled with tears and",
               "translations": {
                 "hi": "था। वेनिंग डरकेन मारे जम गई। उसका पूरा\n\nशरीर कांपने लगा। आंखों में आंसू भर गए और"
               }

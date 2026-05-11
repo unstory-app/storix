@@ -1,0 +1,417 @@
+{
+  "id": "da448f25-0cb7-46b1-840f-eec0cb2af118",
+  "title": "Cyberpunk Heist",
+  "slug": "cyberpunk-heist",
+  "posterImage": "/images/stories/cyberpunk-heist.png",
+  "description": "A master thief in a neon-lit future plans the ultimate heist against a mega-corporation.",
+  "genres": [
+    "Thriller",
+    "Mystery"
+  ],
+  "rating": 4.7,
+  "views": "850K",
+  "status": "Ongoing",
+  "availableLanguages": [
+    "en",
+    "hi"
+  ],
+  "seasons": [
+    {
+      "id": "cyberpunk-heist-s1",
+      "seasonNumber": 1,
+      "title": "Season 1",
+      "episodes": [
+        {
+          "id": "cyberpunk-heist-s1e1",
+          "episodeNumber": 1,
+          "title": "The Mark",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "cyberpunk-heist-s1e1p1",
+              "text": "Kaito stood on the edge of a skyscraper, the neon lights of Neo-Tokyo reflecting in his cybernetic eyes.",
+              "translations": {
+                "hi": "काइतो एक गगनचुंबी इमारत के किनारे पर खड़ा था, नियो-टोक्यो की नीयन रोशनी उसकी साइबरनेटिक आँखों में प्रतिबिंबित हो रही थी।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e1p2",
+              "text": "Below him, the city breathed in a rhythm of data and steam.",
+              "translations": {
+                "hi": "उसके नीचे, शहर डेटा और भाप की लय में सांस ले रहा था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e1p3",
+              "text": "He had spent months tracking the Arasaka-Vanguard shipments.",
+              "translations": {
+                "hi": "उसने अरसाका-वैनगार्ड शिपमेंट को ट्रैक करने में महीनों बिताए थे।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e1p4",
+              "text": "The prize was the Quantum Core, a device capable of hacking any encryption in existence.",
+              "translations": {
+                "hi": "इनाम क्वांटम कोर था, जो अस्तित्व में मौजूद किसी भी एन्क्रिप्शन को हैक करने में सक्षम उपकरण था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e1p5",
+              "text": "Kaito adjusted his neural link, checking the ping to his team.",
+              "translations": {
+                "hi": "काइतो ने अपने न्यूरल लिंक को समायोजित किया, अपनी टीम के पिंग की जाँच की।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e1p6",
+              "text": "Were green, whispered Jax in his ear. Security grid is cycling in five seconds.",
+              "translations": {
+                "hi": "हम तैयार हैं, जैक्स ने उसके कान में फुसफुसाया। सुरक्षा ग्रिड पांच सेकंड में घूम रहा है।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e1p7",
+              "text": "Kaito leaped from the edge, his mag-boots engaging to slow his descent.",
+              "translations": {
+                "hi": "काइतो किनारे से कूद गया, उसके मैग-बूट्स ने उसकी गिरावट को धीमा कर दिया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e1p8",
+              "text": "He glided through the air like a ghost, invisible to the infrared sensors.",
+              "translations": {
+                "hi": "वह एक भूत की तरह हवा में उड़ता रहा, इन्फ्रारेड सेंसरों के लिए अदृश्य।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e1p9",
+              "text": "He landed softly on the roof of the corporate headquarters.",
+              "translations": {
+                "hi": "वह कॉर्पोरेट मुख्यालय की छत पर धीरे से उतरा।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e1p10",
+              "text": "The first barrier was the biometric scanner. He pulled out a specialized hacking tool.",
+              "translations": {
+                "hi": "पहली बाधा बायोमेट्रिक स्कैनर थी। उसने एक विशेष हैकिंग टूल निकाला।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cyberpunk-heist-s1e2",
+          "episodeNumber": 2,
+          "title": "Infiltration",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "cyberpunk-heist-s1e2p1",
+              "text": "The scanner turned green. Kaito slipped into the ventilation shafts.",
+              "translations": {
+                "hi": "स्कैनर हरा हो गया। काइतो वेंटिलेशन शाफ्ट में खिसक गया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e2p2",
+              "text": "He crawled through the narrow spaces, guided by the thermal map on his HUD.",
+              "translations": {
+                "hi": "वह अपने HUD पर थर्मल मैप द्वारा निर्देशित होकर संकीर्ण स्थानों में रेंगता रहा।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e2p3",
+              "text": "The air was filled with the hum of high-powered servers.",
+              "translations": {
+                "hi": "हवा हाई-पावर सर्वरों की गूँज से भरी हुई थी।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e2p4",
+              "text": "He reached the security hub and dropped a Black Ice virus into the terminal.",
+              "translations": {
+                "hi": "वह सुरक्षा केंद्र पर पहुँचा और टर्मिनल में ब्लैक आइस वायरस डाल दिया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e2p5",
+              "text": "Instantly, half the cameras in the building went blind.",
+              "translations": {
+                "hi": "तुरंत, इमारत के आधे कैमरे अंधे हो गए।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e2p6",
+              "text": "Nice work, Kaito. Now get to the elevators, Jax commanded.",
+              "translations": {
+                "hi": "अच्छा काम किया, काइतो। अब लिफ्टों तक पहुँचो, जैक्स ने आदेश दिया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e2p7",
+              "text": "Kaito stepped out into a hallway, his camo-cloak active.",
+              "translations": {
+                "hi": "काइतो अपने छलावरण-लबादे को सक्रिय करके एक दालान में निकला।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e2p8",
+              "text": "A patrol of security bots marched past him, their sensors inches from his face.",
+              "translations": {
+                "hi": "सुरक्षा बॉट का एक गश्ती दल उसके पास से गुजरा, उनके सेंसर उसके चेहरे से कुछ इंच की दूरी पर थे।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e2p9",
+              "text": "He held his breath, waiting for the red lights to pass.",
+              "translations": {
+                "hi": "वह लाल बत्ती के गुजरने का इंतज़ार करते हुए अपनी साँस रोक कर खड़ा रहा।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e2p10",
+              "text": "The elevator opened, and he descended into the sub-basement level.",
+              "translations": {
+                "hi": "लिफ्ट खुली, और वह सब-बेसमेंट स्तर में उतर गया।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cyberpunk-heist-s1e3",
+          "episodeNumber": 3,
+          "title": "The Glitch",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "cyberpunk-heist-s1e3p1",
+              "text": "Something was wrong. The lights in the elevator flickered and turned red.",
+              "translations": {
+                "hi": "कुछ गलत था। लिफ्ट की लाइटें टिमटिमाईं और लाल हो गईं।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e3p2",
+              "text": "Kaito, theyve detected the virus! Theyre locking down the floor! Jax yelled.",
+              "translations": {
+                "hi": "काइतो, उन्होंने वायरस का पता लगा लिया है! वे मंजिल को लॉक कर रहे हैं! जैक्स चिल्लाया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e3p3",
+              "text": "The elevator screeched to a halt between floors.",
+              "translations": {
+                "hi": "लिफ्ट मंजिलों के बीच में चीखते हुए रुक गई।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e3p4",
+              "text": "Kaito forced the doors open with his bionic arm, sparks flying.",
+              "translations": {
+                "hi": "काइतो ने अपनी बायोनिक भुजा से दरवाजों को जबरदस्ती खोला, चिंगारियां उड़ने लगीं।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e3p5",
+              "text": "He jumped down into the pitch-black shaft, landing on top of another car.",
+              "translations": {
+                "hi": "वह पिच-ब्लैक शाफ्ट में कूद गया, दूसरी कार के ऊपर उतरा।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e3p6",
+              "text": "A swarm of micro-drones poured out of the vents above him.",
+              "translations": {
+                "hi": "उसके ऊपर के वेंट से माइक्रो-ड्रोन का एक झुंड निकल आया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e3p7",
+              "text": "He drew his pulse pistol and began firing, the blue energy bolts illuminating the dark.",
+              "translations": {
+                "hi": "उसने अपनी पल्स पिस्टल निकाली और फायरिंग शुरू कर दी, नीली ऊर्जा की किरणों ने अंधेरे को रोशन कर दिया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e3p8",
+              "text": "He was pinned down. He needed to find a way to the main server room.",
+              "translations": {
+                "hi": "वह फँस गया था। उसे मुख्य सर्वर रूम तक जाने का रास्ता खोजना था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e3p9",
+              "text": "He spotted a maintenance hatch and kicked it open.",
+              "translations": {
+                "hi": "उसने एक रखरखाव हैच देखा और उसे लात मारकर खोल दिया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e3p10",
+              "text": "He slid down a data cable, feeling the static electricity singe his suit.",
+              "translations": {
+                "hi": "वह एक डेटा केबल के नीचे फिसल गया, स्थिर बिजली को अपने सूट को जलाते हुए महसूस किया।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cyberpunk-heist-s1e4",
+          "episodeNumber": 4,
+          "title": "The Vault",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "cyberpunk-heist-s1e4p1",
+              "text": "The vault door was a massive slab of carbon-fiber and steel.",
+              "translations": {
+                "hi": "तिजोरी का दरवाजा कार्बन-फाइबर और स्टील का एक विशाल स्लैब था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e4p2",
+              "text": "It was protected by a triple-layer encryption system.",
+              "translations": {
+                "hi": "यह ट्रिपल-लेयर एन्क्रिप्शन सिस्टम द्वारा सुरक्षित था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e4p3",
+              "text": "Kaito connected his brain directly to the vault interface.",
+              "translations": {
+                "hi": "काइतो ने अपने मस्तिष्क को सीधे वॉल्ट इंटरफेस से जोड़ा।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e4p4",
+              "text": "A flood of data poured into his mind. He was fighting the corporate AI in cyberspace.",
+              "translations": {
+                "hi": "डेटा की बाढ़ उसके मन में आ गई। वह साइबर स्पेस में कॉर्पोरेट एआई से लड़ रहा था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e4p5",
+              "text": "The AI was a giant dragon made of code, breathing fire at his digital avatar.",
+              "translations": {
+                "hi": "एआई कोड से बना एक विशाल ड्रैगन था, जो उसके डिजिटल अवतार पर आग उगल रहा था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e4p6",
+              "text": "Kaito used his Ghost subroutine to bypass the firewall.",
+              "translations": {
+                "hi": "काइतो ने फ़ायरवॉल को बायपास करने के लिए अपने Ghost सबरूटीन का उपयोग किया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e4p7",
+              "text": "With a final effort, he cracked the code. The vault door began to hiss and open.",
+              "translations": {
+                "hi": "एक अंतिम प्रयास के साथ, उसने कोड को क्रैक कर दिया। तिजोरी का दरवाजा फुसफुसाने लगा और खुलने लगा।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e4p8",
+              "text": "Inside, the Quantum Core glowed with an ethereal white light.",
+              "translations": {
+                "hi": "अंदर, क्वांटम कोर एक अलौकिक सफेद रोशनी के साथ चमक रहा था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e4p9",
+              "text": "He grabbed the core, feeling the weight of the future in his hands.",
+              "translations": {
+                "hi": "उसने कोर को पकड़ लिया, अपने हाथों में भविष्य का वजन महसूस किया।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e4p10",
+              "text": "Package secured. I need extraction, now! he shouted into his comms.",
+              "translations": {
+                "hi": "पैकेज सुरक्षित। मुझे अब बाहर निकलना है! वह अपने संचार में चिल्लाया।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cyberpunk-heist-s1e5",
+          "episodeNumber": 5,
+          "title": "The Great Escape",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "cyberpunk-heist-s1e5p1",
+              "text": "The sirens were blaring throughout the entire sector.",
+              "translations": {
+                "hi": "पूरे सेक्टर में सायरन बज रहे थे।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e5p2",
+              "text": "A squad of elite corporate assassins was closing in on his location.",
+              "translations": {
+                "hi": "कुलीन कॉर्पोरेट हत्यारों का एक दस्ता उसके स्थान के करीब आ रहा था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e5p3",
+              "text": "Kaito smashed a window on the 50th floor and looked out.",
+              "translations": {
+                "hi": "काइतो ने 50वीं मंजिल की एक खिड़की तोड़ी और बाहर देखा।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e5p4",
+              "text": "A sleek hover-car was waiting for him, piloted by Jax.",
+              "translations": {
+                "hi": "एक चिकनी होवर-कार उसका इंतज़ार कर रही थी, जिसे जैक्स चला रहा था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e5p5",
+              "text": "Kaito took a running leap, the assassins firing behind him.",
+              "translations": {
+                "hi": "काइतो ने दौड़ते हुए छलांग लगा दी, हत्यारे उसके पीछे फायरिंग कर रहे थे।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e5p6",
+              "text": "He landed on the roof of the hover-car just as it sped away.",
+              "translations": {
+                "hi": "जैसे ही होवर-कार तेज गति से चली, वह उसकी छत पर उतरा।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e5p7",
+              "text": "They wove through the skyscrapers, dodging missiles and tracer rounds.",
+              "translations": {
+                "hi": "वे गगनचुंबी इमारतों के बीच से निकले, मिसाइलों और ट्रेसर राउंड्स को चकमा देते हुए।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e5p8",
+              "text": "The city below was a blur of neon and chaos.",
+              "translations": {
+                "hi": "नीचे का शहर नीयन और अराजकता का एक धुंधलापन था।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e5p9",
+              "text": "They reached the edge of the city and vanished into the smog of the wastelands.",
+              "translations": {
+                "hi": "वे शहर के किनारे पहुंचे और बंजर भूमि के धुएं में गायब हो गए।"
+              }
+            },
+            {
+              "id": "cyberpunk-heist-s1e5p10",
+              "text": "Kaito looked at the Quantum Core. The world would never be the same again.",
+              "translations": {
+                "hi": "काइतो ने क्वांटम कोर की ओर देखा। दुनिया फिर कभी वैसी नहीं होगी।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,7 @@ import secretTutor from './secret-agent-tutor.json';
 import forbiddenPeak from './forbidden-peak.json';
 import superstarShadow from './superstar-shadow.json';
 import sheRefusesDivorce from './she-refuses-divorce.json';
+import reincarnatedFather from './reincarnated-father.json';
 
 // Simple registry of all stories. 
 // When an AI agent creates a new story, they just add the import above and add it to this array.
@@ -39,7 +40,8 @@ const ALL_STORIES: Story[] = [
   secretTutor as Story,
   forbiddenPeak as Story,
   superstarShadow as Story,
-  sheRefusesDivorce as Story
+  sheRefusesDivorce as Story,
+  reincarnatedFather as Story
 ];
 
 /**

@@ -1,0 +1,417 @@
+{
+  "id": "2c595591-ddc6-455c-a2a7-4768dfee2701",
+  "title": "System of the Gods",
+  "slug": "system-of-the-gods",
+  "posterImage": "/images/stories/system-of-the-gods.png",
+  "description": "A weak protagonist gains a system that allows him to steal powers from gods.",
+  "genres": [
+    "Fantasy",
+    "Drama"
+  ],
+  "rating": 4.8,
+  "views": "1.2M",
+  "status": "Ongoing",
+  "availableLanguages": [
+    "en",
+    "hi"
+  ],
+  "seasons": [
+    {
+      "id": "system-of-the-gods-s1",
+      "seasonNumber": 1,
+      "title": "Season 1",
+      "episodes": [
+        {
+          "id": "system-of-the-gods-s1e1",
+          "episodeNumber": 1,
+          "title": "The Awakening",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "system-of-the-gods-s1e1p1",
+              "text": "Han Xiao was just a lowly temple cleaner, a nobody in a world ruled by high gods.",
+              "translations": {
+                "hi": "हान जिओ सिर्फ एक मामूली मंदिर का सफाईकर्मी था, जिसे उच्च देवताओं द्वारा शासित दुनिया में कोई नहीं जानता था।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e1p2",
+              "text": "Every day, he watched the arrogant priests perform miracles using stolen divine essence.",
+              "translations": {
+                "hi": "हर दिन, वह अहंकारी पुजारियों को चोरी किए गए दिव्य सार का उपयोग करके चमत्कार करते हुए देखता था।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e1p3",
+              "text": "One night, while cleaning the forbidden Inner Sanctum, he tripped over a dusty relic.",
+              "translations": {
+                "hi": "एक रात, वर्जित आंतरिक गर्भगृह की सफाई करते समय, वह एक धूल भरी अवशेष से टकराकर गिर गया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e1p4",
+              "text": "A drop of his blood touched the relic, and the world went white. A voice echoed in his mind.",
+              "translations": {
+                "hi": "उसके खून की एक बूंद अवशेष को छू गई, और दुनिया सफेद हो गई। उसके मन में एक आवाज गूँजी।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e1p5",
+              "text": "[God-Slaying System Activated. Target: Divine Essence of the Star God.]",
+              "translations": {
+                "hi": "[गॉड-स्लेइंग सिस्टम सक्रिय। लक्ष्य: स्टार गॉड का दिव्य सार।]"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e1p6",
+              "text": "He felt a searing heat in his chest as energy began to flow into him.",
+              "translations": {
+                "hi": "जैसे ही ऊर्जा उसके भीतर बहने लगी, उसने अपनी छाती में एक तेज जलन महसूस की।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e1p7",
+              "text": "The system showed him a progress bar: 1%... 5%... 10%... Plunder in progress.",
+              "translations": {
+                "hi": "सिस्टम ने उसे एक प्रोग्रेस बार दिखाया: 1%... 5%... 10%... लूट जारी है।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e1p8",
+              "text": "Suddenly, the temple doors burst open. The Head Priest glared at him in shock.",
+              "translations": {
+                "hi": "अचानक मंदिर के दरवाजे खुल गए। मुख्य पुजारी ने उसे सदमे में घूर कर देखा।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e1p9",
+              "text": "What have you done, slave? That relic was sealed for a reason! the priest screamed.",
+              "translations": {
+                "hi": "तुमने यह क्या किया है, गुलाम? उस अवशेष को एक कारण से सील किया गया था! पुजारी चिल्लाया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e1p10",
+              "text": "Han Xiao looked at his hands, which were now glowing with a faint blue light. He felt powerful.",
+              "translations": {
+                "hi": "हान जिओ ने अपने हाथों की ओर देखा, जो अब हल्की नीली रोशनी से चमक रहे थे। उसने खुद को शक्तिशाली महसूस किया।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "system-of-the-gods-s1e2",
+          "episodeNumber": 2,
+          "title": "The First Theft",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "system-of-the-gods-s1e2p1",
+              "text": "The Head Priest lunged at Han Xiao, but the system predicted every move.",
+              "translations": {
+                "hi": "मुख्य पुजारी हान जिओ पर झपटा, लेकिन सिस्टम ने हर चाल की भविष्यवाणी कर दी।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e2p2",
+              "text": "[Skill Gained: Divine Reflexes Level 1. Automatically dodging.]",
+              "translations": {
+                "hi": "[कौशल प्राप्त: दिव्य सजगता स्तर 1। स्वचालित रूप से चकमा देना।]"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e2p3",
+              "text": "Han Xiao moved like a blur, slipping past the priest with ease.",
+              "translations": {
+                "hi": "हान जिओ एक धुंधली परछाई की तरह चला, और पुजारी के पास से आसानी से निकल गया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e2p4",
+              "text": "He realized he could see the energy flowing through the priests body.",
+              "translations": {
+                "hi": "उसे एहसास हुआ कि वह पुजारी के शरीर में बहने वाली ऊर्जा को देख सकता है।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e2p5",
+              "text": "[Action: Initiate Essence Plunder on Priest Valerius.]",
+              "translations": {
+                "hi": "[कार्रवाई: पुजारी वेलेरियस पर सार लूट शुरू करें।]"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e2p6",
+              "text": "With a touch to the priests shoulder, Han Xiao felt a surge of pure power.",
+              "translations": {
+                "hi": "पुजारी के कंधे को छूते ही, हान जिओ ने शुद्ध शक्ति का संचार महसूस किया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e2p7",
+              "text": "The priest collapsed, his miracles fading as his connection to the gods was severed.",
+              "translations": {
+                "hi": "पुजारी गिर गया, देवताओं के साथ उसका संबंध टूटने पर उसके चमत्कार फीके पड़ गए।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e2p8",
+              "text": "Han Xiao stood tall. He was no longer a slave; he was a hunter.",
+              "translations": {
+                "hi": "हान जिओ सीना तान कर खड़ा हो गया। वह अब गुलाम नहीं था; वह एक शिकारी था।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e2p9",
+              "text": "He needed more essence. He needed to find the actual gods who resided in the Sky Realm.",
+              "translations": {
+                "hi": "उसे और अधिक सार की आवश्यकता थी। उसे उन वास्तविक देवताओं को खोजने की ज़रूरत थी जो आकाश लोक में रहते थे।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e2p10",
+              "text": "The system chimed: [Next target identified: The Goddess of Dawn.]",
+              "translations": {
+                "hi": "सिस्टम की घंटी बजी: [अगले लक्ष्य की पहचान: सुबह की देवी।]"
+              }
+            }
+          ]
+        },
+        {
+          "id": "system-of-the-gods-s1e3",
+          "episodeNumber": 3,
+          "title": "Rising Suspicion",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "system-of-the-gods-s1e3p1",
+              "text": "News of the fallen priest spread through the city of Aranthos like wildfire.",
+              "translations": {
+                "hi": "गिरे हुए पुजारी की खबर अरंथोस शहर में जंगल की आग की तरह फैल गई।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e3p2",
+              "text": "The Inquisition was dispatched to find the thief who could steal divine power.",
+              "translations": {
+                "hi": "दिव्य शक्ति चुराने वाले चोर को खोजने के लिए जांच दल भेजा गया था।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e3p3",
+              "text": "Han Xiao disguised himself as a traveling merchant, blending into the marketplace.",
+              "translations": {
+                "hi": "हान जिओ ने एक यात्री व्यापारी का रूप धारण किया और बाजार में घुलमिल गया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e3p4",
+              "text": "He heard the whispers of the fearful. People were starting to hope for a change.",
+              "translations": {
+                "hi": "उसने डरे हुए लोगों की फुसफुसाहट सुनी। लोग बदलाव की उम्मीद करने लगे थे।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e3p5",
+              "text": "But the gods were watching. The sky darkened as the Goddess of Dawn cast her gaze downward.",
+              "translations": {
+                "hi": "लेकिन देवता देख रहे थे। आसमान में अंधेरा छा गया क्योंकि सुबह की देवी ने अपनी निगाहें नीचे डालीं।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e3p6",
+              "text": "Han Xiao felt a heavy pressure on his soul. The system warned him of high-level surveillance.",
+              "translations": {
+                "hi": "हान जिओ ने अपनी आत्मा पर भारी दबाव महसूस किया। सिस्टम ने उसे उच्च स्तरीय निगरानी की चेतावनी दी।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e3p7",
+              "text": "[Stealth Mode Activated. Mana consumption: 10 per second.]",
+              "translations": {
+                "hi": "[स्टील्थ मोड सक्रिय। मन की खपत: 10 प्रति सेकंड।]"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e3p8",
+              "text": "He ducked into an alleyway, his heart pounding against his ribs.",
+              "translations": {
+                "hi": "वह एक गली में झुक गया, उसका दिल उसकी पसलियों के खिलाफ धड़क रहा था।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e3p9",
+              "text": "A golden knight landed in front of him, sword glowing with holy fire.",
+              "translations": {
+                "hi": "एक सुनहरी शूरवीर उसके सामने उतरी, उसकी तलवार पवित्र आग से चमक रही थी।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e3p10",
+              "text": "I sense a disturbance in the divine flow, the knight said. Show me your soul.",
+              "translations": {
+                "hi": "मुझे दिव्य प्रवाह में गड़बड़ी महसूस हो रही है, शूरवीर ने कहा। मुझे अपनी आत्मा दिखाओ।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "system-of-the-gods-s1e4",
+          "episodeNumber": 4,
+          "title": "The Divine Confrontation",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "system-of-the-gods-s1e4p1",
+              "text": "The golden knight raised her sword, ready to strike down the impostor.",
+              "translations": {
+                "hi": "सुनहरी शूरवीर ने पाखंडी को मार गिराने के लिए अपनी तलवार उठाई।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e4p2",
+              "text": "Han Xiao didnt run. He opened his system interface and targeted the knight.",
+              "translations": {
+                "hi": "हान जिओ भागा नहीं। उसने अपना सिस्टम इंटरफ़ेस खोला और शूरवीर को निशाना बनाया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e4p3",
+              "text": "[Target: Seraphina the Dawn Guard. Essence Quality: Mid-Tier Divine.]",
+              "translations": {
+                "hi": "[लक्ष्य: सेराफिना द डॉन गार्ड। सार गुणवत्ता: मध्यम स्तर का दिव्य।]"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e4p4",
+              "text": "He blocked her flaming strike with his bare hand, now protected by the stolen star-essence.",
+              "translations": {
+                "hi": "उसने चोरी किए गए स्टार-एसेंस द्वारा सुरक्षित अपने नंगे हाथ से उसके जलते हुए प्रहार को रोक दिया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e4p5",
+              "text": "The clash sent a shockwave through the alley, shattering windows and cracking the ground.",
+              "translations": {
+                "hi": "टकराव ने गली के माध्यम से एक शॉकवेव भेजी, खिड़कियां टूट गईं और जमीन फट गई।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e4p6",
+              "text": "Seraphinas eyes widened. No mortal should have been able to withstand her power.",
+              "translations": {
+                "hi": "सेराफिना की आँखें फटी रह गईं। कोई भी नश्वर उसकी शक्ति का सामना करने में सक्षम नहीं होना चाहिए था।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e4p7",
+              "text": "Who are you? she demanded, her voice echoing with divine authority.",
+              "translations": {
+                "hi": "तुम कौन हो? उसने पूछा, उसकी आवाज़ दिव्य अधिकार के साथ गूँज रही थी।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e4p8",
+              "text": "Han Xiao smiled. I am the end of your era, he whispered.",
+              "translations": {
+                "hi": "हान जिओ मुस्कुराया। मैं तुम्हारे युग का अंत हूँ, वह फुसफुसाया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e4p9",
+              "text": "He activated the Plunder skill at full power, draining the light from her armor.",
+              "translations": {
+                "hi": "उसने अपनी पूरी शक्ति के साथ प्लंडर स्किल को सक्रिय किया, और उसके कवच से रोशनी खींच ली।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e4p10",
+              "text": "As she fell to her knees, he felt his own power level jumping to new heights.",
+              "translations": {
+                "hi": "जैसे ही वह घुटनों के बल गिरी, उसने अपने स्वयं के शक्ति स्तर को नई ऊंचाइयों पर कूदते हुए महसूस किया।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "system-of-the-gods-s1e5",
+          "episodeNumber": 5,
+          "title": "Ascension",
+          "duration": "10 min",
+          "parts": [
+            {
+              "id": "system-of-the-gods-s1e5p1",
+              "text": "With Seraphina defeated, Han Xiao looked up at the Sky Palace.",
+              "translations": {
+                "hi": "सेराफिना की हार के साथ, हान जिओ ने स्काई पैलेस की ओर देखा।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e5p2",
+              "text": "The system notified him: [Level 50 Reached. Divine Realm Access Granted.]",
+              "translations": {
+                "hi": "सिस्टम ने उसे सूचित किया: [स्तर 50 पहुँचा। दिव्य क्षेत्र पहुँच प्रदान की गई।]"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e5p3",
+              "text": "A bridge of light formed between the city and the clouds.",
+              "translations": {
+                "hi": "शहर और बादलों के बीच रोशनी का एक पुल बना।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e5p4",
+              "text": "He walked across the bridge, each step making him feel less human and more... something else.",
+              "translations": {
+                "hi": "वह पुल पर चला, हर कदम ने उसे कम इंसान और अधिक... कुछ और महसूस कराया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e5p5",
+              "text": "The Goddess of Dawn stood at the gates of the palace, her face a mask of rage.",
+              "translations": {
+                "hi": "सुबह की देवी महल के फाटकों पर खड़ी थी, उसका चेहरा गुस्से का नकाब बना हुआ था।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e5p6",
+              "text": "You dare enter my home, thief? she roared, summoning a miniature sun in her palm.",
+              "translations": {
+                "hi": "तुम मेरे घर में घुसने की हिम्मत करते हो, चोर? वह अपनी हथेली में एक छोटा सूरज बुलाते हुए दहाड़ी।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e5p7",
+              "text": "Han Xiao just pointed his finger. [Ultimate Skill: Eternal Eclipse.]",
+              "translations": {
+                "hi": "हान जिओ ने बस अपनी उंगली उठाई। [परम कौशल: शाश्वत ग्रहण।]"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e5p8",
+              "text": "Darkness swallowed the sun and the goddess along with it.",
+              "translations": {
+                "hi": "अंधेरे ने सूरज और देवी को अपने साथ निगल लिया।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e5p9",
+              "text": "He stood in the center of the palace, the system announcing his victory.",
+              "translations": {
+                "hi": "वह महल के केंद्र में खड़ा था, सिस्टम ने उसकी जीत की घोषणा की।"
+              }
+            },
+            {
+              "id": "system-of-the-gods-s1e5p10",
+              "text": "[New God Ascended. The Era of the System has begun.]",
+              "translations": {
+                "hi": "[नए भगवान का उदय। सिस्टम का युग शुरू हो गया है।]"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
