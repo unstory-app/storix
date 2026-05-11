@@ -1,5 +1,5 @@
 import React from 'react';
-import { getEpisodeData, getStoryBySlug } from '@/stories';
+import { getEpisodeData, getStoryBySlug, getNextEpisodeId } from '@/stories';
 import ReaderScreen from '@/components/ReaderScreen';
 import { notFound } from 'next/navigation';
 
@@ -8,6 +8,7 @@ export default async function ReaderPage({ params }: { params: Promise<{ slug: s
   
   const story = getStoryBySlug(slug);
   const episode = getEpisodeData(slug, episodeId);
+  const nextEpisodeId = getNextEpisodeId(slug, episodeId);
 
   if (!story || !episode) {
     return notFound();
@@ -21,6 +22,8 @@ export default async function ReaderPage({ params }: { params: Promise<{ slug: s
       episode={episode} 
       storyId={story.id} 
       seasonNumber={season?.seasonNumber || 1} 
+      nextEpisodeId={nextEpisodeId}
+      slug={slug}
     />
   );
 }

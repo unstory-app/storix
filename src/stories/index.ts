@@ -50,3 +50,21 @@ export const getEpisodeData = (slug: string, episodeId: string) => {
   
   return null;
 };
+
+/**
+ * Finds the ID of the next episode in the story.
+ */
+export const getNextEpisodeId = (slug: string, currentEpisodeId: string): string | null => {
+  const story = getStoryBySlug(slug);
+  if (!story) return null;
+
+  let foundCurrent = false;
+  for (const season of story.seasons) {
+    for (const ep of season.episodes) {
+      if (foundCurrent) return ep.id;
+      if (ep.id === currentEpisodeId) foundCurrent = true;
+    }
+  }
+  
+  return null;
+};

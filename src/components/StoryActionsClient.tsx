@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Play, Bookmark, Clock, Lock } from 'lucide-react';
+import { Play, Bookmark, Clock, Lock, Share2 } from 'lucide-react';
 import Link from 'next/link';
 import { isBookmarked, toggleBookmark, getStoryProgress } from '@/lib/storage';
 import { Story } from '@/types';
@@ -16,6 +16,20 @@ export default function StoryActionsClient({ story }: { story: Story }) {
     setBookmarked(isBookmarked(story.id));
     setProgress(getStoryProgress(story.id));
   }, [story.id]);
+
+  const handleShare = () => {
+    if (navigator.share) {
+      navigator.share({
+        title: story.title,
+        text: story.description,
+        url: window.location.href,
+      }).catch(() => {});
+    } else {
+      // Fallback
+      alert('Link copied to clipboard!');
+      navigator.clipboard.writeText(window.location.href);
+    }
+  };
 
   const currentSeason = story.seasons?.find(s => s.seasonNumber === activeSeason) || story.seasons?.[0];
 
@@ -47,6 +61,14 @@ export default function StoryActionsClient({ story }: { story: Story }) {
           className={`glass p-4 rounded-2xl transition-colors ${bookmarked ? 'text-primary' : 'text-white'}`}
         >
           <Bookmark size={20} fill={bookmarked ? "currentColor" : "none"} />
+        </motion.button>
+        <motion.button 
+          onClick={handleShare}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="glass p-4 rounded-2xl text-white hover:bg-white/10 transition-colors"
+        >
+          <Share2 size={20} />
         </motion.button>
       </div>
 

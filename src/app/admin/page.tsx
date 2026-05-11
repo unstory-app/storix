@@ -17,7 +17,7 @@ import {
   Star,
   Sparkles
 } from 'lucide-react';
-import { getStoryRegistry } from '@/stories';
+import { getAllStories } from '@/stories';
 
 export default function AdminDashboard() {
   const stats = [
@@ -88,7 +88,7 @@ export default function AdminDashboard() {
               </tr>
             </thead>
             <tbody>
-              {getStoryRegistry().map((story) => (
+              {getAllStories().map((story: any) => (
                 <tr key={story.id} className="border-b border-white/5 hover:bg-white/5 transition-colors group">
                   <td className="px-6 py-4">
                     <div className="flex items-center gap-4">
@@ -100,7 +100,7 @@ export default function AdminDashboard() {
                   </td>
                   <td className="px-6 py-4">
                     <div className="flex gap-1">
-                      {story.genres.slice(0, 2).map(g => (
+                      {story.genres.slice(0, 2).map((g: string) => (
                         <span key={g} className="text-[10px] bg-white/5 text-text-secondary px-2 py-0.5 rounded-full">{g}</span>
                       ))}
                     </div>

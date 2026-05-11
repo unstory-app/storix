@@ -1,16 +1,25 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Play, Bookmark, Star, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Story } from '../types';
+import { isBookmarked, toggleBookmark } from '@/lib/storage';
 
-interface FeaturedStoryProps {
-  story: any;
-}
+const FeaturedStory = ({ story }: { story: any }) => {
+  const [bookmarked, setBookmarked] = useState(false);
 
-const FeaturedStory = ({ story }: FeaturedStoryProps) => {
+  useEffect(() => {
+    if (story) {
+      setBookmarked(isBookmarked(story.id));
+    }
+  }, [story]);
+
+  const handleBookmark = (e: React.MouseEvent) => {
+    e.preventDefault();
+    toggleBookmark(story.id);
+    setBookmarked(!bookmarked);
+  };
   return (
     <section className="relative w-full overflow-hidden rounded-[2.5rem] bg-[#15151C] shadow-premium">
       {/* Background with blur */}
@@ -45,7 +54,7 @@ const FeaturedStory = ({ story }: FeaturedStoryProps) => {
           </h1>
 
           <div className="flex flex-wrap gap-2">
-            {story.genres.map((genre) => (
+            {story.genres.map((genre: string) => (
               <span key={genre} className="glass px-4 py-1.5 rounded-full text-xs font-medium text-text-secondary">
                 {genre}
               </span>
@@ -68,11 +77,12 @@ const FeaturedStory = ({ story }: FeaturedStoryProps) => {
               </motion.button>
             </Link>
             <motion.button 
+              onClick={handleBookmark}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="glass p-4 rounded-2xl text-white hover:bg-white/10 transition-colors"
+              className={`glass p-4 rounded-2xl transition-colors ${bookmarked ? 'text-primary' : 'text-white hover:bg-white/10'}`}
             >
-              <Bookmark size={20} />
+              <Bookmark size={20} fill={bookmarked ? "currentColor" : "none"} />
             </motion.button>
           </div>
         </motion.div>

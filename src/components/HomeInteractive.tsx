@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import StoryCard from './StoryCard';
 import GenrePill from './GenrePill';
 import { motion } from 'framer-motion';
@@ -66,8 +67,10 @@ export default function HomeInteractive({ stories }: HomeInteractiveProps) {
         {continueReading.length > 0 && (
           <section className="flex flex-col gap-6">
             <div className="flex items-center justify-between">
-              <h2 className="text-2xl font-bold text-white">Continue Reading</h2>
-              <button className="text-primary text-sm font-bold">View All</button>
+              <h2 className="text-2xl font-bold text-white tracking-tight">Continue Reading</h2>
+              <Link href="/library">
+                <button className="text-primary text-sm font-bold hover:underline">View Library</button>
+              </Link>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
               {continueReading.map((story) => {
@@ -86,7 +89,12 @@ export default function HomeInteractive({ stories }: HomeInteractiveProps) {
         {/* Categories (Filtered) */}
         {activeGenre !== 'All' && (
           <section className="flex flex-col gap-6">
-            <h2 className="text-2xl font-bold text-white">{activeGenre} Stories</h2>
+            <div className="flex items-center justify-between">
+              <h2 className="text-2xl font-bold text-white tracking-tight">{activeGenre} Stories</h2>
+              <Link href="/explore">
+                <button className="text-primary text-sm font-bold hover:underline">See All</button>
+              </Link>
+            </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
               {filteredStories.map((story) => (
                 <motion.div key={story.id} variants={item}>

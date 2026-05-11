@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import FeaturedStory from '@/components/FeaturedStory';
 import StoryCard from '@/components/StoryCard';
 import HomeInteractive from '@/components/HomeInteractive';
@@ -21,8 +22,10 @@ export default function Home() {
         {/* Trending Now */}
         <section className="flex flex-col gap-6">
           <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-white">Trending Now</h2>
-            <button className="text-primary text-sm font-bold">View All</button>
+            <h2 className="text-2xl font-bold text-white tracking-tight">Trending Now</h2>
+            <Link href="/explore">
+              <button className="text-primary text-sm font-bold hover:underline transition-all">View All</button>
+            </Link>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
             {trending.map((story) => (
@@ -34,8 +37,10 @@ export default function Home() {
         {/* New Episodes */}
         <section className="flex flex-col gap-6">
           <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-white">New Episodes</h2>
-            <button className="text-primary text-sm font-bold">View All</button>
+            <h2 className="text-2xl font-bold text-white tracking-tight">New Episodes</h2>
+            <Link href="/explore">
+              <button className="text-primary text-sm font-bold hover:underline transition-all">View All</button>
+            </Link>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
             {newEpisodes.map((story) => (
