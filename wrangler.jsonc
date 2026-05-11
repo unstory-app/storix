@@ -25,10 +25,10 @@
 		"binding": "IMAGES"
 	},
 	// add website url = wify.my
-	"custom_domains": [
+	"routes": [
 		{
-			"domain": "wify.my",
-			"service": "storix"
+			"pattern": "wify.my",
+			"custom_domain": true
 		}
 	],
 	"services": [

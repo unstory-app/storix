@@ -1,38 +1,49 @@
-# Wify.my - Simple Story Platform
+# 📱 Wify.my - Swipe-Based Story Reader
 
-Wify.my is a mobile app for reading short stories. You swipe up to read the next part, just like TikTok or Instagram Reels.
+Wify.my is a premium, mobile-first reading platform designed for the modern age. Experience immersive text stories through a seamless swipe interface, similar to TikTok or Reels, but for high-quality narratives.
 
-## Main Features
+## ✨ Features
 
-- 📱 **Easy to Use**: Swipe up or down to read stories.
-- 🎨 **Beautiful Look**: Dark theme that is easy on the eyes.
-- ⚡ **Fast**: Loads stories quickly even on slow internet.
-- 💾 **Saves Progress**: The app remembers where you stopped reading.
-- 🌍 **Many Languages**: Read stories in English, Hindi, and more.
+- **TikTok-Style Swiping**: Effortless navigation between story parts.
+- **Multilingual Support**: Switch between English, Hindi, and more with a single tap.
+- **Progress Tracking**: Your reading spot is automatically saved locally.
+- **Premium Design**: Sleek "Hoo-Dini" glassmorphism UI with smooth animations.
+- **Scalable Content**: Easily add new stories via a simple JSON-based registry.
 
-## How to Start
+## 🛠 Tech Stack
 
-1. **Install**:
+- **Framework**: [Next.js 15](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Storage**: Browser LocalStorage for persistence.
+
+## 🚀 Getting Started
+
+1. **Install Dependencies**:
    ```bash
-   npm install
+   bun install
    ```
 
-2. **Run**:
+2. **Run Development Server**:
    ```bash
-   npm run dev
+   bun run dev
    ```
 
-3. **Open**:
-   Go to [http://localhost:3000](http://localhost:3000) in your browser.
+3. **Deploy to Cloudflare Pages**:
+   ```bash
+   bun run deploy
+   ```
 
-## How to Add Stories
+## ✍️ Contributing Stories
 
-All stories are kept in the `src/stories/` folder.
-Check `src/stories/SKILL.md` to see how to add your own story.
+We love new content! To contribute a story:
+1. Fork the repository.
+2. Follow the [Story Contribution Guide](src/stories/SKILL.md).
+3. Open a Pull Request at [https://github.com/unstory-app/storix](https://github.com/unstory-app/storix).
 
-## Technology
+## 📄 License
 
-- **Next.js**: The framework used to build the app.
-- **Tailwind CSS**: Used for the design.
-- **Framer Motion**: Used for smooth animations.
-- **TypeScript**: Helps keep the code clean and safe.
+**UNLICENSED**: This software is proprietary. Unauthorized redistribution or commercial use is strictly prohibited.
+
+---
+*Built with ❤️ by the Unstory Team.*

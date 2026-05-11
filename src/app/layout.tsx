@@ -10,10 +10,64 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+export const viewport = {
+  themeColor: "#000000",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
 export const metadata: Metadata = {
-  title: "Wify.my | Stories",
-  description: "Read short stories with a simple swipe.",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
+  title: {
+    default: "Wify.my | Premium Story Platform",
+    template: "%s | Wify.my",
+  },
+  description: "Experience immersive text stories through a seamless swipe interface. Premium stories for the modern age.",
+  metadataBase: new URL("https://wify.my"),
+  keywords: ["stories", "swipe stories", "reading app", "short stories", "immersive reading", "Wify"],
+  authors: [{ name: "Unstory Team" }],
+  creator: "Unstory Team",
+  publisher: "Wify.my",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    title: "Wify.my | Premium Story Platform",
+    description: "Experience immersive text stories through a seamless swipe interface.",
+    url: "https://wify.my",
+    siteName: "Wify.my",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 1200,
+        alt: "Wify.my - Swipe to Immerse",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Wify.my | Premium Story Platform",
+    description: "Experience immersive text stories through a seamless swipe interface.",
+    images: ["/og-image.png"],
+    creator: "@unstory_app",
+  },
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/apple-icon.png",
+  },
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Wify",
+  },
 };
 
 export default function RootLayout({
