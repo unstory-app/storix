@@ -24,6 +24,13 @@
 		// see https://opennext.js.org/cloudflare/howtos/image
 		"binding": "IMAGES"
 	},
+	// add website url = wify.my
+	// "custom_domains": [
+	// 	{
+	// 		"domain": "wify.my",
+	// 		"service": "storix"
+	// 	}
+	// ],
 	"services": [
 		{
 			// Self-reference service binding, the service name must match the worker name

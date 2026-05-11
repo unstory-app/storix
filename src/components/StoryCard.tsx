@@ -84,7 +84,7 @@ const StoryCard = ({ story, progress }: StoryCardProps) => {
           </div>
           <div className="flex items-center gap-1">
             <Layers size={12} />
-            <span>{story.seasons.length} Seasons</span>
+            <span>{(story as any).totalSeasons ?? story.seasons?.length ?? 1} Seasons</span>
           </div>
         </div>
       </motion.div>

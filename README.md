@@ -1,49 +1,66 @@
-# OpenNext Starter
+# Wify.my - Premium Story Reading Platform
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Wify.my is a modern, mobile-first, swipe-based text story platform. It brings the addictive vertical swipe UX of TikTok and Shorts into the world of text-based storytelling.
+
+## Features
+
+- 📱 **Mobile-First UX**: Immersive full-screen reading experience with gesture-based navigation.
+- 🎨 **Premium Design System**: Dark theme, glassmorphism, fluid animations, and highly readable typography.
+- ⚡ **Scalable Architecture**: Next.js App Router combined with a heavily optimized file-system "mock database". Episode texts are loaded dynamically (code-split) to keep the initial load lightning fast.
+- 💾 **Local Persistence**: User reading progress and bookmarks are securely stored in `localStorage`.
+- 🔍 **Discovery Engine**: Robust Explore page with real-time search, genre filtering, and sorting.
+
+## Tech Stack
+
+- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: Configured for Cloudflare via `@opennextjs/cloudflare`
+
+## Directory Structure & Architecture
+
+The application handles story data using a highly scalable file-system architecture, making it easy to manage thousands of stories without blowing up the client bundle size.
+
+Read the detailed guide in `src/stories/SKILL.md` to learn how to add, manage, and delete stories.
+
+```text
+src/
+├── app/              # Next.js App Router pages (Home, Explore, Reader, etc.)
+├── components/       # Reusable UI components (StoryCard, ReaderScreen, etc.)
+├── stories/          # The Mock File-System Database
+│   ├── api.ts        # Data fetching methods
+│   ├── registry.ts   # Lightweight story catalog
+│   └── content/      # Actual story content (split by episode for lazy loading)
+├── lib/              # Utilities (localStorage helpers)
+└── types/            # TypeScript interfaces
+```
 
 ## Getting Started
 
-Read the documentation at https://opennext.js.org/cloudflare.
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Develop
+2. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-Run the Next.js development server:
+3. **Open the browser**:
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
 
-```bash
-npm run dev
-# or similar package manager command
-```
+## Deployment (Cloudflare)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project uses OpenNext to deploy on Cloudflare Workers/Pages.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Preview
-
-Preview the application locally on the Cloudflare runtime:
-
-```bash
-npm run preview
-# or similar package manager command
-```
-
-## Deploy
-
-Deploy the application to Cloudflare:
-
-```bash
-npm run deploy
-# or similar package manager command
-```
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-# storix
-https://storix.shraj.workers.dev/
+1. Build and preview:
+   ```bash
+   npm run preview
+   ```
+2. Deploy:
+   ```bash
+   npm run deploy
+   ```

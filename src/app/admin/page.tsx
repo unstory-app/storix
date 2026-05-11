@@ -17,7 +17,7 @@ import {
   Star,
   Sparkles
 } from 'lucide-react';
-import { STORIES } from '@/data/mockData';
+import { getStoryRegistry } from '@/stories';
 
 export default function AdminDashboard() {
   const stats = [
@@ -88,7 +88,7 @@ export default function AdminDashboard() {
               </tr>
             </thead>
             <tbody>
-              {STORIES.map((story) => (
+              {getStoryRegistry().map((story) => (
                 <tr key={story.id} className="border-b border-white/5 hover:bg-white/5 transition-colors group">
                   <td className="px-6 py-4">
                     <div className="flex items-center gap-4">
@@ -112,7 +112,7 @@ export default function AdminDashboard() {
                     </div>
                   </td>
                   <td className="px-6 py-4 text-xs text-text-secondary">{story.views}</td>
-                  <td className="px-6 py-4 text-xs text-text-secondary">{story.seasons.length}</td>
+                  <td className="px-6 py-4 text-xs text-text-secondary">{story.totalSeasons}</td>
                   <td className="px-6 py-4">
                     <span className={`text-[10px] font-black px-2 py-1 rounded-md ${story.status === 'Ongoing' ? 'bg-blue-400/10 text-blue-400' : 'bg-green-400/10 text-green-400'}`}>
                       {story.status}

@@ -2,19 +2,30 @@
 
 import React, { useState, useEffect, use } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import { STORIES } from '@/data/mockData';
+import { getStoryDetails } from '@/stories';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Star, Eye, Layers, Clock, Play, Bookmark, ChevronRight, Lock, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 import { isBookmarked, toggleBookmark, getStoryProgress } from '@/lib/storage';
+import { Story } from '@/types';
 
 export default function StoryDetails({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
   const router = useRouter();
-  const story = STORIES.find(s => s.slug === slug);
+  
+  const [story, setStory] = useState<Story | null>(null);
+  const [loading, setLoading] = useState(true);
+  
   const [activeSeason, setActiveSeason] = useState(1);
   const [bookmarked, setBookmarked] = useState(false);
   const [progress, setProgress] = useState<any>(null);
+
+  useEffect(() => {
+    getStoryDetails(slug).then(data => {
+      setStory(data);
+      setLoading(false);
+    });
+  }, [slug]);
 
   useEffect(() => {
     if (story) {
@@ -23,9 +34,12 @@ export default function StoryDetails({ params }: { params: Promise<{ slug: strin
     }
   }, [story]);
 
-  if (!story) return <div className="p-12 text-center">Story not found</div>;
+  if (loading) return <div className="p-12 text-center text-text-secondary">Loading story...</div>;
+  if (!story) return <div className="p-12 text-center text-text-secondary">Story not found</div>;
 
-  const currentSeason = story.seasons.find(s => s.seasonNumber === activeSeason) || story.seasons[0];
+  const currentSeason = story.seasons?.find(s => s.seasonNumber === activeSeason) || story.seasons?.[0];
+
+  if (!currentSeason) return <div className="p-12 text-center">No seasons available</div>;
 
   const handleBookmark = () => {
     toggleBookmark(story.id);
@@ -83,7 +97,7 @@ export default function StoryDetails({ params }: { params: Promise<{ slug: strin
             </div>
 
             <div className="flex flex-wrap gap-4 mt-4">
-              <Link href={`/read/${progress?.episodeId || currentSeason.episodes[0].id}`}>
+              <Link href={`/read/${slug}/${progress?.episodeId || currentSeason.episodes[0].id}`}>
                 <motion.button 
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -121,7 +135,7 @@ export default function StoryDetails({ params }: { params: Promise<{ slug: strin
           <div className="flex flex-col gap-6">
             <h3 className="text-xl font-bold text-white">Seasons</h3>
             <div className="flex gap-4 p-1 glass rounded-2xl w-fit">
-              {story.seasons.map((s) => (
+              {story.seasons?.map((s) => (
                 <button
                   key={s.seasonNumber}
                   onClick={() => setActiveSeason(s.seasonNumber)}
@@ -147,7 +161,7 @@ export default function StoryDetails({ params }: { params: Promise<{ slug: strin
                   className="grid gap-4"
                 >
                   {currentSeason.episodes.map((episode) => (
-                    <Link key={episode.id} href={`/read/${episode.id}`}>
+                    <Link key={episode.id} href={`/read/${slug}/${episode.id}`}>
                       <motion.div 
                         whileHover={{ x: 4 }}
                         className="glass p-5 rounded-2xl flex items-center justify-between group hover:border-primary/30 transition-all"

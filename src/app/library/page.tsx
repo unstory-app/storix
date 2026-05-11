@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { STORIES } from '@/data/mockData';
+import { getStoryRegistry } from '@/stories';
 import { getFullProgress, getBookmarks } from '@/lib/storage';
 import StoryCard from '@/components/StoryCard';
 import { UserProgress, Bookmark } from '@/types';
@@ -19,9 +19,11 @@ export default function Library() {
     setBookmarks(getBookmarks());
   }, []);
 
-  const readingStories = STORIES.filter(s => progress.some(p => p.storyId === s.id && !p.completed));
-  const bookmarkedStories = STORIES.filter(s => bookmarks.some(b => b.storyId === s.id));
-  const completedStories = STORIES.filter(s => progress.some(p => p.storyId === s.id && p.completed));
+  const registry = getStoryRegistry();
+
+  const readingStories = registry.filter(s => progress.some(p => p.storyId === s.id && !p.completed));
+  const bookmarkedStories = registry.filter(s => bookmarks.some(b => b.storyId === s.id));
+  const completedStories = registry.filter(s => progress.some(p => p.storyId === s.id && p.completed));
 
   const tabs = [
     { id: 'reading', label: 'Reading', icon: PlayCircle, count: readingStories.length },

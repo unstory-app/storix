@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import FeaturedStory from '@/components/FeaturedStory';
 import StoryCard from '@/components/StoryCard';
 import GenrePill from '@/components/GenrePill';
-import { STORIES } from '@/data/mockData';
+import { getStoryRegistry } from '@/stories';
 import { motion } from 'framer-motion';
 import { getFullProgress } from '@/lib/storage';
 import { UserProgress } from '@/types';
@@ -19,13 +19,15 @@ export default function Home() {
 
   const genres = ['All', 'Romance', 'Drama', 'Thriller', 'Fantasy', 'Mystery', 'Horror'];
   
-  const filteredStories = activeGenre === 'All' 
-    ? STORIES 
-    : STORIES.filter(s => s.genres.includes(activeGenre as any));
+  const registry = getStoryRegistry();
 
-  const continueReading = STORIES.filter(s => progress.some(p => p.storyId === s.id && !p.completed));
-  const trending = STORIES.slice(0, 4);
-  const newEpisodes = STORIES.slice(4, 8);
+  const filteredStories = activeGenre === 'All' 
+    ? registry 
+    : registry.filter(s => s.genres.includes(activeGenre as any));
+
+  const continueReading = registry.filter(s => progress.some(p => p.storyId === s.id && !p.completed));
+  const trending = registry.slice(0, 4);
+  const newEpisodes = registry.slice(4, 8);
 
   const container = {
     hidden: { opacity: 0 },

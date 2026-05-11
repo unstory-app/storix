@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { Story } from '../types';
 
 interface FeaturedStoryProps {
-  story: Story;
+  story: any;
 }
 
 const FeaturedStory = ({ story }: FeaturedStoryProps) => {

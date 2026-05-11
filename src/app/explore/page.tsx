@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { STORIES } from '@/data/mockData';
+import { getStoryRegistry } from '@/stories';
 import StoryCard from '@/components/StoryCard';
 import GenrePill from '@/components/GenrePill';
 import { Search, SlidersHorizontal, TrendingUp, Sparkles, Clock } from 'lucide-react';
@@ -14,7 +14,9 @@ export default function Explore() {
 
   const genres = ['All', 'Romance', 'Drama', 'Thriller', 'Fantasy', 'Mystery', 'Billionaire', 'Werewolf', 'Revenge', 'Teen', 'Horror'];
 
-  const filteredStories = STORIES.filter(story => {
+  const registry = getStoryRegistry();
+
+  const filteredStories = registry.filter(story => {
     const matchesSearch = story.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
                          story.description.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesGenre = activeGenre === 'All' || story.genres.includes(activeGenre as any);
