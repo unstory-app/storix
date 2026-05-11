@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Github, Heart } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
             target="_blank"
             className="flex items-center gap-2 text-xs font-bold text-text-muted hover:text-white transition-colors"
           >
-            <Github size={16} />
+            <ExternalLink size={16} />
             Contribute Stories
           </Link>
         </div>

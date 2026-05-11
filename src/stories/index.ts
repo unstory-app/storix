@@ -1,11 +1,13 @@
 import { Story } from '../types';
 
 import after99Rejections from './after-99-rejections.json';
+import apocalypseLoveSystem from './apocalypse-love-system.json';
 
 // Simple registry of all stories. 
 // When an AI agent creates a new story, they just add the import above and add it to this array.
 const ALL_STORIES: Story[] = [
-  after99Rejections as Story
+  after99Rejections as Story,
+  apocalypseLoveSystem as Story
 ];
 
 /**

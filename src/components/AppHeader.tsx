@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Search, Bookmark, User, Bell } from 'lucide-react';
+import { Search, Bookmark, User } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const AppHeader = () => {
