@@ -1,8 +1,19 @@
-import React from 'react';
+import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { getStoryBySlug } from '@/stories';
 import { Star, Eye, Layers } from 'lucide-react';
 import StoryActionsClient from '@/components/StoryActionsClient';
-import { notFound } from 'next/navigation';
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const story = getStoryBySlug(slug);
+  if (!story) return { title: 'Story Not Found' };
+  
+  return {
+    title: `${story.title} | Wify.my`,
+    description: story.description,
+  };
+}
 
 export default async function StoryDetails({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

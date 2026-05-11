@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import AppHeader from "@/components/AppHeader";
 import MobileBottomNav from "@/components/MobileBottomNav";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Wify.my | Immersive Vertical Stories",
-  description: "Read bite-sized, emotional, and addictive text stories with a premium swipe experience.",
+  title: "Wify.my | Stories",
+  description: "Read short stories with a simple swipe.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
 };
 
@@ -22,13 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.variable} antialiased bg-background text-white min-h-screen pb-20 md:pb-0`}>
-        {/* We'll handle header visibility within the page or a client wrapper if needed, 
-            but for now let's just render it. The reader page is fixed and covers everything. */}
+      <body className={`${inter.variable} antialiased bg-background text-white min-h-screen pb-20 md:pb-0 flex flex-col`}>
         <AppHeader />
-        <main className="max-w-[1440px] mx-auto">
+        <main className="max-w-[1440px] mx-auto flex-1 w-full">
           {children}
         </main>
+        <Footer />
         <MobileBottomNav />
       </body>
     </html>

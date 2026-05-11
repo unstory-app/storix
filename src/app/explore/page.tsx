@@ -1,4 +1,10 @@
-import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Explore | Wify.my',
+  description: 'Find stories to read.',
+};
+
 import ExploreInteractive from '@/components/ExploreInteractive';
 import { getAllStories } from '@/stories';
 

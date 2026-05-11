@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, MoreHorizontal, Bookmark, ChevronUp, ChevronDown, List } from 'lucide-react';
 import { useRouter } from 'next/navigation';

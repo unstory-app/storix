@@ -26,10 +26,6 @@ const AppHeader = () => {
         <Link href="/library" className="hidden sm:block p-2 text-text-secondary hover:text-white transition-colors">
           <Bookmark size={22} />
         </Link>
-        <button className="p-2 text-text-secondary hover:text-white transition-colors relative">
-          <Bell size={22} />
-          <span className="absolute top-2 right-2 w-2 h-2 bg-primary rounded-full border border-background"></span>
-        </button>
         <Link href="/profile" className="flex items-center justify-center w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary p-[2px]">
           <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden">
              <User size={20} className="text-white" />
