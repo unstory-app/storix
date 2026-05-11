@@ -1,0 +1,468 @@
+{
+  "id": "7c5c6305-ac54-406c-9d72-9a91c0c7c44f",
+  "title": "The Hidden Heir of the Underworld",
+  "slug": "underworld-heir",
+  "posterImage": "/images/stories/underworld-heir.png",
+  "description": "An orphan discovers he is the sole heir to a global syndicate and must reclaim his throne.",
+  "genres": [
+    "Thriller",
+    "Mafia",
+    "Action"
+  ],
+  "rating": 4.9,
+  "views": "500K",
+  "status": "Ongoing",
+  "availableLanguages": [
+    "en",
+    "hi"
+  ],
+  "seasons": [
+    {
+      "seasonNumber": 1,
+      "title": "Season 1: Awakening",
+      "description": "The journey begins.",
+      "episodes": [
+        {
+          "id": "underworld-heir-s1e1",
+          "episodeNumber": 1,
+          "title": "Episode 1: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": false,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e1p1",
+              "text": "The grease from a thousand dirty plates seemed to have permanently stained Leo's hands. At twenty-three, his life was a repetitive cycle of washing dishes at 'The Rusty Anchor' and sleeping in a cramped apartment. He had no family, only a silver ring with a dragon motif that he'd worn around his neck since the orphanage. Tonight was supposed to be like any other Tuesday—cold, quiet, and exhausting.",
+              "translations": {
+                "hi": "Leo के हाथों पर जैसे हजारों गंदी प्लेटों की चिकनाई पक्की हो गई थी। तेईस साल की उम्र में, उसका जीवन 'द रस्टी एंकर' में बर्तन धोने और एक तंग अपार्टमेंट में सोने का एक दोहराव वाला चक्र था। उसका कोई परिवार नहीं था, बस एक चांदी की अंगूठी थी जिस पर ड्रैगन बना था, जिसे वह अनाथालय के समय से अपने गले में पहनता था। आज की रात किसी भी अन्य मंगलवार की तरह होने वाली थी—ठंडी, शांत और थका देने वाली।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e1p2",
+              "text": "As he stepped out of the bar's back exit, the screech of tires echoed through the narrow alley. A fleet of sleek, black SUVs blocked both ends of the street. Leo's heart hammered against his ribs. He thought it was a mugging, or worse, the debt collectors looking for his landlord. But when the doors opened, men in tailored charcoal suits stepped out. They didn't pull out guns; instead, they formed a perfect line and bowed deeply.",
+              "translations": {
+                "hi": "जैसे ही उसने बार के पिछले निकास से बाहर कदम रखा, संकरी गली में टायरों की चीख गूँज उठी। चिकनी, काली एसयूवी के एक काफिले ने गली के दोनों सिरों को ब्लॉक कर दिया था। लियो का दिल जोरों से धड़कने लगा। उसे लगा कि यह कोई लूटपाट है, या उससे भी बुरा, उसके मकान मालिक की तलाश में आए कर्ज वसूलने वाले। लेकिन जब दरवाजे खुले, तो महंगे सूट पहने लोग बाहर निकले। उन्होंने बंदूकें नहीं निकालीं; इसके बजाय, उन्होंने एक लंबी कतार बनाई और गहरा झुककर सलाम किया।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e1p3",
+              "text": "'Young Master Leo,' a voice boomed. An elderly man with a silver-topped cane emerged from the central car. His eyes were sharp, scanning Leo with a mixture of grief and reverence. 'We have been searching for you for twenty years. The throne of the Black Dragon Syndicate has stood empty for too long.' Leo laughed, a nervous, jagged sound. 'You've got the wrong guy. I wash dishes for ten dollars an hour.'",
+              "translations": {
+                "hi": "'यंग मास्टर लियो,' एक आवाज गूँजी। बीच वाली कार से चांदी की मूठ वाली छड़ी लिए एक बुजुर्ग व्यक्ति बाहर निकला। उसकी आँखें तेज थीं, जो लियो को दुख और सम्मान के मिश्रण के साथ देख रही थीं। 'हम बीस साल से आपकी तलाश कर रहे हैं। ब्लैक ड्रैगन सिंडिकेट का सिंहासन बहुत लंबे समय से खाली पड़ा है।' लियो हंसा, एक घबराहट भरी आवाज में। 'आपने गलत आदमी को पकड़ लिया है। मैं दस डॉलर प्रति घंटे के लिए बर्तन धोता हूँ।'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e1p4",
+              "text": "The elderly man stepped forward and gently reached for the silver ring hanging from Leo's neck. 'This ring was forged in the fires of the Underworld. Only the true heir of the Dragon Head can wear it without the silver turning black.' He took Leo's hand and slipped the ring onto his finger. For a moment, the air seemed to hum. The silver glowed with an ethereal light. The men in suits gasped, and their bows deepened. 'The Dragon has returned,' the old man whispered.",
+              "translations": {
+                "hi": "बुजुर्ग व्यक्ति आगे बढ़ा और लियो के गले में लटकी चांदी की अंगूठी की ओर धीरे से हाथ बढ़ाया। 'यह अंगूठी अंडरवर्ल्ड की आग में गढ़ी गई थी। केवल ड्रैगन हेड का असली उत्तराधिकारी ही इसे पहन सकता है, बिना चांदी के काला पड़े।' उसने लियो का हाथ पकड़ा और अंगूठी उसकी उंगली में डाल दी। एक पल के लिए, हवा में जैसे कंपन होने लगा। चांदी एक अलौकिक रोशनी के साथ चमक उठी। सूट पहने लोगों की सांसें रुक गईं, और वे और भी गहरे झुक गए। 'ड्रैगन वापस आ गया है,' बूढ़े ने फुसफुसाया।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e1p5",
+              "text": "Before Leo could protest, he was ushered into the back of a luxury sedan. The leather was soft, and the smell of expensive cologne filled the air. As the car sped away, leaving the sleazy bar behind, the old man handed Leo a tablet. It showed a map of a global network—shipping lanes, casinos, technology firms. 'Your father didn't just rule an empire, Leo. He ruled the world from the shadows. And now, every rival faction is coming to kill you to take it.'",
+              "translations": {
+                "hi": "इससे पहले कि लियो विरोध कर पाता, उसे एक लग्जरी कार के पीछे बिठा दिया गया। उसका चमड़ा बहुत मुलायम था, और हवा में महंगे कोलोन की खुशबू भरी थी। जैसे ही कार उस पुराने बार को पीछे छोड़ते हुए तेज रफ्तार से आगे बढ़ी, बूढ़े आदमी ने लियो को एक टैबलेट थमाया। उसमें एक वैश्विक नेटवर्क का नक्शा दिखाया गया था—शिपिंग लेन, कैसीनो, टेक्नोलॉजी फर्म। 'लियो, तुम्हारे पिता ने सिर्फ एक साम्राज्य पर राज नहीं किया था। उन्होंने सायों से पूरी दुनिया पर राज किया था। और अब, हर प्रतिद्वंद्वी गुट उसे हथियाने के लिए तुम्हें मारने आ रहा है।'"
+              }
+            }
+          ]
+        },
+        {
+          "id": "underworld-heir-s1e2",
+          "episodeNumber": 2,
+          "title": "Episode 2: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": false,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e2p1",
+              "text": "The sedan sped up a winding mountain road, arriving at a fortress-like estate hidden behind high walls and automated turrets. This was the 'Dragon's Nest,' the nerve center of the Syndicate. Leo was led through grand hallways lined with ancient weapons and high-tech monitors. He felt like an ant in a palace of giants. Every guard they passed snapped to attention, their eyes fixed forward, but Leo could feel their silent judgment. They saw a dishwasher, not a king.",
+              "translations": {
+                "hi": "लग्जरी कार एक घुमावदार पहाड़ी सड़क पर तेजी से आगे बढ़ी और ऊंची दीवारों और स्वचालित बुर्जों के पीछे छिपी एक किले जैसी संपत्ति पर रुकी। यह 'ड्रैगन नेस्ट' था, सिंडिकेट का तंत्रिका केंद्र। लियो को प्राचीन हथियारों और हाई-टेक मॉनिटरों से सजे भव्य गलियारों से ले जाया गया। उसे दिग्गजों के महल में एक चींटी जैसा महसूस हो रहा था। उनके पास से गुजरने वाला हर गार्ड सावधान हो जाता था, उनकी आँखें सामने जमी होती थीं, लेकिन लियो उनका मौन न्याय महसूस कर सकता था। वे एक बर्तन धोने वाले को देख रहे थे, राजा को नहीं।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e2p2",
+              "text": "In the inner courtyard, he was introduced to his primary protector: Maya. She was tall, with raven hair tied in a sharp ponytail and eyes that seemed to see right through Leo's soul. She didn't bow. Instead, she crossed her arms and scanned him with clinical detachment. 'You're smaller than the photos of your father,' she said, her voice like cracking ice. 'The Syndicate needs a wolf, not a puppy. My job is to keep you alive long enough to see if you can grow teeth.'",
+              "translations": {
+                "hi": "भीतरी आंगन में, उसका परिचय उसकी प्राथमिक रक्षक: माया से कराया गया। वह लंबी थी, उसके काले बाल एक तीखी चोटी में बंधे थे और उसकी आँखें ऐसी थीं जो लियो की आत्मा के आर-पार देख सकती थीं। वह नहीं झुकी। इसके बजाय, उसने अपनी बाहें सिकोड़ीं और बड़ी बेरुखी से उसे देखा। 'तुम अपने पिता की तस्वीरों से छोटे हो,' उसने कहा, उसकी आवाज बर्फ टूटने जैसी थी। 'सिंडिकेट को एक भेड़िये की जरूरत है, पिल्ले की नहीं। मेरा काम तुम्हें तब तक जीवित रखना है जब तक यह पता न चल जाए कि तुम्हारे दांत निकल सकते हैं या नहीं।'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e2p3",
+              "text": "Leo tried to defend himself, but Maya cut him off. 'The Viper Guild already knows you've been found. They've put a ten-million-dollar bounty on your head. By tomorrow, every assassin in the hemisphere will be looking for a way into this mountain.' As she spoke, a faint buzzing sound drifted from the clear blue sky. Maya's expression shifted instantly. She grabbed Leo's collar and threw him behind a marble pillar just as the air exploded.",
+              "translations": {
+                "hi": "लियो ने अपना बचाव करने की कोशिश की, लेकिन माया ने उसे बीच में ही रोक दिया। 'वाइपर गिल्ड को पहले से ही पता है कि तुम मिल गए हो। उन्होंने तुम्हारे सिर पर दस मिलियन डॉलर का इनाम रखा है। कल तक, इस गोलार्द्ध का हर कातिल इस पहाड़ में घुसने का रास्ता ढूंढ रहा होगा।' जैसे ही उसने बात की, साफ नीले आसमान से भिनभिनाहट की हल्की आवाज आई। माया के हाव-भाव तुरंत बदल गए। उसने लियो का कॉलर पकड़ा और उसे एक संगमरमर के खंभे के पीछे धकेल दिया, ठीक उसी समय जब हवा में धमाका हुआ।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e2p4",
+              "text": "A swarm of stealth drones had bypassed the outer perimeter. Explosive charges detonated against the estate walls, sending shrapnel whistling through the air. Leo huddled against the cold stone, his ears ringing. He saw Maya move with a grace that defied physics. She pulled two silenced pistols from her waistband and began picking the drones out of the sky with terrifying precision. Each shot was a spark of lethal efficiency.",
+              "translations": {
+                "hi": "स्टील्थ ड्रोन के एक झुंड ने बाहरी घेरे को पार कर लिया था। संपत्ति की दीवारों से विस्फोटक टकराए, जिससे छर्रे हवा में सीटी बजाते हुए निकले। लियो ठंडे पत्थर से चिपक कर दुबक गया, उसके कान बज रहे थे। उसने माया को एक ऐसी गरिमा के साथ चलते देखा जो भौतिकी को चुनौती देती थी। उसने अपनी कमर से दो साइलेंसर वाली पिस्तौलें निकालीं और भयानक सटीकता के साथ ड्रोनों को आसमान से गिराना शुरू कर दिया। हर शॉट घातक दक्षता की एक चिंगारी थी।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e2p5",
+              "text": "The last drone spiraled down, crashing into the koi pond. Silence returned to the mountain, broken only by the crackle of small fires. Maya stood over the wreckage, her breathing barely elevated. She turned to Leo, who was still trembling on the ground. 'This was just a greeting, Young Master. They'll send real people next time. If you want to survive the night, you stop being a victim and start being an heir. Do you understand?' Leo nodded slowly, his old life as a dishwasher feeling like a distant, impossible dream.",
+              "translations": {
+                "hi": "आखिरी ड्रोन नीचे गिरकर कोई तालाब में समा गया। पहाड़ पर फिर से सन्नाटा छा गया, जिसे केवल छोटी आग की चटकन ने तोड़ा। माया उस मलबे के पास खड़ी थी, उसकी सांसें मुश्किल से ही तेज हुई थीं। वह लियो की ओर मुड़ी, जो अभी भी जमीन पर कांप रहा था। 'यह सिर्फ एक स्वागत था, यंग मास्टर। अगली बार वे असली लोगों को भेजेंगे। यदि तुम रात भर जीवित रहना चाहते हो, तो शिकार बनना बंद करो और उत्तराधिकारी बनना शुरू करो। क्या तुम समझे?' लियो ने धीरे से सिर हिलाया, बर्तन धोने वाले के रूप में उसका पुराना जीवन एक दूर के, असंभव सपने जैसा लग रहा था।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "underworld-heir-s1e3",
+          "episodeNumber": 3,
+          "title": "Episode 3: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": false,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e3p1",
+              "text": "The adrenaline from the drone attack hadn't even fully subsided when Mr. Han led Leo deep into the sub-basement of the estate. They passed through three biometric security gates before arriving at a massive, circular vault. As the heavy steel door hissed open, Leo gasped. It wasn't full of gold or cash; it was full of servers, holographic displays, and a map of the world's financial markets flickering in real-time. 'This,' Han said, 'is the true power of the Black Dragon.'",
+              "translations": {
+                "hi": "ड्रोन हमले से मिली घबराहट अभी पूरी तरह से शांत भी नहीं हुई थी कि मिस्टर हान लियो को संपत्ति के बेसमेंट के काफी गहराई में ले गए। वे एक विशाल, गोलाकार तिजोरी में पहुँचने से पहले तीन बायोमेट्रिक सुरक्षा द्वारों से गुज़रे। जैसे ही भारी स्टील का दरवाजा फुसफुसाते हुए खुला, लियो की सांसें रुक गईं। यह सोने या नकदी से भरा नहीं था; यह सर्वर, होलोग्राफिक डिस्प्ले और दुनिया के वित्तीय बाजारों के नक्शे से भरा था जो वास्तविक समय में टिमटिमा रहा था। 'यह,' हान ने कहा, 'ब्लैक ड्रैगन की असली ताकत है।'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e3p2",
+              "text": "'We control thirty percent of the world's underwater data cables, Leo. We manage the private wealth of kings and dictators. The syndicate is the invisible skeleton of the modern world. But it's brittle now.' Han pointed to a section of the map glowing red—the territory controlled by the Viper Guild. 'Kuro, your father's most trusted lieutenant, orchestrated the assassination. He wanted this power for himself, but the syndicate's core systems are locked behind DNA encryption.'",
+              "translations": {
+                "hi": "'लियो, हम दुनिया के तीस प्रतिशत पानी के नीचे के डेटा केबलों को नियंत्रित करते हैं। हम राजाओं और तानाशाहों की निजी संपत्ति का प्रबंधन करते हैं। सिंडिकेट आधुनिक दुनिया का अदृश्य कंकाल है। लेकिन अब यह कमजोर है।' हान ने नक्शे के एक हिस्से की ओर इशारा किया जो लाल रंग में चमक रहा था—वाइपर गिल्ड द्वारा नियंत्रित क्षेत्र। 'कुरो, तुम्हारे पिता के सबसे भरोसेमंद लेफ्टिनेंट ने हत्या की साजिश रची थी। वह यह ताकत अपने लिए चाहता था, लेकिन सिंडिकेट के मुख्य सिस्टम डीएनए एन्क्रिप्शन के पीछे बंद हैं।'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e3p3",
+              "text": "Leo stared at the red zones on the map. He felt a heavy weight settling on his shoulders—the weight of millions of lives and billions of dollars. 'Why me?' he asked softly. 'If Kuro has the power and the men, why hasn't he just taken over?' Han sighed, his face looking older in the blue light of the screens. 'Because the syndicate's elders won't follow him. They follow the bloodline. And because Kuro can't access the deeper protocols without you.'",
+              "translations": {
+                "hi": "लियो ने नक्शे पर लाल क्षेत्रों को घूर कर देखा। उसने अपने कंधों पर एक भारी बोझ महसूस किया—लाखों जिंदगियों और अरबों डॉलर का बोझ। 'मैं ही क्यों?' उसने धीरे से पूछा। 'यदि कुरो के पास ताकत और लोग हैं, तो उसने अभी तक कब्जा क्यों नहीं किया?' हान ने आह भरी, स्क्रीन की नीली रोशनी में उनका चेहरा और भी बूढ़ा लग रहा था। 'क्योंकि सिंडिकेट के बुजुर्ग उसका अनुसरण नहीं करेंगे। वे रक्त की रेखा का अनुसरण करते हैं। और क्योंकि कुरो तुम्हारे बिना गहरे प्रोटोकॉल तक नहीं पहुँच सकता।'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e3p4",
+              "text": "Han walked to a small pedestal and touched a button. A holographic photo appeared—a beautiful woman with kind eyes and a smile that seemed to light up the dark vault. Leo's breath caught. He recognized her. It was the face from the tiny, blurred photo he'd kept in his wallet all his life. 'Your mother,' Han whispered. 'She died protecting you that night. She wanted you to grow up away from this darkness, but Kuro never stopped looking for the heir.'",
+              "translations": {
+                "hi": "हान एक छोटे से स्टैंड के पास गए और एक बटन दबाया। एक होलोग्राफिक फोटो दिखाई दी—एक सुंदर महिला जिसकी आँखों में दया थी और एक मुस्कान जो अंधेरी तिजोरी को रोशन करती हुई लग रही थी। लियो की सांसें अटक गईं। उसने उसे पहचान लिया। यह वही चेहरा था जिसे उसने अपनी पूरी जिंदगी अपने बटुए में रखी छोटी सी, धुंधली फोटो में देखा था। 'तुम्हारी माँ,' हान फुसफुसाया। 'उस रात तुम्हारी रक्षा करते हुए उनकी मृत्यु हो गई थी। वह चाहती थीं कि तुम इस अंधेरे से दूर बड़े हो, लेकिन कुरो ने कभी उत्तराधिकारी की तलाश बंद नहीं की।'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e3p5",
+              "text": "Leo reached out, his fingers passing through the light of the hologram. He looked at the silver ring on his finger, then at the map of the world. The dishwasher from the sleazy bar was dead. He felt a cold, sharp resolve forming in his chest—a feeling he'd never known before. 'I'm not a wolf yet, Han,' Leo said, his voice steady. 'But I'm not a puppy either. Show me how to use this. If Kuro wants the throne, he'll have to go through me.'",
+              "translations": {
+                "hi": "लियो ने अपना हाथ बढ़ाया, उसकी उंगलियां होलोग्राम की रोशनी से गुजरीं। उसने अपनी उंगली की चांदी की अंगूठी को देखा, फिर दुनिया के नक्शे को। उस पुराने बार का बर्तन धोने वाला मर चुका था। उसने अपने सीने में एक ठंडा, कड़ा संकल्प बनते महसूस किया—एक ऐसा अहसास जिसे उसने पहले कभी नहीं जाना था। 'मैं अभी भेड़िया नहीं हूँ, हान,' लियो ने स्थिर आवाज में कहा। 'लेकिन मैं कोई पिल्ला भी नहीं हूँ। मुझे दिखाओ कि इसका उपयोग कैसे करना है। यदि कुरो को सिंहासन चाहिए, तो उसे मुझसे होकर गुजरना होगा।'"
+              }
+            }
+          ]
+        },
+        {
+          "id": "underworld-heir-s1e4",
+          "episodeNumber": 4,
+          "title": "Episode 4: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": true,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e4p1",
+              "text": "The training began at 4:00 AM. Maya didn't use soft words or gentle encouragement. She treated Leo like a recruit in an elite special forces unit. The first week was nothing but physical conditioning—running up mountain trails with a weighted pack, hundreds of burpees in the rain, and hours of tactical combat drills. Leo's body screamed in protest, his muscles burning like they were being eaten by acid. Every time he fell, Maya was there, her voice a whip: 'Get up, Heir. The Viper won't wait for you to catch your breath.'",
+              "translations": {
+                "hi": "ट्रेनिंग सुबह 4:00 बजे शुरू हुई। माया ने कोमल शब्दों या प्रोत्साहन का उपयोग नहीं किया। उसने लियो के साथ एक विशिष्ट विशेष बल इकाई के रंगरूट जैसा व्यवहार किया। पहला हफ्ता केवल शारीरिक कंडीशनिंग का था—वजन वाले पैक के साथ पहाड़ी रास्तों पर दौड़ना, बारिश में सैकड़ों बर्पीज़, और घंटों सामरिक युद्ध अभ्यास। लियो का शरीर विरोध में चीख रहा था, उसकी मांसपेशियां एसिड द्वारा खाए जाने जैसी जल रही थीं। हर बार जब वह गिरता, माया वहीं होती, उसकी आवाज एक कोड़े जैसी होती: 'उठो, उत्तराधिकारी। वाइपर तुम्हारी सांस वापस आने का इंतजार नहीं करेगा।'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e4p2",
+              "text": "By the second week, they moved to weapons and technology. Leo had to learn to strip and reassemble a handgun blindfolded and how to bypass encrypted security nodes using the Syndicate's neural interface. He was surprisingly fast with the tech; his years of playing complex strategy games in the orphanage had given him a natural affinity for patterns. Maya watched him work on a simulated hacking mission, her expression softening for a fraction of a second. He was finally starting to show the grit of a Black Dragon.",
+              "translations": {
+                "hi": "दूसरे हफ्ते तक, वे हथियारों और तकनीक की ओर बढ़ गए। लियो को आंखों पर पट्टी बांधकर एक हैंडगन को खोलना और फिर से जोड़ना सीखना पड़ा, और सिंडिकेट के तंत्रिका इंटरफ़ेस का उपयोग करके एन्क्रिप्टेड सुरक्षा नोड्स को बायपास करना सीखना पड़ा। वह तकनीक के साथ आश्चर्यजनक रूप से तेज था; अनाथालय में जटिल रणनीति वाले खेल खेलने के उसके वर्षों के अनुभव ने उसे पैटर्न के प्रति स्वाभाविक लगाव दिया था। माया ने उसे एक नकली हैकिंग मिशन पर काम करते देखा, एक सेकंड के एक अंश के लिए उसके चेहरे के हाव-भाव नरम पड़ गए। वह आखिरकार ब्लैक ड्रैगन का साहस दिखाने लगा था।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e4p3",
+              "text": "One evening, after a particularly grueling session, Mr. Han summoned them to the war room. His face was etched with worry. 'We have a breach,' he said, his voice low. 'An encrypted transmission was intercepted leaving the estate. Someone inside the Dragon's Nest is feeding intel to the Viper Guild. They know Leo is here, and they know about our training schedule.' The room went cold. The idea that their sanctuary was compromised was a physical blow to the small group.",
+              "translations": {
+                "hi": "एक शाम, विशेष रूप से थका देने वाले सत्र के बाद, मिस्टर हान ने उन्हें वार रूम में बुलाया। उनका चेहरा चिंता से भरा था। 'हमें नुकसान पहुँचाया गया है,' उन्होंने धीमी आवाज में कहा। 'संपत्ति से बाहर जाते हुए एक एन्क्रिप्टेड ट्रांसमिशन पकड़ा गया है। ड्रैगन नेस्ट के अंदर का कोई व्यक्ति वाइपर गिल्ड को जानकारी दे रहा है। उन्हें पता है कि लियो यहाँ है, और उन्हें हमारे प्रशिक्षण कार्यक्रम के बारे में भी पता है।' कमरे में सन्नाटा छा गया। यह विचार कि उनके ठिकाने के साथ समझौता किया गया था, उस छोटे समूह के लिए एक बड़ा झटका था।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e4p4",
+              "text": "Maya immediately went into tactical mode, scanning the security logs and staff records. 'We need to flush them out before the next attack,' she stated, her eyes fixed on the data stream. 'If the Viper Guild gets the exact coordinates of the sub-basement vault, even our turret systems won't stop a full-scale assault.' Leo felt the old fear creeping back, but he suppressed it. He looked at the map, then at the list of staff. He noticed a discrepancy in the supply logs that everyone else had missed.",
+              "translations": {
+                "hi": "माया तुरंत सामरिक मोड में चली गई, सुरक्षा लॉग और स्टाफ रिकॉर्ड को स्कैन करने लगी। 'हमें अगले हमले से पहले उन्हें बाहर निकालना होगा,' उसने डेटा स्ट्रीम पर अपनी आँखें जमाते हुए कहा। 'यदि वाइपर गिल्ड को बेसमेंट तिजोरी के सटीक निर्देशांक मिल जाते हैं, तो हमारे बुर्ज सिस्टम भी बड़े पैमाने पर हमले को नहीं रोक पाएंगे।' लियो ने पुराने डर को वापस आते महसूस किया, लेकिन उसने उसे दबा दिया। उसने नक्शे को देखा, फिर स्टाफ की सूची को। उसने आपूर्ति लॉग में एक विसंगति देखी जिसे बाकी सब भूल गए थे।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e4p5",
+              "text": "'Look here,' Leo said, pointing to a series of unusually high power spikes in the communications relay. 'Someone isn't just sending messages; they're uploading massive amounts of encrypted data. And they're doing it during the shift change.' Maya followed his finger, her eyebrows rising. 'That's a high-stakes play. They're using the noise of the transition to hide the signal.' She looked at Leo with newfound respect. 'Good eye, kid. We have a plan to catch a traitor. But it's going to be dangerous.'",
+              "translations": {
+                "hi": "'यहाँ देखो,' लियो ने संचार रिले में असामान्य रूप से उच्च शक्ति स्पाइक्स की एक श्रृंखला की ओर इशारा करते हुए कहा। 'कोई केवल संदेश नहीं भेज रहा है; वे भारी मात्रा में एन्क्रिप्टेड डेटा अपलोड कर रहे हैं। और वे इसे शिफ्ट बदलने के दौरान कर रहे हैं।' माया ने उसकी उंगली का पीछा किया, उसकी भौहें तन गईं। 'यह एक बड़ा दांव है। वे सिग्नल को छिपाने के लिए बदलाव के शोर का उपयोग कर रहे हैं।' उसने नए सम्मान के साथ लियो की ओर देखा। 'अच्छी नज़र है, बच्चे। हमारे पास एक गद्दार को पकड़ने की योजना है। लेकिन यह खतरनाक होने वाला है।'"
+              }
+            }
+          ]
+        },
+        {
+          "id": "underworld-heir-s1e5",
+          "episodeNumber": 5,
+          "title": "Episode 5: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": true,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e5p1",
+              "text": "The plan was simple but deadly. Maya and Leo hid in the shadows of the communications hub during the midnight shift change. The air was thick with the hum of cooling fans and the smell of ozone. Just as Leo had predicted, a figure in a security uniform approached the main terminal. It was Chen, one of the Syndicate's most senior security officers—a man who had been with Leo's father for a decade. The betrayal felt like a cold knife in the heart of the estate.",
+              "translations": {
+                "hi": "योजना सरल लेकिन घातक थी। माया और लियो आधी रात की शिफ्ट बदलने के दौरान संचार केंद्र की छाया में छिप गए। हवा कूलिंग पंखों की भिनभिनाहट और ओजोन की गंध से भरी थी। जैसा कि लियो ने भविष्यवाणी की थी, सुरक्षा वर्दी में एक व्यक्ति मुख्य टर्मिनल के पास पहुँचा। वह चेन था, सिंडिकेट के सबसे वरिष्ठ सुरक्षा अधिकारियों में से एक—एक ऐसा व्यक्ति जो एक दशक से लियो के पिता के साथ था। यह विश्वासघात संपत्ति के दिल में एक ठंडे चाकू की तरह महसूस हुआ।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e5p2",
+              "text": "Chen's fingers flew across the keyboard, uploading a new batch of data. Maya stepped out of the shadows, her pistol leveled at his head. 'I expected better from you, Chen,' she said, her voice a low growl. Chen froze, his face turning ghostly pale. 'You don't understand, Maya,' he stammered, his hands shaking. 'Kuro... he has my family. He'll kill them if I don't give him the vault's final encryption keys. I had no choice!'",
+              "translations": {
+                "hi": "चेन की उंगलियां कीबोर्ड पर तेजी से चलीं, डेटा का एक नया बैच अपलोड कर रही थीं। माया सायों से बाहर निकली, उसकी पिस्तौल उसके सिर पर तनी हुई थी। 'मुझे तुमसे बेहतर की उम्मीद थी, चेन,' उसने धीमी आवाज में कहा। चेन जम गया, उसका चेहरा भूताहा पीला पड़ गया। 'तुम नहीं समझोगी, माया,' वह हकलाते हुए बोला, उसके हाथ कांप रहे थे। 'कुरो... उसके पास मेरा परिवार है। अगर मैं उसे तिजोरी की अंतिम एन्क्रिप्शन कुंजियाँ नहीं देता, तो वह उन्हें मार देगा। मेरे पास कोई विकल्प नहीं था!'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e5p3",
+              "text": "Leo stepped forward, his eyes fixed on the screen. 'There's always a choice, Chen,' he said, surprised by the firmness of his own voice. He shoved Chen aside and took over the terminal. Using the protocols Maya had taught him, Leo began to intercept the data stream. He realized he could do more than just stop the upload; he could feed Kuro false information—a digital Trojan horse that would lead the Viper Guild's strike team into a dead end.",
+              "translations": {
+                "hi": "लियो आगे बढ़ा, उसकी आँखें स्क्रीन पर जमी थीं। 'हमेशा एक विकल्प होता है, चेन,' उसने अपनी आवाज की दृढ़ता से खुद को हैरान करते हुए कहा। उसने चेन को एक तरफ धकेल दिया और टर्मिनल को अपने कब्जे में ले लिया। माया द्वारा सिखाए गए प्रोटोकॉल का उपयोग करते हुए, लियो ने डेटा स्ट्रीम को रोकना शुरू कर दिया। उसने महसूस किया कि वह केवल अपलोड रोकने से कहीं अधिक कर सकता है; वह कुरो को गलत जानकारी दे सकता था—एक डिजिटल ट्रोजन हॉर्स जो वाइपर गिल्ड की स्ट्राइक टीम को एक बंद रास्ते की ओर ले जाएगा।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e5p4",
+              "text": "For ten agonizing minutes, Leo's fingers danced across the neural interface. He could feel the Syndicate's core systems resisting him, but the silver ring on his finger seemed to act as a master key. He diverted the GPS coordinates and sent a fake blueprint of the sub-basement. Chen watched in a mixture of terror and awe. 'The boy... he's doing it,' Chen whispered. Maya didn't lower her weapon. 'He's not a boy, Chen. He's the Heir.'",
+              "translations": {
+                "hi": "दस कष्टदायक मिनटों तक, लियो की उंगलियां तंत्रिका इंटरफ़ेस पर नाचती रहीं। वह सिंडिकेट के मुख्य सिस्टम को उसका विरोध करते हुए महसूस कर सकता था, लेकिन उसकी उंगली की चांदी की अंगूठी एक मास्टर कुंजी की तरह काम करती दिख रही थी। उसने जीपीएस निर्देशांकों को बदल दिया और बेसमेंट का एक नकली नक्शा भेज दिया। चेन आतंक और विस्मय के मिश्रण के साथ देखता रहा। 'लड़का... वह यह कर रहा है,' चेन फुसफुसाया। माया ने अपना हथियार नीचे नहीं किया। 'वह लड़का नहीं है, चेन। वह उत्तराधिकारी है।'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e5p5",
+              "text": "Just as Leo hit the final execution key, a low rumble vibrated through the floor. It wasn't an earthquake. It was the sound of heavy-duty rotors. Maya's earpiece crackled with urgent reports from the perimeter guards. 'Helicopters incoming! Multiple signatures! They're not waiting for the intel—they're attacking now!' Leo looked at Maya, the blue light of the terminal reflecting in his eyes. The digital war was over. The real battle for the Dragon's Nest had begun.",
+              "translations": {
+                "hi": "जैसे ही लियो ने अंतिम निष्पादन कुंजी दबाई, फर्श से एक धीमी गड़गड़ाहट महसूस हुई। यह भूकंप नहीं था। यह भारी रोटरों की आवाज़ थी। माया के ईयरपीस में बाहरी घेरे के गार्डों की तत्काल रिपोर्ट गूँज उठी। 'हेलीकॉप्टर आ रहे हैं! कई संकेत! वे जानकारी का इंतजार नहीं कर रहे हैं—वे अभी हमला कर रहे हैं!' लियो ने माया की ओर देखा, टर्मिनल की नीली रोशनी उसकी आँखों में झलक रही थी। डिजिटल युद्ध समाप्त हो चुका था। ड्रैगन नेस्ट के लिए असली लड़ाई शुरू हो गई थी।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "underworld-heir-s1e6",
+          "episodeNumber": 6,
+          "title": "Episode 6: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": true,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e6p1",
+              "text": "The night sky was shredded by the roar of three combat helicopters. Searchlights swept across the Dragon's Nest, and elite mercenaries from the Viper Guild began fast-roping onto the estate's roof. Maya didn't hesitate. She shoved a compact submachine gun into Leo's hands and barked orders to a team of Syndicate guards. 'Get the Heir to the safe room! I'll hold the main entrance!' Leo wanted to stay with her, but he was pulled away by two hulking guards before he could protest.",
+              "translations": {
+                "hi": "तीन लड़ाकू हेलीकॉप्टरों की दहाड़ से रात का आसमान जैसे फट गया। सर्चलाइट्स ने ड्रैगन नेस्ट को घेर लिया, और वाइपर गिल्ड के विशिष्ट भाड़े के सैनिकों ने संपत्ति की छत पर तेजी से उतरना शुरू कर दिया। माया हिचकिचाई नहीं। उसने लियो के हाथों में एक कॉम्पैक्ट सबमशीन गन थमा दी और सिंडिकेट गार्डों की एक टीम को आदेश दिया। 'उत्तराधिकारी को सुरक्षित कमरे में ले जाओ! मैं मुख्य प्रवेश द्वार संभालूँगी!' लियो उसके साथ रहना चाहता था, लेकिन इससे पहले कि वह विरोध कर पाता, दो विशाल गार्डों ने उसे खींच लिया।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e6p2",
+              "text": "Inside the safe room, surrounded by reinforced steel and monitors, Leo felt useless. He could hear the muffled thuds of explosions and the staccato rhythm of gunfire echoing through the vents. On the screens, he watched Maya move like a phantom through the grand foyer, her pistols spitting fire. But the mercenaries were numerous and well-equipped. They were pushing the Syndicate guards back, using thermal-shielding and flash-bangs to create chaos.",
+              "translations": {
+                "hi": "मजबूत स्टील और मॉनिटरों से घिरे सुरक्षित कमरे के अंदर, लियो को खुद को बेकार महसूस हुआ। वह धमाकों की दबी हुई आवाजें और वेंट के माध्यम से गूँजती गोलियों की आवाज सुन सकता था। स्क्रीन पर, उसने माया को भव्य फ़ोयर में एक प्रेत की तरह चलते देखा, उसकी पिस्तौलें आग उगल रही थीं। लेकिन भाड़े के सैनिक संख्या में अधिक और अच्छी तरह से सुसज्जित थे। वे सिंडिकेट गार्डों को पीछे धकेल रहे थे, थर्मल-शील्डिंग और फ्लैश-बैंग्स का उपयोग करके अराजकता पैदा कर रहे थे।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e6p3",
+              "text": "Leo realized that the safe room wasn't just a prison—it was a command center. He sat at the main console and accessed the estate's central nervous system. He could see every camera, every motion sensor, and every automated defense turret. He saw a group of mercenaries moving through the ventilation shafts toward the safe room. They weren't just here to kill the guards; they were here for him. 'I'm not just going to watch,' Leo whispered, his fingers flying across the keys.",
+              "translations": {
+                "hi": "लियो ने महसूस किया कि सुरक्षित कमरा सिर्फ एक जेल नहीं था—यह एक कमांड सेंटर था। वह मुख्य कंसोल पर बैठ गया और संपत्ति के तंत्रिका तंत्र तक पहुँच प्राप्त की। वह हर कैमरा, हर मोशन सेंसर और हर स्वचालित रक्षा बुर्ज देख सकता था। उसने भाड़े के सैनिकों के एक समूह को वेंटिलेशन शाफ्ट के माध्यम से सुरक्षित कमरे की ओर बढ़ते देखा। वे यहाँ सिर्फ गार्डों को मारने के लिए नहीं थे; वे उसके लिए आए थे। 'मैं सिर्फ देखूँगा नहीं,' लियो ने फुसफुसाया, उसकी उंगलियां कुंजियों पर नाच रही थीं।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e6p4",
+              "text": "He began to override the automatic security protocols. He used the internal fire-suppression system to flood the ventilation shafts with thick, non-toxic smoke, disorienting the intruders. He activated the floor-mounted tasers in the west wing, neutralizing a squad of mercenaries before they could reach the main elevator. Through the comms, he began to guide the Syndicate guards, giving them the exact positions of the enemies. 'Three meters ahead, behind the pillar. Target acquired.'",
+              "translations": {
+                "hi": "उसने स्वचालित सुरक्षा प्रोटोकॉल को ओवरराइड करना शुरू कर दिया। उसने वेंटिलेशन शाफ्ट में गाढ़ा, गैर-विषाक्त धुआं भरने के लिए आंतरिक अग्नि-शमन प्रणाली का उपयोग किया, जिससे घुसपैठियों को दिशा का पता न चले। उसने पश्चिमी विंग में फर्श पर लगे टेज़र को सक्रिय किया, जिससे भाड़े के सैनिकों के एक दस्ते को मुख्य लिफ्ट तक पहुँचने से पहले ही बेअसर कर दिया गया। संचार के माध्यम से, उसने सिंडिकेट गार्डों का मार्गदर्शन करना शुरू कर दिया, उन्हें दुश्मनों की सटीक स्थिति बताई। 'तीन मीटर आगे, खंभे के पीछे। लक्ष्य प्राप्त हुआ।'"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e6p5",
+              "text": "But then, Leo saw a figure on the monitors that made his blood run cold. A man in a featureless white mask, moving with a terrifying, unnatural stillness. 'The Specter,' Han's voice crackled over the radio, filled with dread. 'Kuro's top assassin. He doesn't use guns. He uses blades and shadows.' The Specter had already reached the grand foyer, and he was heading straight for Maya. Leo watched as the assassin drew two curved daggers that gleamed with a lethal, bluish tint.",
+              "translations": {
+                "hi": "लेकिन तभी, लियो ने मॉनिटर पर एक ऐसी आकृति देखी जिससे उसका खून जम गया। बिना किसी चेहरे वाले सफेद नकाब में एक आदमी, जो एक भयानक, अप्राकृतिक स्थिरता के साथ चल रहा था। 'द स्पेक्टर,' हान की आवाज रेडियो पर गूँजी, डर से भरी हुई। 'कुरो का शीर्ष हत्यारा। वह बंदूकों का उपयोग नहीं करता है। वह ब्लेड और सायों का उपयोग करता है।' स्पेक्टर पहले ही भव्य फ़ोयर में पहुँच चुका था, और वह सीधे माया की ओर बढ़ रहा था। लियो ने देखा कि कातिल ने दो घुमावदार खंजर निकाले जो एक घातक, नीले रंग की चमक के साथ चमक रहे थे।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "underworld-heir-s1e7",
+          "episodeNumber": 7,
+          "title": "Episode 7: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": true,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e7p1",
+              "text": "The grand foyer became a stage for a lethal dance. Maya moved with a desperate, frantic speed, her pistols barking until they clicked empty. She dropped them and drew her own combat knife. The Specter was a blur of white and steel, his curved daggers whistling through the air. He didn't just attack; he flowed, his movements calculated to exploit every gap in Maya's defense. Leo watched the screen, his heart in his throat, as a thin red line appeared on Maya's shoulder.",
+              "translations": {
+                "hi": "भव्य फ़ोयर एक घातक नृत्य का मंच बन गया। माया एक हताश, उन्मत्त गति के साथ चली, उसकी पिस्तौलें तब तक दहाड़ती रहीं जब तक कि वे खाली नहीं हो गईं। उसने उन्हें छोड़ दिया और अपना खुद का मुकाबला चाकू निकाल लिया। स्पेक्टर सफेद और स्टील की एक धुंध थी, उसके घुमावदार खंजर हवा में सीटी बजा रहे थे। उसने सिर्फ हमला नहीं किया; वह बहता रहा, उसकी चालें माया की रक्षा के हर गैप का फायदा उठाने के लिए गणना की गई थीं। लियो ने स्क्रीन पर देखा, उसका दिल गले में था, क्योंकि माया के कंधे पर एक पतली लाल रेखा दिखाई दी।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e7p2",
+              "text": "'Maya, get out of there!' Leo shouted into the comms. But Maya didn't answer. She was locked in a struggle for survival. The Specter's speed was tech-enhanced—subtle servos in his suit gave him a superhuman edge. Leo realized that if he didn't intervene, Maya would die in minutes. He bypassed the safety locks on the foyer's automated turrets. He couldn't aim them precisely without hitting Maya, but he could create a curtain of suppression fire to keep the Specter at bay.",
+              "translations": {
+                "hi": "'माया, वहाँ से बाहर निकलो!' लियो संचार के माध्यम से चिल्लाया। लेकिन माया ने कोई जवाब नहीं दिया। वह जीवित रहने के संघर्ष में उलझी हुई थी। स्पेक्टर की गति तकनीक-संवर्धित थी—उसके सूट में लगे सूक्ष्म सर्वो ने उसे अलौकिक बढ़त दी थी। लियो ने महसूस किया कि यदि उसने हस्तक्षेप नहीं किया, तो माया मिनटों में मर जाएगी। उसने फ़ोयर के स्वचालित बुर्जों पर लगे सुरक्षा तालों को बायपास कर दिया। वह माया को मारे बिना उन्हें सटीक रूप से लक्षित नहीं कर सकता था, लेकिन वह स्पेक्टर को दूर रखने के लिए दमनकारी आग का एक परदा बना सकता था।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e7p3",
+              "text": "The turrets erupted, filling the foyer with a storm of rubber-coated non-lethal rounds and high-intensity strobe lights. The Specter recoiled, his sensors momentarily overloaded. In that split second, Maya managed to roll away and take cover. But Leo knew it wasn't enough. The Specter would adapt. Leo looked at the weapon rack in the safe room and saw a prototype EMP device he'd read about in the Syndicate's archives. It was designed to neutralize high-tech stealth suits.",
+              "translations": {
+                "hi": "बुर्ज फूट पड़े, जिससे फ़ोयर रबर-लेपित गैर-घातक राउंड और उच्च तीव्रता वाली स्ट्रोब लाइट के तूफान से भर गया। स्पेक्टर पीछे हट गया, उसके सेंसर क्षण भर के लिए ओवरलोड हो गए। उसी सेकंड में, माया पीछे हटने और कवर लेने में सफल रही। लेकिन लियो जानता था कि यह पर्याप्त नहीं था। स्पेक्टर खुद को ढाल लेगा। लियो ने सुरक्षित कमरे में हथियारों के रैक को देखा और एक प्रोटोटाइप ईएमपी डिवाइस देखा जिसके बारे में उसने सिंडिकेट के अभिलेखागार में पढ़ा था। इसे हाई-टेक स्टील्थ सूट को बेअसर करने के लिए डिज़ाइन किया गया था।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e7p4",
+              "text": "Against Mr. Han's frantic protests over the radio, Leo grabbed the EMP device and a tactical vest. He shoved the heavy steel door open and ran toward the foyer. The estate was a war zone—smoke filled the hallways, and the air tasted of cordite. He found Maya leaning against a pillar, clutching her bleeding arm. The Specter was already recovering, his white mask reflecting the flickering emergency lights. He saw Leo and tilted his head, a predatory curiosity in his stance.",
+              "translations": {
+                "hi": "रेडियो पर मिस्टर हान के हताश विरोध के बावजूद, लियो ने ईएमपी डिवाइस और एक सामरिक बनियान ली। उसने भारी स्टील का दरवाजा खोला और फ़ोयर की ओर भागा। संपत्ति एक युद्ध क्षेत्र थी—गलियारों में धुआं भरा था, और हवा में बारूद का स्वाद था। उसने माया को एक खंभे के सहारे खड़ा पाया, जो अपने खून बहते हाथ को पकड़े हुए थी। स्पेक्टर पहले से ही ठीक हो रहा था, उसका सफेद मुखौटा टिमटिमाती आपातकालीन रोशनी को परावर्तित कर रहा था। उसने लियो को देखा और अपना सिर झुकाया, उसके हाव-भाव में एक शिकारी जिज्ञासा थी।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e7p5",
+              "text": "Leo didn't wait. He activated the EMP. A wave of invisible energy rippled through the air. The lights in the foyer died instantly, and the Specter's suit let out a high-pitched whine before several small components sparked and failed. The assassin stumbled, his unnatural speed gone. Maya didn't waste the opportunity. She threw a smoke grenade and grabbed Leo, pulling him toward the sub-basement elevator. 'You're an idiot, kid,' she panted. 'But you're a brave idiot. Now let's go!'",
+              "translations": {
+                "hi": "लियो ने इंतज़ार नहीं किया। उसने ईएमपी को सक्रिय कर दिया। अदृश्य ऊर्जा की एक लहर हवा में गूँज उठी। फ़ोयर की लाइटें तुरंत बंद हो गईं, और स्पेक्टर के सूट से एक उच्च स्वर वाली भिनभिनाहट निकली और फिर कई छोटे घटकों में चिंगारी निकली और वे विफल हो गए। कातिल लड़खड़ा गया, उसकी अप्राकृतिक गति चली गई। माया ने अवसर को व्यर्थ नहीं जाने दिया। उसने एक स्मोक ग्रेनेड फेंका और लियो को पकड़ लिया, उसे बेसमेंट लिफ्ट की ओर खींच लिया। 'तुम मूर्ख हो, बच्चे,' वह हाँफते हुए बोली। 'लेकिन तुम एक बहादुर मूर्ख हो। अब चलो!'"
+              }
+            }
+          ]
+        },
+        {
+          "id": "underworld-heir-s1e8",
+          "episodeNumber": 8,
+          "title": "Episode 8: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": true,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e8p1",
+              "text": "Part 1 of Episode 8: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 8: The Hidden Heir of the Underworld Starts का भाग 1। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e8p2",
+              "text": "Part 2 of Episode 8: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 8: The Hidden Heir of the Underworld Starts का भाग 2। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e8p3",
+              "text": "Part 3 of Episode 8: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 8: The Hidden Heir of the Underworld Starts का भाग 3। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e8p4",
+              "text": "Part 4 of Episode 8: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 8: The Hidden Heir of the Underworld Starts का भाग 4। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e8p5",
+              "text": "Part 5 of Episode 8: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 8: The Hidden Heir of the Underworld Starts का भाग 5। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "underworld-heir-s1e9",
+          "episodeNumber": 9,
+          "title": "Episode 9: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": true,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e9p1",
+              "text": "Part 1 of Episode 9: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 9: The Hidden Heir of the Underworld Starts का भाग 1। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e9p2",
+              "text": "Part 2 of Episode 9: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 9: The Hidden Heir of the Underworld Starts का भाग 2। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e9p3",
+              "text": "Part 3 of Episode 9: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 9: The Hidden Heir of the Underworld Starts का भाग 3। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e9p4",
+              "text": "Part 4 of Episode 9: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 9: The Hidden Heir of the Underworld Starts का भाग 4। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e9p5",
+              "text": "Part 5 of Episode 9: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 9: The Hidden Heir of the Underworld Starts का भाग 5। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "underworld-heir-s1e10",
+          "episodeNumber": 10,
+          "title": "Episode 10: The Hidden Heir of the Underworld Starts",
+          "duration": "10 min",
+          "isLocked": true,
+          "parts": [
+            {
+              "id": "underworld-heir-s1e10p1",
+              "text": "Part 1 of Episode 10: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 10: The Hidden Heir of the Underworld Starts का भाग 1। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e10p2",
+              "text": "Part 2 of Episode 10: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 10: The Hidden Heir of the Underworld Starts का भाग 2। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e10p3",
+              "text": "Part 3 of Episode 10: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 10: The Hidden Heir of the Underworld Starts का भाग 3। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e10p4",
+              "text": "Part 4 of Episode 10: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 10: The Hidden Heir of the Underworld Starts का भाग 4। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            },
+            {
+              "id": "underworld-heir-s1e10p5",
+              "text": "Part 5 of Episode 10: The Hidden Heir of the Underworld Starts. The story unfolds as the protagonist faces new challenges in the world of Thriller. Every step leads to a greater mystery.",
+              "translations": {
+                "hi": "Episode 10: The Hidden Heir of the Underworld Starts का भाग 5। कहानी आगे बढ़ती है जब नायक Thriller की दुनिया में नई चुनौतियों का सामना करता है। हर कदम एक बड़े रहस्य की ओर ले जाता है।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
