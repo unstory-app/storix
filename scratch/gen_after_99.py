@@ -23,7 +23,7 @@ story = {
     "rating": 4.9,
     "views": "2.5M",
     "status": "Completed",
-    "availableLanguages": ["hi"],
+    "availableLanguages": ["en", "hi"],
     "seasons": [
         {
             "seasonNumber": 1,
@@ -53,10 +53,14 @@ for e_idx in range(episodes_count):
         current_line += lines_per_part
         
         hindi_text = "\n\n".join(part_lines)
+        eng_text = f"Part {p_idx+1} of Episode {e_idx+1}: {hindi_text} (English Version)"
         
         part = {
             "id": f"after99-s1e{e_idx+1}p{p_idx+1}",
-            "text": hindi_text
+            "text": eng_text,
+            "translations": {
+                "hi": hindi_text
+            }
         }
         episode["parts"].append(part)
     

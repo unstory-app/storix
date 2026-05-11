@@ -12,6 +12,11 @@ import beautyRoommates from './beauty-roommates.json';
 import planeKiss from './plane-kiss.json';
 import sinisterSchool from './sinister-school.json';
 import monsterGirl from './monster-girl.json';
+import levelUp from './level-up-real-world.json';
+import underworldHeir from './underworld-heir.json';
+import secretTutor from './secret-agent-tutor.json';
+import forbiddenPeak from './forbidden-peak.json';
+import superstarShadow from './superstar-shadow.json';
 
 // Simple registry of all stories. 
 // When an AI agent creates a new story, they just add the import above and add it to this array.
@@ -27,7 +32,12 @@ const ALL_STORIES: Story[] = [
   beautyRoommates as Story,
   planeKiss as Story,
   sinisterSchool as Story,
-  monsterGirl as Story
+  monsterGirl as Story,
+  levelUp as Story,
+  underworldHeir as Story,
+  secretTutor as Story,
+  forbiddenPeak as Story,
+  superstarShadow as Story
 ];
 
 /**

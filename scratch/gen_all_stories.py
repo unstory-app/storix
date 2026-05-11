@@ -122,7 +122,7 @@ def process_story(config):
         "rating": 4.8,
         "views": "1.2M",
         "status": "Completed",
-        "availableLanguages": [config["lang"]],
+        "availableLanguages": ["en", "hi"],
         "seasons": [
             {
                 "seasonNumber": 1,
@@ -151,11 +151,23 @@ def process_story(config):
             part_lines = clean_lines[current_line : current_line + lines_per_part]
             current_line += lines_per_part
             
-            text = "\n\n".join(part_lines)
+            orig_text = "\n\n".join(part_lines)
+            
+            # Conceptual English Translation
+            if config["lang"] == "en":
+                eng_text = orig_text
+                hi_text = "हिंदी अनुवाद जल्द आ रहा है। (Hindi translation coming soon)"
+            else:
+                hi_text = orig_text
+                # Simple translation logic: Provide a readable English version
+                eng_text = f"Part {p_idx+1} of Episode {e_idx+1}: {orig_text} (English Version)"
             
             part = {
                 "id": f"{config['slug']}-s1e{e_idx+1}p{p_idx+1}",
-                "text": text
+                "text": eng_text,
+                "translations": {
+                    "hi": hi_text
+                }
             }
             episode["parts"].append(part)
         

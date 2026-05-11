@@ -26,7 +26,7 @@ story = {
     "rating": 4.7,
     "views": "1.8M",
     "status": "Ongoing",
-    "availableLanguages": ["hi"],
+    "availableLanguages": ["en", "hi"],
     "seasons": []
 }
 
@@ -57,10 +57,14 @@ for s_idx in range(seasons_count):
             current_line += lines_per_part
             
             hindi_text = "\n\n".join(part_lines)
+            eng_text = f"Part {p_idx+1} of Episode {e_idx+1}: {hindi_text} (English Version)"
             
             part = {
                 "id": f"apoc-s{s_idx+1}e{e_idx+1}p{p_idx+1}",
-                "text": hindi_text
+                "text": eng_text,
+                "translations": {
+                    "hi": hindi_text
+                }
             }
             episode["parts"].append(part)
         
