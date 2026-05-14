@@ -322,12 +322,12 @@ const ReaderScreen = ({ episode, story, seasonNumber, nextEpisodeId, slug }: Rea
               }}
               className="absolute inset-0 flex flex-col items-center justify-center px-8 md:px-24 py-32"
             >
-              <div className="max-w-xl w-full h-full flex flex-col items-start justify-center overflow-y-auto no-scrollbar py-12">
+              <div className="max-w-xl w-full h-full flex flex-col items-start overflow-y-auto no-scrollbar py-12">
                  <motion.div 
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6 }}
-                  className="flex flex-col gap-8 w-full"
+                  className="flex flex-col gap-8 w-full my-auto"
                  >
                     <div className="text-xl md:text-2xl leading-[1.7] text-white/90 text-left whitespace-pre-wrap font-serif tracking-wide selection:bg-primary/30">
                       {selectedLanguage === 'en' 
