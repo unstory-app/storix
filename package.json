@@ -4,13 +4,15 @@
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {
-		"dev": "next dev",
+		"dev": "bun run build:stories && next dev",
+		"build:stories": "bun scripts/build-longstories.ts",
+		"prebuild": "bun run build:stories",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-		"upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+		"deploy": "bun run build:stories && opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+		"upload": "bun run build:stories && opennextjs-cloudflare build && opennextjs-cloudflare upload",
+		"preview": "bun run build:stories && opennextjs-cloudflare build && opennextjs-cloudflare preview",
 		"cf-typegen": "wrangler types --env-interface CloudflareEnv ./cloudflare-env.d.ts"
 	},
 	"dependencies": {

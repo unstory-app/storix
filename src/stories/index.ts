@@ -20,7 +20,7 @@ import superstarShadow from './superstar-shadow.json';
 import sheRefusesDivorce from './she-refuses-divorce.json';
 import reincarnatedFather from './reincarnated-father.json';
 import inLoveWeLost from './in-love-we-lost.json';
-import { getAllLongStories } from '@/longstories';
+import longStories from './longstories.json';
 
 // Simple registry of all stories. 
 // When an AI agent creates a new story, they just add the import above and add it to this array.
@@ -47,7 +47,7 @@ const JSON_STORIES: Story[] = [
 ];
 
 const ALL_STORIES: Story[] = [
-  ...getAllLongStories(),
+  ...(longStories as Story[]),
   inLoveWeLost as Story,
   ...JSON_STORIES,
 ];
