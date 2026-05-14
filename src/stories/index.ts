@@ -52,6 +52,17 @@ const ALL_STORIES: Story[] = [
   ...JSON_STORIES,
 ];
 
+const stripStoryContent = (story: Story): Story => ({
+  ...story,
+  seasons: story.seasons.map((season) => ({
+    ...season,
+    episodes: season.episodes.map((episode) => ({
+      ...episode,
+      parts: [],
+    })),
+  })),
+});
+
 /**
  * Returns all stories for the Home, Explore, and Library pages.
  */
@@ -60,10 +71,24 @@ export const getAllStories = (): Story[] => {
 };
 
 /**
+ * Returns story metadata and episode outlines without episode text.
+ * Use this for cards, lists, detail actions, and any client component that
+ * should not serialize the complete reading content into the page payload.
+ */
+export const getAllStorySummaries = (): Story[] => {
+  return ALL_STORIES.map(stripStoryContent);
+};
+
+/**
  * Returns a specific story by its slug.
  */
 export const getStoryBySlug = (slug: string): Story | undefined => {
   return ALL_STORIES.find(story => story.slug === slug);
+};
+
+export const getStorySummaryBySlug = (slug: string): Story | undefined => {
+  const story = getStoryBySlug(slug);
+  return story ? stripStoryContent(story) : undefined;
 };
 
 /**
