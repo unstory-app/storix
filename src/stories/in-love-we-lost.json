@@ -1,0 +1,565 @@
+{
+  "id": "734da79e-ece3-46c7-8782-768f004c3e68",
+  "title": "In Love We Lost",
+  "slug": "in-love-we-lost",
+  "posterImage": "/images/stories/in-love-we-lost.png",
+  "description": "Aanya is taken captive in Afghanistan and finds the new Al-Qaeda commander staring back with the face of Aarav, the gentle college boy she rejected. Fear, guilt, sacrifice, and unfinished love collide when she learns the monster before her may have risked everything to save her.",
+  "genres": [
+    "Romance",
+    "Drama",
+    "Thriller"
+  ],
+  "rating": 4.9,
+  "views": "New",
+  "status": "Ongoing",
+  "availableLanguages": [
+    "en",
+    "hi"
+  ],
+  "translations": {
+    "hi": {
+      "title": "इन लव वी लॉस्ट",
+      "description": "अफगानिस्तान में कैद अान्या के सामने अल-कायदा का नया कमांडर आता है, और उसके चेहरे में उसे वही आरव दिखता है जिसे उसने कॉलेज में ठुकरा दिया था। डर, पछतावा, कुर्बानी और अधूरा प्यार तब टकराते हैं जब उसे समझ आता है कि सामने खड़ा यह राक्षस शायद उसी को बचाने के लिए सब कुछ दांव पर लगा चुका है।"
+    }
+  },
+  "seasons": [
+    {
+      "seasonNumber": 1,
+      "title": "The Rescue of Broken Hearts",
+      "description": "From an Al-Qaeda compound to the desert road home, Aanya discovers what Aarav became, what he sacrificed, and why love sometimes returns wearing the face of pain.",
+      "translations": {
+        "hi": {
+          "title": "टूटे दिलों का बचाव",
+          "description": "अल-कायदा के अड्डे से घर लौटती रेगिस्तानी सड़क तक, अान्या जानती है कि आरव क्या बना, उसने क्या खोया, और क्यों कभी-कभी प्यार दर्द का चेहरा पहनकर लौटता है।"
+        }
+      },
+      "episodes": [
+        {
+          "id": "in-love-we-lost-s1e1",
+          "episodeNumber": 1,
+          "title": "The Recognition",
+          "duration": "9 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "पहचान"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e1p1",
+              "text": "The heavy wooden door groaned open inside an underground compound hidden in the mountains of Afghanistan. A hard rectangle of light fell across the room, catching dust, gun smoke, fear, and the trembling faces of young women pressed into one corner. Around them stood armed militants with AK-47s, their shadows shaking on the concrete walls like threats that had learned to breathe.",
+              "translations": {
+                "hi": "अफगानिस्तान के पहाड़ों में छुपे उस अंडरग्राउंड कंपाउंड का भारी लकड़ी का दरवाजा कराहता हुआ खुला। तेज रोशनी का एक चौकोर टुकड़ा कमरे में गिरा, जिसमें धूल, बारूद की गंध, डर और कोने में सिमटी जवान लड़कियों के कांपते चेहरे साफ दिखने लगे। उनके चारों तरफ AK-47 पकड़े आतंकी खड़े थे, और उनकी परछाइयां कंक्रीट की दीवारों पर ऐसे हिल रही थीं जैसे धमकियां सांस लेना सीख चुकी हों।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e1p2",
+              "text": "Footsteps came from the corridor, slow and commanding. Then he entered. His head was shaved close, his jaw sharp, his beard cut with cruel precision. His dark eyes were cold enough to make steel feel warm. The other militants straightened at once. This was their new commander. But among the captives, one girl forgot how to breathe.",
+              "translations": {
+                "hi": "कॉरिडोर से कदमों की आवाज आई, धीमी, नपी-तुली और हुक्म चलाने वाली। फिर वह अंदर आया। सिर लगभग शेव, जबड़ा नुकीला, दाढ़ी बेरहम सफाई से कटी हुई। उसकी काली आंखों में इतनी ठंड थी कि लोहे को भी गर्म महसूस हो। बाकी आतंकी तुरंत सीधे खड़े हो गए। यह उनका नया कमांडर था। लेकिन कैद लड़कियों में से एक लड़की सांस लेना भूल गई।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e1p3",
+              "text": "Aanya's world tilted. Those eyes, even buried beneath cruelty, belonged to the boy who once looked at her with love, hope, and an almost foolish devotion. Aarav. Her college batchmate. Her friend. The boy who had promised he would always be there. He looked at every terrified face as if checking inventory. When his gaze reached her, she waited for recognition. Nothing came.",
+              "translations": {
+                "hi": "अान्या की दुनिया एक पल में तिरछी हो गई। वो आंखें, चाहे अब बेरहमी के नीचे दब चुकी थीं, फिर भी उसी लड़के की थीं जो कभी उसे प्यार, उम्मीद और लगभग पागल कर देने वाली वफादारी से देखा करता था। आरव। उसका कॉलेज बैचमेट। उसका दोस्त। वह लड़का जिसने कहा था कि वह हमेशा उसके साथ रहेगा। वह हर डरी हुई लड़की को ऐसे देख रहा था जैसे सामान गिन रहा हो। जब उसकी नजर अान्या पर आई, उसने पहचान की एक चिंगारी का इंतजार किया। कुछ नहीं आया।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e1p4",
+              "text": "For one impossible second she thought his eyes cracked, but the flicker vanished before it could become proof. He turned away and gave orders in a language she did not understand. The boy who once promised to protect her was now the person she needed protection from. The irony was so cruel that tears came before sound.",
+              "translations": {
+                "hi": "एक नामुमकिन से सेकंड के लिए उसे लगा उसकी आंखों में दरार पड़ी है, लेकिन वह चमक सबूत बनने से पहले ही गायब हो गई। वह मुड़ा और ऐसी भाषा में आदेश देने लगा जिसे अान्या समझ नहीं पा रही थी। जिसने कभी उसे बचाने का वादा किया था, आज उसी से उसे बचने की जरूरत थी। यह विडंबना इतनी क्रूर थी कि आवाज से पहले आंसू आ गए।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e1p5",
+              "text": "Beside her, Aadyami whispered, 'Your face changed. My instincts say you know him, and my instincts are never wrong.' Aanya wiped her tears too quickly. 'No. I have never known him.' But the lie broke in her throat, because memory had already opened its old door.",
+              "translations": {
+                "hi": "उसके पास बंधी आद्यामी फुसफुसाई, 'तेरा चेहरा बदल गया। मेरी इंस्टिंक्ट कह रही है तू उसे पहले से जानती है, और मेरी इंस्टिंक्ट कभी गलत नहीं होती।' अान्या ने बहुत जल्दी अपने आंसू पोंछे। 'नहीं। मैं उसे नहीं जानती।' लेकिन झूठ उसके गले में ही टूट गया, क्योंकि यादें अपना पुराना दरवाजा खोल चुकी थीं।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e2",
+          "episodeNumber": 2,
+          "title": "When Love Was Innocent",
+          "duration": "12 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "जब प्यार मासूम था"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e2p1",
+              "text": "Three years earlier, college corridors had been full of new beginnings. Aarav was quiet, thoughtful, and usually lost in books or code. Aanya was vibrant, stubborn, emotional, and impossible to predict. They became friends through libraries, group projects, casual breaks, and those small conversations that feel harmless until the heart starts saving them.",
+              "translations": {
+                "hi": "तीन साल पहले कॉलेज के कॉरिडोर नई शुरुआतों से भरे रहते थे। आरव शांत, सोचने वाला, और अक्सर किताबों या कोड में खोया रहता था। अान्या जिंदादिल, जिद्दी, भावुक और बिल्कुल अनप्रेडिक्टेबल थी। लाइब्रेरी, ग्रुप प्रोजेक्ट्स, ब्रेक्स और उन छोटी-छोटी बातों से वे दोस्त बने जो पहले मासूम लगती हैं, जब तक दिल उन्हें संभालकर रखना शुरू नहीं कर देता।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e2p2",
+              "text": "One warm evening, while jasmine scented the campus air, Aarav admitted he once liked Riya. Aanya teased him until he confessed the truth. 'Her name is Aanya.' She froze. 'I love you, actually.' Panic won before joy could arrive. 'I'm not ready for a relationship.' His smile broke, but he still said, 'That's okay. I'll wait. I'll always be there for you.'",
+              "translations": {
+                "hi": "एक गर्म शाम, जब कैंपस की हवा में चमेली की खुशबू थी, आरव ने बताया कि उसे कभी रिया पसंद थी। अान्या ने उसे छेड़ा, बार-बार पूछा, और आखिर उसने सच कह दिया। 'उसका नाम अान्या है।' वह जम गई। 'असल में मैं तुमसे प्यार करता हूं।' खुशी आने से पहले डर जीत गया। 'मैं रिलेशनशिप के लिए तैयार नहीं हूं।' उसकी मुस्कान टूट गई, फिर भी वह बोला, 'ठीक है। मैं इंतजार करूंगा। मैं हमेशा तुम्हारे साथ रहूंगा।'"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e2p3",
+              "text": "Months later, Aanya was lonely. Her moods, independence, and 'weirdness' had pushed people away. One evening she sent him a small message: 'I'm sorry.' Aarav stared at it for a long time, then replied as if his heart had not been bleeding for four months. 'What happened?' She said, 'Nothing. Sorry for everything.' He came to meet her anyway.",
+              "translations": {
+                "hi": "महीनों बाद अान्या अकेली पड़ गई। उसके मूड्स, उसकी आजादी, उसकी 'अजीबियत' ने लोगों को दूर कर दिया था। एक शाम उसने आरव को छोटा सा मैसेज भेजा: 'आई एम सॉरी।' आरव उसे बहुत देर तक देखता रहा, फिर ऐसे जवाब दिया जैसे उसका दिल चार महीने से खून नहीं बहा रहा था। 'क्या हुआ?' उसने कहा, 'कुछ नहीं। हर चीज के लिए सॉरी।' वह फिर भी उससे मिलने चला गया।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e2p4",
+              "text": "That month became the most beautiful mistake of his life. They talked for hours, walked late at night, played Holi until colors covered their faces, and spoke on calls that stretched toward morning. It felt like a relationship without the name. Aarav fell deeper. When he asked again, 'Do you like me?' she answered, 'I don't know. I don't like you now, but maybe in the future.'",
+              "translations": {
+                "hi": "वह महीना उसकी जिंदगी की सबसे खूबसूरत गलती बन गया। वे घंटों बात करते, रात में चलते, होली में रंगों से भर जाते, और फोन कॉल्स सुबह तक खिंच जातीं। नाम के बिना सब कुछ रिलेशनशिप जैसा था। आरव और गहरा डूब गया। जब उसने फिर पूछा, 'क्या तुम मुझे पसंद करती हो?' उसने कहा, 'मुझे नहीं पता। अभी नहीं, लेकिन भविष्य में शायद।'"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e2p5",
+              "text": "He told her he wanted to take care of her and saw his future in her. She said she had no feelings for anyone and was too young to feel what others felt. Then, sometime later, he saw her with another boy. Hurt made him ask if that boy was her boyfriend. Her answer destroyed him: 'I think I like him. And I'm sorry. What I told you was a complete lie.'",
+              "translations": {
+                "hi": "उसने कहा कि वह उसका ख्याल रखना चाहता है और अपना भविष्य उसी में देखता है। अान्या ने कहा कि उसे किसी के लिए फीलिंग्स नहीं हैं और वह इतनी छोटी है कि दूसरों जैसा महसूस ही नहीं कर सकती। फिर कुछ समय बाद आरव ने उसे दूसरे लड़के के साथ देखा। दर्द ने उससे पूछवा दिया कि क्या वह उसका बॉयफ्रेंड है। अान्या के जवाब ने उसे तोड़ दिया: 'मुझे लगता है मैं उसे पसंद करती हूं। और सॉरी। मैंने जो तुमसे कहा था वह पूरा झूठ था।'"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e2p6",
+              "text": "Even after the betrayal, Aarav tried once more. 'We can be friends. I will never see you as anything you don't want me to see, until you want me to.' Aanya's last words cut deeper than rejection: 'You don't have enough self-respect to move on. Just move on. I don't like you.' She blocked him almost everywhere. He called once only to check. Then never again.",
+              "translations": {
+                "hi": "धोखे के बाद भी आरव ने एक आखिरी कोशिश की। 'हम दोस्त रह सकते हैं। जब तक तुम खुद न चाहो, मैं तुम्हें उस नजर से कभी नहीं देखूंगा।' अान्या के आखिरी शब्द ठुकराए जाने से भी ज्यादा गहरे कटे: 'तुममें मूव ऑन करने की सेल्फ-रिस्पेक्ट ही नहीं है। बस मूव ऑन करो। मैं तुम्हें पसंद नहीं करती।' उसने उसे लगभग हर जगह ब्लॉक कर दिया। उसने सिर्फ चेक करने के लिए एक बार कॉल किया। फिर कभी नहीं।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e2p7",
+              "text": "After that, Aarav rebuilt himself. Friends saw him laughing in second and third year, but Aanya remained like a scar under healed skin. He recovered from failed subjects and a ruined GPA, became brilliant in coding, received dream placement offers, and rejected them all. Two years after graduation, he disappeared. No one knew where the gentle boy had gone.",
+              "translations": {
+                "hi": "उसके बाद आरव ने खुद को फिर से बनाया। दूसरे और तीसरे साल में दोस्त उसे हंसते देखते थे, लेकिन अान्या healed skin के नीचे छुपे निशान जैसी रह गई। उसने फेल सब्जेक्ट्स और टूटे GPA से वापसी की, कोडिंग में शानदार हुआ, ऐसे प्लेसमेंट ऑफर्स पाए जिनका लोग सपना देखते हैं, और सब रिजेक्ट कर दिए। ग्रेजुएशन के दो साल बाद वह गायब हो गया। किसी को नहीं पता था वह नरम दिल लड़का कहां गया।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e3",
+          "episodeNumber": 3,
+          "title": "The Monster in the Courtyard",
+          "duration": "8 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "आंगन का राक्षस"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e3p1",
+              "text": "The next morning, pale light crept through the dirty windows of the mud-brick compound. Aanya had barely slept. She kept praying that somewhere beneath Aarav's cold eyes, the boy who wrote code, recited poetry, and promised care still existed. Then gunfire shattered the morning.",
+              "translations": {
+                "hi": "अगली सुबह मिट्टी-ईंट के कंपाउंड की गंदी खिड़कियों से पीली रोशनी अंदर आई। अान्या मुश्किल से सोई थी। वह प्रार्थना करती रही कि आरव की ठंडी आंखों के नीचे कहीं वह लड़का अब भी जिंदा हो जो कोड लिखता था, कविता सुनाता था और ख्याल रखने का वादा करता था। तभी गोलियों की आवाज ने सुबह को चीर दिया।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e3p2",
+              "text": "The girls rushed to the window. In the courtyard, two men were tied to wooden posts, beaten and bleeding. A third lay dead on the ground. Aarav stood in the center with a smoking pistol. 'This is what happens to spies,' he declared. The militants cheered. Aanya covered her mouth. The boy who could not step on an ant had executed a man.",
+              "translations": {
+                "hi": "लड़कियां खिड़की की तरफ भागीं। आंगन में दो आदमी लकड़ी के खंभों से बंधे थे, पिटे हुए और खून से भरे। तीसरा जमीन पर मरा पड़ा था। बीच में आरव खड़ा था, हाथ में धुआं छोड़ती पिस्टल। 'जासूसों का यही अंजाम होता है,' उसने कहा। आतंकी चिल्लाए। अान्या ने अपना मुंह ढक लिया। जो लड़का चींटी पर पैर नहीं रख सकता था, उसने एक आदमी को मार दिया था।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e3p3",
+              "text": "His eyes snapped upward. 'Get away from that window!' Two more shots followed. The remaining men slumped lifelessly against the posts. Heavy boots thundered up the stairs, and the door burst open. Aarav filled the room with quiet menace. 'Did you enjoy the show?'",
+              "translations": {
+                "hi": "उसकी नजर अचानक ऊपर उठी। 'खिड़की से दूर हटो!' फिर दो और गोलियां चलीं। बाकी आदमी खंभों से लटकते हुए बे जान हो गए। भारी बूट सीढ़ियों पर गूंजे और दरवाजा धड़ाम से खुला। आरव की मौजूदगी ने कमरे को खामोश डर से भर दिया। 'शो अच्छा लगा?'"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e3p4",
+              "text": "He warned them that disobedience, escape, or even foolish bravery would make death slow. His gaze lingered on Aanya for a heartbeat, and she thought she saw pain. Then the wall returned. When he left, Aanya broke down. She was terrified for herself, but more heartbroken for him. Someone had destroyed his beautiful soul. And some part of her believed she had helped.",
+              "translations": {
+                "hi": "उसने चेतावनी दी कि अवज्ञा, भागने की कोशिश, या बेवकूफी वाली बहादुरी मौत को बहुत धीमा बना देगी। उसकी नजर अान्या पर एक धड़कन जितनी रुकी, और उसे लगा जैसे दर्द दिखा। फिर दीवार वापस आ गई। उसके जाते ही अान्या टूट गई। वह खुद के लिए डरी हुई थी, लेकिन उससे ज्यादा उसके लिए टूटी हुई थी। किसी ने उसकी खूबसूरत आत्मा को नष्ट कर दिया था। और उसके अंदर का एक हिस्सा मानता था कि इसमें उसका भी हाथ था।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e4",
+          "episodeNumber": 4,
+          "title": "Respect Me",
+          "duration": "10 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "रेस्पेक्ट मी"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e4p1",
+              "text": "Seven days later, the compound's rhythm changed. New militants moved through the base, but their eyes were too sharp, too disciplined, too calm. Aarav had been absent on 'important missions,' and when he returned, he carried the energy of a storm holding its breath. At 1400 hours, a hidden device received a message: 'Target acquired. Operation Homecoming commences at 1500. Remember the code.'",
+              "translations": {
+                "hi": "सात दिन बाद कंपाउंड की चाल बदल गई। कुछ नए आतंकी बेस में घूम रहे थे, लेकिन उनकी आंखें बहुत तेज, बहुत अनुशासित और बहुत शांत थीं। आरव 'जरूरी मिशन्स' पर गायब था, और जब वह लौटा तो उसमें ऐसी ऊर्जा थी जैसे तूफान सांस रोककर खड़ा हो। दोपहर 1400 बजे एक छुपे हुए डिवाइस पर मैसेज आया: 'Target acquired. Operation Homecoming commences at 1500. Remember the code.'"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e4p2",
+              "text": "At exactly 1500, Aarav stood in the courtyard, surrounded by armed men. To the captives watching from the window, he looked like the commander they feared. Then his voice exploded across the base. 'RESPECT ME!' For one second the world froze. Then the new militants turned their guns on the real terrorists.",
+              "translations": {
+                "hi": "ठीक 1500 बजे आरव आंगन में खड़ा था, हथियारबंद आदमियों से घिरा हुआ। खिड़की से देखती कैद लड़कियों को वह वही डरावना कमांडर दिख रहा था। फिर उसकी आवाज पूरे बेस में गूंजी। 'RESPECT ME!' एक सेकंड के लिए दुनिया जम गई। फिर नए आतंकी अपनी बंदूकें असली आतंकियों पर तान चुके थे।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e4p3",
+              "text": "Gunfire erupted with terrifying precision. RAW agents who had been embedded for weeks revealed themselves. Aarav moved at the center of the chaos, not as a monster, but as an operative conducting justice. 'Alpha team, east wing! Bravo team, weapons cache! Charlie team, hostages!' Explosions destroyed stockpiles. Indian and US forces entered the base. The disguise was falling, piece by piece.",
+              "translations": {
+                "hi": "गोलियां डरावनी सटीकता से चलने लगीं। कई हफ्तों से अंदर घुसे RAW एजेंट्स ने अपनी असली पहचान दिखा दी। आरव उस अफरातफरी के बीच राक्षस की तरह नहीं, बल्कि न्याय को निर्देशित करते ऑपरेटिव की तरह चल रहा था। 'Alpha team, east wing! Bravo team, weapons cache! Charlie team, hostages!' धमाकों ने हथियारों के भंडार उड़ा दिए। भारतीय और अमेरिकी फोर्सेस बेस में घुस आईं। भेष एक-एक परत गिर रहा था।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e4p4",
+              "text": "Aanya collapsed in relief and confusion. Then she heard him mutter, 'Phir shuru ho gaya is ladki ka rona.' The teasing tenderness was pure college Aarav. Her heart recognized him before her mind could. A wounded terrorist lifted a gun toward her. Aarav threw himself in front of her without thinking. His partner killed the terrorist, but Aanya saw the truth in that single instinct. He still loved her.",
+              "translations": {
+                "hi": "अान्या राहत और उलझन में घुटनों के बल गिर गई। तभी उसने उसे बुदबुदाते सुना, 'फिर शुरू हो गया इस लड़की का रोना।' वह छेड़ने वाली नरमी पूरी तरह कॉलेज वाला आरव थी। उसके दिमाग से पहले उसके दिल ने उसे पहचान लिया। तभी एक घायल आतंकी ने उसकी तरफ बंदूक उठाई। आरव बिना सोचे उसके सामने कूद गया। उसके पार्टनर ने आतंकी को मार दिया, लेकिन अान्या ने उस एक इंस्टिंक्ट में सच देख लिया। वह अब भी उससे प्यार करता था।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e4p5",
+              "text": "But the softness vanished. Aarav's face closed again, not with a terrorist's cruelty, but with a wounded man's discipline. He avoided Aanya's eyes and ordered the agents to secure every hostage, arrange medical checks, and prepare extraction. The mission was a success. The Al-Qaeda cell was destroyed. Yet Aanya knew the hardest battle had not even begun.",
+              "translations": {
+                "hi": "लेकिन वह नरमी तुरंत गायब हो गई। आरव का चेहरा फिर बंद हो गया, आतंकी की क्रूरता से नहीं, बल्कि घायल आदमी के अनुशासन से। उसने अान्या की आंखों से बचते हुए एजेंट्स को हर होस्टेज सुरक्षित करने, मेडिकल चेक करवाने और एक्सट्रैक्शन तैयार करने के आदेश दिए। मिशन सफल था। अल-कायदा सेल खत्म हो चुका था। फिर भी अान्या जानती थी कि सबसे कठिन लड़ाई अभी शुरू भी नहीं हुई।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e5",
+          "episodeNumber": 5,
+          "title": "The Weight of Truth",
+          "duration": "9 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "सच का बोझ"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e5p1",
+              "text": "Hours after the rescue, the compound became a temporary military base. Medical tents stood in the same courtyard where executions had taken place. Wrapped in a blanket, Aanya watched Aarav coordinate pilots, reports, transport, and care for every rescued woman. To everyone else he was Commander Aarav Singh, RAW operative and hero. To her, he was a stranger wearing the face of the boy she lost.",
+              "translations": {
+                "hi": "रेस्क्यू के घंटों बाद वही कंपाउंड अस्थायी मिलिट्री बेस बन गया। उसी आंगन में मेडिकल टेंट लगे थे जहां सुबह मौत बांटी गई थी। कंबल में लिपटी अान्या आरव को पायलट्स, रिपोर्ट्स, ट्रांसपोर्ट और हर बचाई गई लड़की की देखभाल संभालते देखती रही। बाकी सबके लिए वह कमांडर आरव सिंह था, RAW ऑपरेटिव और हीरो। उसके लिए वह खोए हुए लड़के का चेहरा पहने एक अजनबी था।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e5p2",
+              "text": "Aadyami asked another operative how long Aarav had been undercover. 'Six months preparation. Two months infiltration,' the man said proudly. He had lived like them, thought like them, become them. Aanya trembled. For half a year he had trained himself to look at her without recognition, to terrorize innocent women, to become believable enough to survive evil from inside.",
+              "translations": {
+                "hi": "आद्यामी ने एक दूसरे ऑपरेटिव से पूछा कि आरव कितने समय से अंडरकवर था। 'छह महीने तैयारी। दो महीने इंफिल्ट्रेशन,' उसने गर्व से कहा। वह उनके जैसा जिया, उनके जैसा सोचा, उनके जैसा बना। अान्या कांप गई। आधे साल तक उसने खुद को ऐसा बनाया था कि उसे देखकर भी पहचान न दिखे, मासूम औरतों को डराना पड़े, और बुराई के अंदर जिंदा रहने लायक विश्वसनीय बनना पड़े।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e5p3",
+              "text": "At sunset, she saw the cost. Behind a military vehicle, alone for the first time, Aarav's hands shook as he lit a cigarette, a habit she had never known. His face collapsed into exhaustion and pain. Not commander, not hero, not monster. Just a man who had cut pieces from his own soul to save hers.",
+              "translations": {
+                "hi": "सूरज डूबते वक्त उसने कीमत देखी। एक मिलिट्री वाहन के पीछे, पहली बार अकेला, आरव के हाथ सिगरेट जलाते हुए कांप रहे थे, ऐसी आदत जिसे वह कभी नहीं जानती थी। उसका चेहरा थकान और दर्द में ढह गया। न कमांडर, न हीरो, न राक्षस। बस एक आदमी जिसने उसकी जान बचाने के लिए अपनी आत्मा के टुकड़े काट दिए थे।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e5p4",
+              "text": "Then she overheard the truth that changed everything. When intelligence listed kidnapped Indian nationals, including Aanya Sharma from his college, Aarav had personally requested the mission. He had volunteered to become a monster because her name was on a hostage list. The boy she rejected had kept his promise in the most devastating way possible.",
+              "translations": {
+                "hi": "फिर उसने वह सच सुना जिसने सब कुछ बदल दिया। जब इंटेलिजेंस रिपोर्ट में किडनैप भारतीयों की लिस्ट आई, जिसमें उसके कॉलेज की अान्या शर्मा का नाम था, आरव ने खुद यह मिशन मांगा था। वह राक्षस बनने के लिए इसलिए तैयार हुआ क्योंकि होस्टेज लिस्ट में उसका नाम था। जिस लड़के को उसने ठुकराया था, उसने अपना वादा सबसे दर्दनाक तरीके से निभाया था।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e5p5",
+              "text": "She tried to approach him again and again, but he found work every time. Pilots needed instructions. Reports needed signing. Families needed calls. Anything except her. By night, most women had left. At dawn, the final evacuation began. As the helicopter blades whipped sand into the air, Aanya understood she could not go home carrying this truth alone.",
+              "translations": {
+                "hi": "उसने बार-बार उसके पास जाने की कोशिश की, लेकिन हर बार उसे कोई काम मिल गया। पायलट्स को निर्देश चाहिए थे। रिपोर्ट्स पर साइन करने थे। परिवारों को कॉल करना था। उसके अलावा सब कुछ। रात तक अधिकतर महिलाएं जा चुकी थीं। सुबह आखिरी इवैक्यूएशन शुरू हुआ। हेलीकॉप्टर के ब्लेड्स ने रेत को हवा में उछाला, और अान्या समझ गई कि वह यह सच अकेले लेकर घर नहीं जा सकती।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e6",
+          "episodeNumber": 6,
+          "title": "The Departure",
+          "duration": "10 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "रवानगी"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e6p1",
+              "text": "The rescued women were being loaded onto a military transport bus. When Aanya's turn came, she refused to move. 'I need to talk to Aarav.' The escort told her she could thank the team in India. She shook her head. 'Not the team. Aarav.' He heard the commotion and came over, his expression hardening before she could even speak.",
+              "translations": {
+                "hi": "बचाई गई महिलाओं को मिलिट्री ट्रांसपोर्ट बस में बैठाया जा रहा था। अान्या की बारी आई तो उसने कदम नहीं बढ़ाया। 'मुझे आरव से बात करनी है।' एस्कॉर्ट ने कहा कि वह इंडिया जाकर टीम को धन्यवाद दे सकती है। उसने सिर हिलाया। 'टीम से नहीं। आरव से।' उसने शोर सुना और पास आया, और उसके बोलने से पहले ही उसका चेहरा कठोर हो गया।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e6p2",
+              "text": "'You need to go now,' Aarav said. 'You didn't want to talk to me back then, so what could you possibly say now?' The old wound opened between them. She begged for one conversation. He ordered the soldiers to put her on the bus. But when the grip on her arm loosened, she ran.",
+              "translations": {
+                "hi": "'तुम्हें अभी जाना होगा,' आरव ने कहा। 'तब तुम मुझसे बात नहीं करना चाहती थी, अब क्या कहोगी?' पुराना घाव उनके बीच खुल गया। उसने एक बातचीत की भीख मांगी। उसने सैनिकों को उसे बस में बैठाने का आदेश दिया। लेकिन जैसे ही उसकी बांह पर पकड़ ढीली हुई, वह भाग गई।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e6p3",
+              "text": "She found him in the commander's quarters, just as he had changed into a plain white T-shirt. For one second he was not an operative or a commander, only Aarav. Then he shouted, 'Why are you here? Don't you want to meet your parents?' She answered with the kind of truth that has no protection left: 'I want you. Please talk to me once. If you don't want me, I will go.'",
+              "translations": {
+                "hi": "वह उसे कमांडर के क्वार्टर्स में मिली, जहां वह अभी-अभी सफेद टी-शर्ट पहनकर मुड़ा था। एक सेकंड के लिए वह ऑपरेटिव या कमांडर नहीं, सिर्फ आरव था। फिर वह चिल्लाया, 'तुम यहां क्यों हो? क्या तुम्हें अपने पेरेंट्स से नहीं मिलना?' उसने ऐसे सच से जवाब दिया जिसके पास अब कोई बचाव नहीं था: 'मुझे तुम चाहिए। प्लीज मुझसे एक बार बात करो। अगर तुम मुझे नहीं चाहते, मैं चली जाऊंगी।'"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e6p4",
+              "text": "He said he had left the service, that saving all Indians had ended his obligation. 'Saving all Indians?' she asked. 'Or saving me? I know you came because of me.' He denied caring. So she turned toward the desert and shouted, 'Kidnap me again! Someone kidnap me again!' That madness broke his control. 'Stop. Fine. I'll take you home.'",
+              "translations": {
+                "hi": "उसने कहा कि वह सर्विस छोड़ चुका है, सभी भारतीयों को बचाने के बाद उसका काम खत्म हो गया। 'सभी भारतीयों को बचाने?' उसने पूछा। 'या मुझे बचाने? मुझे पता है तुम मेरे लिए आए थे।' उसने परवाह से इनकार किया। तो वह रेगिस्तान की तरफ मुड़ी और चिल्लाई, 'मुझे फिर किडनैप कर लो! कोई मुझे फिर किडनैप कर लो!' उस पागलपन ने उसका नियंत्रण तोड़ दिया। 'रुको। ठीक है। मैं तुम्हें घर ले जाऊंगा।'"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e6p5",
+              "text": "He apologized roughly, blaming her captivity for making her mentally weak and himself for speaking too harshly. The apology was rusty, but it was real enough for Aanya to cross the room and hug him. His body went rigid, then slowly softened. Later, he loaded supplies into a military Humvee and said he had planned to explore the now-cleared region. It was an excuse. It was also a beginning.",
+              "translations": {
+                "hi": "उसने अजीब और रूखे ढंग से माफी मांगी, कहा कि कैद ने उसे मानसिक रूप से कमजोर कर दिया होगा और उसे इतनी सख्ती से बात नहीं करनी चाहिए थी। माफी जंग लगी हुई थी, लेकिन इतनी सच्ची थी कि अान्या कमरे को पार करके उसे गले लगा सके। उसका शरीर पहले पत्थर हुआ, फिर धीरे-धीरे नरम पड़ा। बाद में उसने मिलिट्री हमवी में सामान रखा और कहा कि वह अब सुरक्षित हुए इलाके को एक्सप्लोर करना चाहता था। यह बहाना था। और एक शुरुआत भी।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e6p6",
+              "text": "Hours into the desert drive, exhaustion took her. Her head slipped onto his shoulder. 'Don't do this to me,' he whispered. 'I'm not your boyfriend. Go to your boyfriend.' She smiled through sleep. 'I don't have one. Why would I go to another boy when the most handsome man in the world is right here?' Aarav said nothing, but his jaw tightened against everything he still felt.",
+              "translations": {
+                "hi": "रेगिस्तानी सफर के घंटों बाद थकान ने उसे पकड़ लिया। उसका सिर उसके कंधे पर आ गिरा। 'मेरे साथ ऐसा मत करो,' वह फुसफुसाया। 'मैं तुम्हारा बॉयफ्रेंड नहीं हूं। अपने बॉयफ्रेंड के पास जाओ।' वह नींद में मुस्कुराई। 'मेरा कोई बॉयफ्रेंड नहीं है। जब दुनिया का सबसे हैंडसम आदमी यहीं है तो मैं किसी और लड़के के पास क्यों जाऊंगी?' आरव ने कुछ नहीं कहा, लेकिन उसका जबड़ा उन सारी भावनाओं के खिलाफ कस गया जिन्हें वह अब भी महसूस करता था।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e7",
+          "episodeNumber": 7,
+          "title": "Across the Border",
+          "duration": "8 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "सरहद के पार"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e7p1",
+              "text": "Their journey through the Afghan desert began in awkward silence. Aarav stayed guarded, Aanya stayed hopeful, and the Humvee carried them toward the Pakistan border through a landscape that looked as wounded as they were. At roadside halts they shared dry meals, small questions, and the kind of pauses where old memories almost spoke.",
+              "translations": {
+                "hi": "अफगान रेगिस्तान से उनका सफर अजीब खामोशी में शुरू हुआ। आरव guarded रहा, अान्या उम्मीद में रही, और हमवी उन्हें पाकिस्तान बॉर्डर की तरफ ऐसे landscape से ले जा रही थी जो उनकी तरह घायल लगता था। रास्ते के छोटे stops पर उन्होंने सूखे meals, छोटे सवाल और ऐसी चुप्पियां बांटीं जहां पुरानी यादें लगभग बोल पड़ती थीं।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e7p2",
+              "text": "At the crossing, fake identities made them a married couple. For safety they had to share a room, stand too close, and play romantic when suspicious officials watched. Aanya's heart foolishly enjoyed the pretense. Aarav hated how natural it still felt. A close call forced them to trust each other, and for the first time, they moved like a team again.",
+              "translations": {
+                "hi": "बॉर्डर क्रॉसिंग पर नकली identities ने उन्हें married couple बना दिया। सुरक्षा के लिए उन्हें एक कमरा share करना पड़ा, बहुत पास खड़ा होना पड़ा, और suspicious officials के सामने romantic act करना पड़ा। अान्या का दिल मूर्खता से इस नाटक में खुश हो गया। आरव को नफरत हुई कि यह सब अब भी इतना natural क्यों लग रहा था। एक close call ने उन्हें एक-दूसरे पर भरोसा करने को मजबूर किया, और पहली बार वे फिर से टीम जैसे लगे।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e7p3",
+              "text": "When they finally entered India, Aanya broke down. Home was close, and that closeness made captivity feel even more real. Aarav's protective instinct woke before his anger could stop it. For the first time she spoke about the fear she had carried in the compound, and he silently carried guilt for the terror his undercover role had added to her wounds.",
+              "translations": {
+                "hi": "जब वे आखिर भारत में दाखिल हुए, अान्या टूट गई। घर पास था, और उस पास आने ने कैद को और भी सच बना दिया। आरव का protective instinct उसके गुस्से से पहले जाग गया। पहली बार उसने कंपाउंड में झेले डर की बात की, और वह चुपचाप उस अपराधबोध को उठाता रहा कि उसके अंडरकवर रोल ने उसके घावों में और डर जोड़ा था।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e8",
+          "episodeNumber": 8,
+          "title": "Rajasthan and the First Crack",
+          "duration": "8 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "राजस्थान और पहली दरार"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e8p1",
+              "text": "Rajasthan received them with forts, palaces, desert winds, and heritage hotels where they slept in separate rooms but felt each other's absence through the walls. Aanya saw history and wonder. Aarav saw exits, threat angles, and patrol patterns. Yet over shared meals, college memories slipped out without permission, and sometimes she even made him laugh.",
+              "translations": {
+                "hi": "राजस्थान ने उनका स्वागत किलों, महलों, रेगिस्तानी हवा और heritage hotels से किया, जहां वे अलग कमरों में सोते थे मगर दीवारों के पार एक-दूसरे की कमी महसूस करते थे। अान्या को इतिहास और खूबसूरती दिखती थी। आरव को exits, threat angles और patrol patterns। फिर भी shared meals पर कॉलेज की यादें बिना अनुमति बाहर आ जातीं, और कभी-कभी वह उसे हंसा भी देती।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e8p2",
+              "text": "On a camel safari, Aanya slipped and fell. Aarav reacted before thought: panic in his eyes, hands checking her knees, voice sharp because fear had nowhere else to go. She saw the old Aarav for one breath, the boy who used to worry when she cried over little things. He treated the small injury gently, then pulled his walls back up as if tenderness were a crime.",
+              "translations": {
+                "hi": "एक camel safari में अान्या फिसलकर गिर गई। आरव ने सोचने से पहले react किया: आंखों में घबराहट, हाथ उसके घुटनों को check करते हुए, आवाज तेज क्योंकि डर को और रास्ता नहीं मिला। उसने एक सांस भर पुराने आरव को देखा, वह लड़का जो छोटी बात पर उसके रोने से परेशान हो जाता था। उसने चोट को बहुत नरमी से साफ किया, फिर अपनी दीवारें वापस खड़ी कर लीं जैसे tenderness कोई अपराध हो।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e9",
+          "episodeNumber": 9,
+          "title": "Mountains Remember",
+          "duration": "9 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "पहाड़ याद रखते हैं"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e9p1",
+              "text": "The road to Himachal twisted through mountains. Aanya grew motion sick, and Aarav cared for her with the reluctant efficiency of a man pretending not to care. At dhabas they shared simple food. In Manali, river rafting forced them to trust the same current, the same raft, the same breath. Adrenaline cracked open a conversation by the Beas River, where she finally apologized for college and he finally listened.",
+              "translations": {
+                "hi": "हिमाचल की सड़क पहाड़ों के बीच मुड़ती चली गई। अान्या को motion sickness हुई, और आरव ने ऐसे care की जैसे वह care नहीं कर रहा हो। ढाबों पर उन्होंने सादा खाना बांटा। मनाली में river rafting ने उन्हें एक ही धारा, एक ही raft और एक ही सांस पर भरोसा करने को मजबूर किया। adrenaline ने ब्यास नदी के किनारे बातचीत का दरवाजा खोला, जहां उसने आखिर कॉलेज के लिए माफी मांगी और उसने आखिर सुना।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e9p2",
+              "text": "At a riverside campfire, she sang the songs they once knew. Under the stars, he shared broken pieces of his missions and admitted the rescue had been personal. For one breath they almost kissed. He pulled back. In Solang Valley, parasailing, zorbing, apple orchards, and her laughter kept attacking his defenses. She picked flowers for him like old times. He pretended to ignore them, then kept them secretly.",
+              "translations": {
+                "hi": "नदी किनारे campfire पर उसने वही गाने गाए जिन्हें वे कभी जानते थे। सितारों के नीचे उसने अपने missions के टूटे टुकड़े साझा किए और मान लिया कि rescue personal था। एक सांस के लिए वे लगभग kiss कर लेते। वह पीछे हट गया। सोलंग वैली में parasailing, zorbing, apple orchards और उसकी हंसी बार-बार उसकी defenses पर हमला करती रही। उसने पुराने दिनों की तरह उसके लिए फूल तोड़े। उसने ignore करने का नाटक किया, फिर उन्हें चुपचाप संभाल लिया।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e10",
+          "episodeNumber": 10,
+          "title": "The River Confession",
+          "duration": "9 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "नदी किनारे इकरार"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e10p1",
+              "text": "Rishikesh gave them the Ganges, morning aarti, meditation, ashram chores, yoga, simple meals, and silence that no longer felt like punishment. She prayed for forgiveness. He prayed for peace. They cooked together, cleaned together, sat together, and slowly learned that ordinary routines could be more intimate than dramatic confessions.",
+              "translations": {
+                "hi": "ऋषिकेश ने उन्हें गंगा, सुबह की आरती, meditation, ashram chores, yoga, सादा खाना और ऐसी खामोशी दी जो अब सजा जैसी नहीं लगती थी। उसने forgiveness मांगी। उसने peace मांगी। वे साथ पकाते, साथ साफ करते, साथ बैठते, और धीरे-धीरे समझते गए कि ordinary routines कभी-कभी dramatic confessions से ज्यादा intimate होते हैं।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e10p2",
+              "text": "One late night by the river, Aanya finally told the whole truth. She had been scared, immature, proud, and cruel. She had never loved anyone the way she had been afraid to love him. Aarav broke then, not loudly, but completely. Years of pain spilled out. He admitted he never stopped loving her. He also admitted love was no longer enough to make him trust.",
+              "translations": {
+                "hi": "एक देर रात नदी किनारे अान्या ने पूरा सच कह दिया। वह डरी हुई थी, immature थी, proud थी, cruel थी। उसने किसी से वैसे प्यार नहीं किया जैसा वह उससे करने से डरती रही। आरव तब टूटा, जोर से नहीं, मगर पूरी तरह। सालों का दर्द बाहर बह निकला। उसने माना कि उसने उसे प्यार करना कभी बंद नहीं किया। उसने यह भी माना कि अब सिर्फ प्यार भरोसा दिलाने के लिए काफी नहीं था।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e11",
+          "episodeNumber": 11,
+          "title": "The Valley That Healed Them",
+          "duration": "9 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "वह घाटी जिसने उन्हें जोड़ा"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e11p1",
+              "text": "The trek to the Valley of Flowers tested everything. Thin air, shared tents, aching muscles, and survival dependence left no room for pride. When altitude weakened Aanya, Aarav supported her step by step. At night, beside campfires, they told each other what life had done to them after college. Friendship returned first, cautious and trembling.",
+              "translations": {
+                "hi": "Valley of Flowers का trek हर चीज की परीक्षा था। पतली हवा, shared tents, दुखती मांसपेशियां और survival dependence ने ego के लिए जगह नहीं छोड़ी। altitude ने अान्या को कमजोर किया तो आरव ने उसे कदम-कदम पर सहारा दिया। रात को campfires के पास उन्होंने बताया कि कॉलेज के बाद जिंदगी ने उनके साथ क्या किया। दोस्ती पहले लौटी, सावधान और कांपती हुई।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e11p2",
+              "text": "In the blooming valley, Aanya's joy reminded Aarav why he had fallen in love. He photographed her happiness as if afraid it would disappear. She made him a flower crown and, against all logic, he wore it. Later, a storm forced them into the same shelter. Her captivity nightmares came first, then his undercover nightmares. They held each other without romance, only healing. By morning, they both knew they still fit.",
+              "translations": {
+                "hi": "खिले हुए फूलों की घाटी में अान्या की खुशी ने आरव को याद दिलाया कि वह उससे क्यों प्यार कर बैठा था। उसने उसकी खुशी की तस्वीरें ऐसे लीं जैसे डर हो कि वह गायब हो जाएगी। उसने उसके लिए फूलों का crown बनाया और हर logic के खिलाफ उसने पहन लिया। बाद में तूफान ने उन्हें एक ही shelter में धकेल दिया। पहले उसके captivity nightmares आए, फिर उसके undercover nightmares। उन्होंने एक-दूसरे को romance के लिए नहीं, healing के लिए थामा। सुबह तक दोनों जान चुके थे कि वे अब भी एक-दूसरे में fit होते हैं।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e12",
+          "episodeNumber": 12,
+          "title": "Paradise Learns Their Names",
+          "duration": "10 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "जन्नत ने उनके नाम सीखे"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e12p1",
+              "text": "Kashmir received them like a blessing they had not earned yet. On a Dal Lake houseboat, in shikaras, floating gardens, and Mughal gardens, Aanya's wonder softened something in Aarav. In Srinagar, he called her beautiful for the first time since their reunion, then looked away as if the word had exposed too much.",
+              "translations": {
+                "hi": "कश्मीर ने उन्हें ऐसी दुआ की तरह अपनाया जिसे वे अभी deserve नहीं करते थे। डल झील के houseboat, shikaras, floating gardens और Mughal gardens में अान्या की wonder ने आरव के भीतर कुछ नरम कर दिया। श्रीनगर में उसने reunion के बाद पहली बार उसे beautiful कहा, फिर नजर हटा ली जैसे उस शब्द ने बहुत कुछ खोल दिया हो।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e12p2",
+              "text": "In Gulmarg, she feared the cable car heights and he held her through the ride. Snow turned them into children: falling, laughing, teaching, touching, forgetting to defend. By a fireplace in a mountain lodge, they admitted the feelings were still there. In Pahalgam's valleys, they rode horses, picnicked near streams, fed each other, skipped stones, and let sunset make silence romantic again.",
+              "translations": {
+                "hi": "गुलमर्ग में cable car की ऊंचाई से वह डर गई और उसने पूरे रास्ते उसे थामे रखा। बर्फ ने उन्हें बच्चे बना दिया: गिरना, हंसना, सिखाना, छूना, defense भूल जाना। पहाड़ी lodge की fireplace के पास उन्होंने मान लिया कि feelings अब भी हैं। पहलगाम की घाटियों में उन्होंने horse riding की, stream के पास picnic किया, एक-दूसरे को खिलाया, stones skip किए, और sunset को फिर से silence romantic बनाने दिया।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e12p3",
+              "text": "On a full moon night by the Lidder River, they stopped running. They admitted they had never stopped loving each other. They apologized for fear, pride, cruelty, and years lost to silence. Their first kiss after college was not a return to the past. It was a promise to build something new from everything that had survived.",
+              "translations": {
+                "hi": "लिद्दर नदी के किनारे full moon night पर वे भागना बंद कर गए। उन्होंने माना कि उन्होंने एक-दूसरे से प्यार करना कभी नहीं छोड़ा। उन्होंने डर, pride, cruelty और खामोशी में खोए सालों के लिए माफी मांगी। कॉलेज के बाद उनका पहला kiss अतीत में लौटना नहीं था। यह उन सारी चीजों से कुछ नया बनाने का वादा था जो अब तक बची रह गई थीं।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "in-love-we-lost-s1e13",
+          "episodeNumber": 13,
+          "title": "The New Beginning",
+          "duration": "8 min",
+          "isLocked": false,
+          "translations": {
+            "hi": {
+              "title": "नई शुरुआत"
+            }
+          },
+          "parts": [
+            {
+              "id": "in-love-we-lost-s1e13p1",
+              "text": "Sonamarg, the meadow of gold, became the place where they spoke about tomorrow without flinching. Morning walks, local families, Kashmiri dinners, music, dancing, and laughter gave them a glimpse of a life that was not only survival. They planned to meet both families, confess carefully, and face every consequence together.",
+              "translations": {
+                "hi": "सोनमर्ग, सोने की घास का मैदान, वह जगह बना जहां उन्होंने बिना डरे कल की बात की। सुबह की walks, local families, Kashmiri dinners, music, dancing और हंसी ने उन्हें ऐसी जिंदगी की झलक दी जो सिर्फ survival नहीं थी। उन्होंने दोनों families से मिलने, सावधानी से सच बताने और हर consequence साथ झेलने की योजना बनाई।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e13p2",
+              "text": "In Srinagar, Aarav bought rings from a local craftsman. On their final evening overlooking Dal Lake, they exchanged promises: honesty when fear returns, patience when old wounds ache, and no more letting pride or silence decide their fate. They would not recreate the love they lost. They would grow a braver one.",
+              "translations": {
+                "hi": "श्रीनगर में आरव ने एक local craftsman से rings खरीदीं। डल झील को देखते हुए अपनी आखिरी शाम पर उन्होंने वादे बदले: जब डर लौटे तो honesty, जब पुराने घाव दुखें तो patience, और अब कभी pride या silence को अपनी किस्मत तय नहीं करने देना। वे खोया हुआ प्यार दोबारा copy नहीं करेंगे। वे उससे ज्यादा बहादुर प्यार उगाएंगे।"
+              }
+            },
+            {
+              "id": "in-love-we-lost-s1e13p3",
+              "text": "Their return to Delhi was bittersweet and hopeful. They stopped at temples for blessings and carried dreams carefully, as if dreams could bruise. The families were shocked first, then softened. Wedding planning began almost too quickly. From college love to mature partnership, from terror to tenderness, Aarav and Aanya learned that some stories do not end where they break. Some begin there.",
+              "translations": {
+                "hi": "दिल्ली लौटना bittersweet और hopeful था। वे blessings के लिए मंदिरों में रुके और सपनों को ऐसे संभाला जैसे सपने भी चोट खा सकते हों। families पहले shocked हुईं, फिर नरम पड़ गईं। wedding planning लगभग बहुत जल्दी शुरू हो गई। कॉलेज love से mature partnership तक, terror से tenderness तक, आरव और अान्या ने सीखा कि कुछ कहानियां वहां खत्म नहीं होतीं जहां टूटती हैं। कुछ वहीं शुरू होती हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

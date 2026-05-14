@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { getAllStories } from '@/stories'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://wify.my'
@@ -16,16 +17,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === '' ? 1 : 0.8,
   }))
 
-  // Dynamic story routes (manually added for now, could be dynamic)
-  const stories = [
-    'after-99-rejections',
-    'apocalypse-love-system',
-  ].map((slug) => ({
-    url: `${baseUrl}/story/${slug}`,
+  const stories = getAllStories()
+
+  const storyRoutes = stories.map((story) => ({
+    url: `${baseUrl}/story/${story.slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
-    priority: 0.7,
+    priority: 0.8,
   }))
 
-  return [...routes, ...stories]
+  const episodeRoutes = stories.flatMap((story) =>
+    story.seasons.flatMap((season) =>
+      season.episodes.map((episode) => ({
+        url: `${baseUrl}/read/${story.slug}/${episode.id}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.6,
+      }))
+    )
+  )
+
+  return [...routes, ...storyRoutes, ...episodeRoutes]
 }

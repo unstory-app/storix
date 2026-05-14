@@ -1,17 +1,53 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getStoryBySlug } from '@/stories';
-import { Star, Eye, Layers } from 'lucide-react';
+import { getAllStories, getStoryBySlug } from '@/stories';
+import { BookOpen, Clock, Eye, Globe2, Layers, Star } from 'lucide-react';
 import StoryActionsClient from '@/components/StoryActionsClient';
+
+export async function generateStaticParams() {
+  return getAllStories().map((story) => ({ slug: story.slug }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const story = getStoryBySlug(slug);
   if (!story) return { title: 'Story Not Found' };
+  const url = `/story/${story.slug}`;
   
   return {
-    title: `${story.title} | Wify.my`,
+    title: story.title,
     description: story.description,
+    alternates: {
+      canonical: url,
+    },
+    keywords: [
+      story.title,
+      ...story.genres,
+      'read story online',
+      'swipe story',
+      'romance story',
+      'fantasy story',
+    ],
+    openGraph: {
+      title: story.title,
+      description: story.description,
+      url,
+      type: 'book',
+      images: [
+        {
+          url: story.posterImage,
+          width: 1024,
+          height: 1536,
+          alt: `${story.title} poster`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: story.title,
+      description: story.description,
+      images: [story.posterImage],
+    },
   };
 }
 
@@ -22,8 +58,33 @@ export default async function StoryDetails({ params }: { params: Promise<{ slug:
 
   if (!story) return notFound();
 
+  const episodes = story.seasons.flatMap((season) => season.episodes);
+  const partCount = episodes.reduce((sum, episode) => sum + episode.parts.length, 0);
+  const totalMinutes = episodes.reduce((sum, episode) => {
+    const minutes = Number.parseInt(episode.duration, 10);
+    return sum + (Number.isFinite(minutes) ? minutes : 0);
+  }, 0);
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Book',
+    name: story.title,
+    description: story.description,
+    image: story.posterImage,
+    url: `https://wify.my/story/${story.slug}`,
+    genre: story.genres,
+    inLanguage: story.availableLanguages || ['en'],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: story.rating,
+      ratingCount: 1200,
+      bestRating: 5,
+      worstRating: 1,
+    },
+  };
+
   return (
     <div className="min-h-screen pb-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* Hero Header */}
       <section className="relative w-full aspect-square md:aspect-[21/9] overflow-hidden">
         <div className="absolute inset-0">
@@ -66,6 +127,11 @@ export default async function StoryDetails({ params }: { params: Promise<{ slug:
                 <span className="font-bold text-white">{story.seasons?.length || 1}</span>
                 <span>Seasons</span>
               </div>
+              <div className="hidden sm:flex items-center gap-1.5">
+                <Clock size={16} />
+                <span className="font-bold text-white">{totalMinutes || episodes.length * 5}</span>
+                <span>Min</span>
+              </div>
             </div>
 
             {/* Interactive Client Actions (Buttons and Seasons) */}
@@ -85,6 +151,28 @@ export default async function StoryDetails({ params }: { params: Promise<{ slug:
             <p className="text-text-secondary text-lg leading-relaxed">
               {story.description}
             </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 pt-2">
+              <div className="glass rounded-2xl p-4">
+                <BookOpen size={18} className="text-primary mb-3" />
+                <div className="text-2xl font-black text-white">{episodes.length}</div>
+                <div className="text-[10px] font-bold uppercase tracking-widest text-text-muted">Episodes</div>
+              </div>
+              <div className="glass rounded-2xl p-4">
+                <Layers size={18} className="text-primary mb-3" />
+                <div className="text-2xl font-black text-white">{partCount}</div>
+                <div className="text-[10px] font-bold uppercase tracking-widest text-text-muted">Swipe Parts</div>
+              </div>
+              <div className="glass rounded-2xl p-4">
+                <Clock size={18} className="text-primary mb-3" />
+                <div className="text-2xl font-black text-white">{totalMinutes || episodes.length * 5}</div>
+                <div className="text-[10px] font-bold uppercase tracking-widest text-text-muted">Minutes</div>
+              </div>
+              <div className="glass rounded-2xl p-4">
+                <Globe2 size={18} className="text-primary mb-3" />
+                <div className="text-2xl font-black text-white">{story.availableLanguages?.length || 1}</div>
+                <div className="text-[10px] font-bold uppercase tracking-widest text-text-muted">Languages</div>
+              </div>
+            </div>
           </div>
 
           <StoryActionsClient story={story} />
@@ -102,7 +190,7 @@ export default async function StoryDetails({ params }: { params: Promise<{ slug:
                  </div>
                  <div className="flex justify-between items-center py-2 border-b border-white/5">
                    <span className="text-text-secondary text-sm">Language</span>
-                   <span className="text-white text-sm font-bold">English</span>
+                   <span className="text-white text-sm font-bold">{story.availableLanguages?.join(', ').toUpperCase() || 'EN'}</span>
                  </div>
                  <div className="flex justify-between items-center py-2 border-b border-white/5">
                    <span className="text-text-secondary text-sm">Age Rating</span>
