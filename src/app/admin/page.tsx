@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getAllStories } from '@/stories';
+import { getAllStorySummaries } from '@/stories';
 import AdminDashboardClient from './AdminDashboardClient';
 
 export const metadata: Metadata = {
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function AdminDashboard() {
-  return <AdminDashboardClient stories={getAllStories()} />;
+  return <AdminDashboardClient stories={getAllStorySummaries()} />;
 }

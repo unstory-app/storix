@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getAllStories } from '@/stories';
+import { getAllStorySummaries } from '@/stories';
 import LibraryClient from './LibraryClient';
 
 export const metadata: Metadata = {
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function Library() {
-  return <LibraryClient stories={getAllStories()} />;
+  return <LibraryClient stories={getAllStorySummaries()} />;
 }

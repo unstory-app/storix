@@ -6,10 +6,10 @@ export const metadata: Metadata = {
 };
 
 import ExploreInteractive from '@/components/ExploreInteractive';
-import { getAllStories } from '@/stories';
+import { getAllStorySummaries } from '@/stories';
 
 export default function Explore() {
-  const stories = getAllStories();
+  const stories = getAllStorySummaries();
 
   return (
     <div className="flex flex-col gap-8 px-6 md:px-12 py-8 pb-24">

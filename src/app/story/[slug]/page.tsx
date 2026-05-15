@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getAllStories, getStoryBySlug } from '@/stories';
+import { getAllStories, getStoryBySlug, getStorySummaryBySlug } from '@/stories';
 import { BookOpen, Clock, Eye, Globe2, Layers, Star } from 'lucide-react';
 import StoryActionsClient from '@/components/StoryActionsClient';
 
@@ -55,6 +55,7 @@ export default async function StoryDetails({ params }: { params: Promise<{ slug:
   const { slug } = await params;
   
   const story = getStoryBySlug(slug);
+  const storySummary = getStorySummaryBySlug(slug);
 
   if (!story) return notFound();
 
@@ -175,7 +176,7 @@ export default async function StoryDetails({ params }: { params: Promise<{ slug:
             </div>
           </div>
 
-          <StoryActionsClient story={story} />
+          <StoryActionsClient story={storySummary || story} />
           
         </div>
 

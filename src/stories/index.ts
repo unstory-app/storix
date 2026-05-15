@@ -19,12 +19,14 @@ import forbiddenPeak from './forbidden-peak.json';
 import superstarShadow from './superstar-shadow.json';
 import sheRefusesDivorce from './she-refuses-divorce.json';
 import reincarnatedFather from './reincarnated-father.json';
+import saveWife from './after-selling-my-daughter-save-wife.json';
 import inLoveWeLost from './in-love-we-lost.json';
 import longStories from './longstories.json';
 
 // Simple registry of all stories. 
 // When an AI agent creates a new story, they just add the import above and add it to this array.
 const JSON_STORIES: Story[] = [
+  saveWife as Story,
   after99Rejections as Story,
   apocalypseLoveSystem as Story,
   rebornThoughts as Story,

@@ -3,10 +3,10 @@ import Link from 'next/link';
 import FeaturedStory from '@/components/FeaturedStory';
 import StoryCard from '@/components/StoryCard';
 import HomeInteractive from '@/components/HomeInteractive';
-import { getAllStories } from '@/stories';
+import { getAllStorySummaries } from '@/stories';
 
 export default function Home() {
-  const stories = getAllStories();
+  const stories = getAllStorySummaries();
   const trending = stories.slice(0, 4);
   const newEpisodes = stories.slice(4, 8);
 
