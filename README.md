@@ -1,6 +1,6 @@
-# 📱 Wify.my - Swipe-Based Story Reader
+# 📱 Wify.my / unstory.live - Swipe-Based Story Reader
 
-Wify.my is a premium, mobile-first reading platform designed for the modern age. Experience immersive text stories through a seamless swipe interface, similar to TikTok or Reels, but for high-quality narratives.
+Wify.my and unstory.live provide a premium, mobile-first reading platform designed for the modern age. Experience immersive text stories through a seamless swipe interface, similar to TikTok or Reels, but for high-quality narratives.
 
 ---
 
