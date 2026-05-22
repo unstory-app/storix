@@ -2,6 +2,11 @@
 
 Wify.my is a premium, mobile-first reading platform designed for the modern age. Experience immersive text stories through a seamless swipe interface, similar to TikTok or Reels, but for high-quality narratives.
 
+---
+
+> See all PDFs are here, to be launched soon: [https://github.com/unstory-app/storix/tree/main/pdfs](https://github.com/unstory-app/storix/tree/main/pdfs)
+
+
 ## ✨ Features
 
 - **TikTok-Style Swiping**: Effortless navigation between story parts.
@@ -41,7 +46,6 @@ We love new content! To contribute a story:
 2. Follow the [Story Contribution Guide](src/stories/SKILL.md).
 3. Open a Pull Request at [https://github.com/unstory-app/storix](https://github.com/unstory-app/storix).
 
-See all PDFs are here, to be launched soon: [https://github.com/unstory-app/storix/tree/main/pdfs](https://github.com/unstory-app/storix/tree/main/pdfs)
 
 ## 📄 License
 
