@@ -47,9 +47,13 @@ We love new content! To contribute a story:
 3. Open a Pull Request at [https://github.com/unstory-app/storix](https://github.com/unstory-app/storix).
 
 
-## 📄 License
+## 📄 License & Copyright
 
-**UNLICENSED**: This software is proprietary. Unauthorized redistribution or commercial use is strictly prohibited.
+**PROPRIETARY LICENSE**
+
+© 2026 Wify.my / unstory-app. All Rights Reserved.
+
+**UNLICENSED**: This software and all associated files are the sole property of Wify.my. Unauthorized redistribution, redeployment, or commercial use, either in its original or modified form, is strictly prohibited without prior written consent from the owners.
 
 ---
 *Built with ❤️ by the Unstory Team.*

@@ -12,3 +12,13 @@ Here are all the readable books and presentation files currently available in ou
 - [🎨 The Midnight Internship (Illustrated Book)](./The_Midnight_Internship_Illustrated_Book.pptx)
 
 *Note: More PDFs are scheduled to be launched soon! Keep an eye on our [GitHub PDFs folder](https://github.com/unstory-app/storix/tree/main/pdfs) for updates.*
+
+---
+
+## 📄 License & Copyright
+
+**PROPRIETARY LICENSE**
+
+© 2026 Wify.my / unstory-app. All Rights Reserved.
+
+These PDFs, stories, and all associated materials are the sole property of Wify.my. Redistribution, redeployment, or commercial use of these files, either in their original or modified form, is strictly prohibited without prior written consent from the owners.
