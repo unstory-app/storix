@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Search, Bookmark, User } from 'lucide-react';
+import { Search, Bookmark, User, BookOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 import InstallButton from './InstallButton';
@@ -19,6 +19,7 @@ const AppHeader = () => {
         <Link href="/" className="hover:text-white transition-colors">Home</Link>
         <Link href="/explore" className="hover:text-white transition-colors">Explore</Link>
         <Link href="/library" className="hover:text-white transition-colors">Library</Link>
+        <Link href="/pdfs" className="hover:text-white transition-colors">PDFs</Link>
       </div>
 
       <div className="flex items-center gap-4">
@@ -26,6 +27,9 @@ const AppHeader = () => {
         <button className="p-2 text-text-secondary hover:text-white transition-colors">
           <Search size={22} />
         </button>
+        <Link href="/pdfs" className="hidden sm:block p-2 text-text-secondary hover:text-white transition-colors">
+          <BookOpen size={22} />
+        </Link>
         <Link href="/library" className="hidden sm:block p-2 text-text-secondary hover:text-white transition-colors">
           <Bookmark size={22} />
         </Link>

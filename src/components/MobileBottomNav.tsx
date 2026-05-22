@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Compass, Bookmark, User, LayoutDashboard } from 'lucide-react';
+import { Home, Compass, Bookmark, User, LayoutDashboard, BookOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const MobileBottomNav = () => {
@@ -12,13 +12,13 @@ const MobileBottomNav = () => {
   const navItems = [
     { name: 'Home', icon: Home, path: '/' },
     { name: 'Explore', icon: Compass, path: '/explore' },
+    { name: 'PDFs', icon: BookOpen, path: '/pdfs' },
     { name: 'Library', icon: Bookmark, path: '/library' },
     { name: 'Profile', icon: User, path: '/profile' },
-    { name: 'Admin', icon: LayoutDashboard, path: '/admin' },
   ];
 
-  // Hide on reader page
-  if (pathname.startsWith('/read/')) return null;
+  // Hide on reader page or pdf viewer
+  if (pathname.startsWith('/read/') || (pathname.startsWith('/pdfs/') && pathname !== '/pdfs')) return null;
 
   return (
     <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 glass-dark border-t border-border-subtle px-4 py-3 pb-safe">
