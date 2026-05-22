@@ -11,7 +11,15 @@ const Footer = () => {
           <p className="text-xs text-text-muted">Built for the love of reading.</p>
         </div>
 
-        <div className="flex items-center gap-8">
+        <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
+          <Link 
+            href="https://github.com/unstory-app/storix/tree/main/pdfs" 
+            target="_blank"
+            className="flex items-center gap-2 text-xs font-bold text-text-muted hover:text-white transition-colors"
+          >
+            <ExternalLink size={16} />
+            PDFs (Coming Soon)
+          </Link>
           <Link 
             href="https://github.com/unstory-app/storix" 
             target="_blank"
